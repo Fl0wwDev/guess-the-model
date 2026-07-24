@@ -1,4 +1,5 @@
 import Experience from "@/components/three/Experience";
+import GarageControls from "@/components/ui/GarageControls";
 
 export default function Home() {
   return (
@@ -8,33 +9,20 @@ export default function Home() {
         <Experience />
       </div>
 
-      {/* Overlay UI — pointer-events-none so drags reach the canvas */}
+      {/* Overlay UI — pointer-events-none so drags reach the canvas;
+          interactive children opt back in with pointer-events-auto */}
       <div className="pointer-events-none relative z-10 flex h-full flex-col justify-between p-8 md:p-14">
         <header className="flex items-center justify-between">
           <span className="text-sm font-medium uppercase tracking-[0.3em] text-muted">
             Guess the Model
           </span>
-          <span className="text-xs text-muted">Prototype · v0</span>
+          <span className="text-xs text-muted">Garage · aperçu</span>
         </header>
 
-        <div className="max-w-2xl">
-          <p className="mb-3 text-sm uppercase tracking-[0.25em] text-accent">
-            Prototype 3D
-          </p>
-          <h1 className="text-4xl font-semibold leading-[1.05] tracking-tight md:text-7xl">
-            La chaîne 3D
-            <br />
-            est opérationnelle.
-          </h1>
-          <p className="mt-5 max-w-md text-base leading-relaxed text-muted">
-            Placeholder rendu avec React Three Fiber : éclairage studio
-            (Lightformers), peinture clearcoat et post-processing. Fais glisser
-            pour orbiter, molette pour zoomer.
-          </p>
-        </div>
+        <GarageControls />
 
         <footer className="text-xs text-muted">
-          Next.js 16 · R3F 9 · three 0.185 · drei · postprocessing
+          Fais glisser pour orbiter · molette pour zoomer
         </footer>
       </div>
     </main>

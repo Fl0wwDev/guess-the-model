@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 "Guess the Model" — a **non-commercial fan** web app for car enthusiasts. Two features:
 
 - **Quiz** (core): a rotatable/zoomable 3D car; the user guesses the model via elegant multiple-choice cards.
-- **Showcase**: a premium catalog of iconic sports cars with mini-history + specs.
+- **Showcase / Museum** (a core future vision, beyond the quiz): an elegant, immersive **brand museum** — the user strolls through a manufacturer (e.g. Ferrari) and its **entire history**. Each model card carries full specs (horsepower, French *chevaux fiscaux*, release year, **sales figures**), **anecdotes** and story. A guided, cinematic journey through the marque and its timeline — not just a flat catalog. Can show the whole line-up or just the most famous models. The per-brand `public/models/<brand>/MODELS.md` lists are the seed for this.
 
 Art direction target: cinematic, Apple/Porsche-vitrine quality. Solo developer, built on a Mac M4 (arm64). Future hosting: self-hosted on a Raspberry Pi (arm64) — **deferred**; for now the app runs locally only.
 
@@ -58,12 +58,17 @@ npx gltf-transform optimize <in>.glb <out>.glb --compress meshopt --texture-comp
 - Runtime format: **GLB**. Geometry → **meshopt** (default; faster decode than Draco). Textures → **KTX2/Basis** (ETC1S for color/AO/roughness, UASTC for normals). Budgets: hero 80–150k tris, secondary 40–80k, textures ≤ 2K, ~2–4 MB per car GLB.
 - Load via drei `useGLTF` + `<Suspense>`; `useGLTF.preload()` the next car; frame with `<Bounds>`. Register meshopt/KTX2 decoders once; self-host the wasm under `public/decoders/`.
 
-## Model sourcing & IP posture (fan, non-commercial)
+## Model sourcing & IP posture (PRIVATE, personal, non-distributed use)
 
-- **Manufacturers do NOT publish downloadable 3D models.** Every recognizable branded car is fan-made; its shape + badges are the manufacturer's trademark/design IP. **Sketchfab** (free + Creative Commons filter) is the primary source; **Poly Pizza / Quaternius** (CC0) are the safe low-poly tier.
-- Read the license badge on EVERY model: **CC-BY** needs attribution; **CC-BY-NC** forbids any monetization (ads/donations break it); **CC-BY-ND forbids the decimation/GLB conversion the pipeline needs — unusable**; Sketchfab "Editorial" bans app use.
-- Ferrari actively DMCAs fan models (Sketchfab purge, Oct 2023) — expect gaps/instability for that marque. Keep the app genuinely non-commercial, don't sell/redistribute models, add a disclaimer, keep a per-model licensing record. This is not legal advice.
+**Decision: this app is for private/personal use only — runs on localhost (or the home LAN at most), never exposed to the public internet, never monetized, never shared publicly.** Under that scope the restrictions that matter (public redistribution, public display, commercial use, shipping extractable assets in a public product) are never triggered, so optimize for quality and recognizability:
+
+- Use the **best-quality** models from any source found — Sketchfab (any CC or paid), CGTrader, TurboSquid, Hum3D, etc. — regardless of license flavor. Manufacturers do NOT publish downloadable models; everything recognizable is third-party/fan-made.
+- **Keep badges/logos** — full recognizability is wanted for the quiz. No debadging needed for private use.
+- **Do NOT rip manufacturer configurators** (extra ToS/technical friction even privately) unless there's no alternative.
+- Keep a lightweight provenance record (`public/models/CREDITS.md`: source URL, author, license) — costs nothing and is the prerequisite for ever going public later.
+
+⚠️ **If this is EVER exposed publicly (Cloudflare Tunnel, port-forward, a shared link) or monetized, the full IP analysis reactivates**: trademark/trade-dress exposure (Ferrari DMCA'd fan models in 2023; BMW v. TurboSquid), per-model license compliance (CC-BY-ND/NC/Editorial), badge-stripping, and — given a FR/EU jurisdiction — an IP-lawyer consult. Private-use ≠ safe-to-publish. Not legal advice.
 
 ## Deployment (deferred to the very end)
 
-Single arm64 Docker image built natively on the M4 (no multi-arch/QEMU), served by Caddy behind a Cloudflare Tunnel, heavy assets on R2/edge cache with an explicit Cache Rule (`.glb/.ktx2/.wasm` are NOT edge-cached by default). Do not add Docker/hosting until the app is feature-complete.
+**Private-use scope:** run on localhost (`npm run dev` / `start`) or, if wanted, a container on the **home LAN only**. Do NOT expose it publicly (no Cloudflare Tunnel, no port-forward) — public exposure reactivates the IP posture above. The original arm64 Docker/Caddy/Pi plan still applies technically (single native arm64 image built on the M4, no multi-arch/QEMU) but only for LAN use. Do not add Docker/hosting until the app is feature-complete.

@@ -1,74 +1,26 @@
 "use client";
 
+import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   OrbitControls,
   Environment,
   Lightformer,
   ContactShadows,
-  RoundedBox,
+  useGLTF,
 } from "@react-three/drei";
 import { EffectComposer, Bloom, Vignette } from "@react-three/postprocessing";
+import { CarModel } from "./CarModel";
+import { CARS } from "@/lib/cars";
+import { useGarage } from "@/lib/garage";
 
-/**
- * Placeholder car built from primitives — proves the material/lighting/shadow
- * pipeline before real GLB models are sourced. Replace with <CarModel /> later.
- */
-function PlaceholderCar() {
-  const wheels: [number, number][] = [
-    [-1.05, 1.45],
-    [1.05, 1.45],
-    [-1.05, -1.45],
-    [1.05, -1.45],
-  ];
-
-  return (
-    <group>
-      {/* Body — glossy clearcoat car paint */}
-      <RoundedBox
-        args={[2.2, 0.55, 4.4]}
-        radius={0.18}
-        smoothness={6}
-        position={[0, 0.55, 0]}
-      >
-        <meshPhysicalMaterial
-          color="#b1121a"
-          metalness={0.9}
-          roughness={0.35}
-          clearcoat={1}
-          clearcoatRoughness={0.06}
-          envMapIntensity={1.2}
-        />
-      </RoundedBox>
-
-      {/* Cabin / glass-ish dark canopy */}
-      <RoundedBox
-        args={[1.7, 0.5, 2.1]}
-        radius={0.16}
-        smoothness={6}
-        position={[0, 1.0, -0.15]}
-      >
-        <meshPhysicalMaterial
-          color="#0b0b0d"
-          metalness={0.4}
-          roughness={0.15}
-          clearcoat={1}
-          clearcoatRoughness={0.1}
-        />
-      </RoundedBox>
-
-      {/* Wheels */}
-      {wheels.map(([x, z], i) => (
-        <mesh key={i} position={[x, 0.35, z]} rotation={[0, 0, Math.PI / 2]}>
-          <cylinderGeometry args={[0.42, 0.42, 0.34, 40]} />
-          <meshStandardMaterial color="#121214" metalness={0.6} roughness={0.5} />
-        </mesh>
-      ))}
-    </group>
-  );
-}
+// Preload every car so switching is instant (no stall on the reveal).
+CARS.forEach((c) => useGLTF.preload(c.url));
 
 export default function Scene() {
+  const index = useGarage((s) => s.index);
+  const car = CARS[index];
+
   return (
     <Canvas
       dpr={[1, 2]}
@@ -81,7 +33,10 @@ export default function Scene() {
       <ambientLight intensity={0.15} />
       <directionalLight position={[6, 8, 4]} intensity={1.2} color="#fff2e0" />
 
-      <PlaceholderCar />
+      {/* key={car.id} → remount + Suspense while the next GLB resolves */}
+      <Suspense fallback={null}>
+        <CarModel key={car.id} url={car.url} targetLength={car.targetLength} />
+      </Suspense>
 
       {/* Soft grounded shadow (independent of lights) */}
       <ContactShadows
