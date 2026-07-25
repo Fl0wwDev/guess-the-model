@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "optimize:car": "bash scripts/optimize-car.sh"
+    "optimize:car": "bash scripts/optimize-car.sh",
+    "generate:registry": "node scripts/generate-registry.mjs",
+    "sync:sketchfab": "node scripts/sync-sketchfab.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

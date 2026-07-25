@@ -1,4 +1,7 @@
-@import "tailwindcss";
+/* Scope Tailwind v4's automatic content detection to ./src only. Without this,
+   the scanner walks the whole project root — including the multi-GB
+   public/models tree — and hangs first-compile. All our templates live in src/. */
+@import "tailwindcss" source("../");
 
 :root {
   --background: #08080a;
@@ -14,6 +17,7 @@
   --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
 }
 
 html,

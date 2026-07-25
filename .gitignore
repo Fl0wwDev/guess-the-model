@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large 3D assets — served at runtime from public/ but NEVER scanned or watched
+# by the dev server / Tailwind (huge binaries choke first-compile). Stay on disk.
+/public/models/

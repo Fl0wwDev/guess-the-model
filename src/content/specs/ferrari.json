@@ -1,0 +1,290 @@
+{
+  "ferrari-250-gto--1962-ferrari-250-gto": {
+    "prix": "≈ 50–70 M€ (cote de collection)",
+    "ch": 300,
+    "vitesseMax": 280,
+    "zeroCent": 6.1,
+    "poids": 880,
+    "moteur": "V12 3.0L atmosphérique",
+    "production": "36 exemplaires (1962–1964)",
+    "anecdote": "GTO = Gran Turismo Omologata. Souvent citée comme la voiture la plus chère du monde, une 250 GTO s'est vendue plus de 48 M$."
+  },
+  "ferrari-testarossa--1984-ferrari-testarossa-f110": {
+    "prix": "≈ 150 000 € (cote de collection)",
+    "ch": 390,
+    "vitesseMax": 290,
+    "zeroCent": 5.2,
+    "poids": 1506,
+    "moteur": "Flat-12 4.9L atmosphérique",
+    "production": "≈ 7 000 exemplaires (toutes séries)",
+    "anecdote": "« Testa rossa » = tête rouge, d'après les caches-culbuteurs peints en rouge. Ses prises d'air latérales à lamelles en ont fait une icône des années 80."
+  },
+  "ferrari-348--1989-ferrari-348-tb": {
+    "prix": "≈ 60 000 € (cote de collection)",
+    "ch": 300,
+    "vitesseMax": 275,
+    "zeroCent": 5.6,
+    "poids": 1393,
+    "moteur": "V8 3.4L atmosphérique",
+    "anecdote": "TB = Trasversale Berlinetta : boîte transversale. Dernière petite Ferrari conçue à l'époque d'Enzo Ferrari."
+  },
+  "ferrari-512-tr--1991-ferrari-512-tr": {
+    "prix": "≈ 180 000 € (cote de collection)",
+    "ch": 428,
+    "vitesseMax": 314,
+    "zeroCent": 4.8,
+    "poids": 1473,
+    "moteur": "Flat-12 4.9L atmosphérique",
+    "anecdote": "Évolution profonde de la Testarossa, plus rapide et mieux équilibrée."
+  },
+  "ferrari-f40--1987-ferrari-f40": {
+    "prix": "≈ 2–3 M€ (cote de collection)",
+    "ch": 478,
+    "vitesseMax": 324,
+    "zeroCent": 4.1,
+    "poids": 1100,
+    "moteur": "V8 2.9L biturbo",
+    "production": "1 311 exemplaires (1987–1992)",
+    "anecdote": "Dernière Ferrari approuvée par Enzo Ferrari, lancée pour les 40 ans de la marque. Première voiture de série à dépasser 320 km/h."
+  },
+  "ferrari-f50--1995-ferrari-f50": {
+    "prix": "≈ 3–5 M€ (cote de collection)",
+    "ch": 520,
+    "vitesseMax": 325,
+    "zeroCent": 3.8,
+    "poids": 1230,
+    "moteur": "V12 4.7L atmosphérique dérivé F1",
+    "production": "349 exemplaires (1995–1997)",
+    "anecdote": "Son V12 dérive directement de la Formule 1 ; il est boulonné au châssis carbone comme élément structurel."
+  },
+  "ferrari-360-modena--1999-ferrari-360-modena": {
+    "prix": "≈ 90 000 € (cote de collection)",
+    "ch": 400,
+    "vitesseMax": 295,
+    "zeroCent": 4.5,
+    "poids": 1290,
+    "moteur": "V8 3.6L atmosphérique",
+    "anecdote": "Premier châssis Ferrari tout aluminium. Nom en hommage à Modène, berceau de la marque."
+  },
+  "ferrari-enzo--2002-ferrari-enzo": {
+    "prix": "≈ 660 000 € (à la sortie)",
+    "ch": 660,
+    "vitesseMax": 350,
+    "zeroCent": 3.65,
+    "poids": 1365,
+    "moteur": "V12 6.0L atmosphérique",
+    "production": "400 exemplaires (+1 offert au Pape)",
+    "anecdote": "Hypercar hommage au fondateur, truffée de technologies issues de la F1 (freins carbone-céramique, aéro active)."
+  },
+  "ferrari-612-scaglietti--2004-ferrari-612-scaglietti": {
+    "prix": "≈ 80 000 € (cote de collection)",
+    "ch": 540,
+    "vitesseMax": 315,
+    "zeroCent": 4.2,
+    "poids": 1840,
+    "moteur": "V12 5.7L atmosphérique",
+    "anecdote": "Grande GT 2+2, nommée d'après le carrossier Sergio Scaglietti."
+  },
+  "ferrari-f430--2005-ferrari-f430": {
+    "prix": "≈ 120 000 € (cote de collection)",
+    "ch": 490,
+    "vitesseMax": 315,
+    "zeroCent": 4.0,
+    "poids": 1450,
+    "moteur": "V8 4.3L atmosphérique",
+    "anecdote": "Introduit le E-Diff (différentiel électronique) et le manettino au volant, hérité de la F1."
+  },
+  "ferrari-california--2008-ferrari-california": {
+    "prix": "≈ 170 000 € (à la sortie)",
+    "ch": 460,
+    "vitesseMax": 310,
+    "zeroCent": 4.0,
+    "poids": 1735,
+    "moteur": "V8 4.3L atmosphérique à injection directe",
+    "anecdote": "Premier V8 à moteur avant de l'ère moderne et premier toit rigide escamotable Ferrari."
+  },
+  "ferrari-599--2010-ferrari-599-gto": {
+    "prix": "≈ 300 000 € (à la sortie)",
+    "ch": 670,
+    "vitesseMax": 335,
+    "zeroCent": 3.3,
+    "poids": 1605,
+    "moteur": "V12 6.0L atmosphérique",
+    "production": "599 exemplaires",
+    "anecdote": "À sa sortie, la Ferrari de route la plus rapide jamais produite. GTO, un badge réservé aux plus grandes."
+  },
+  "ferrari-599xx--2011-ferrari-599xx-evolution": {
+    "prix": "Programme client XX (non homologuée route)",
+    "ch": 740,
+    "moteur": "V12 6.0L atmosphérique",
+    "anecdote": "Piste uniquement. Laboratoire roulant du programme XX, réservé à des clients triés sur le volet."
+  },
+  "ferrari-458--2011-ferrari-458-italia": {
+    "prix": "≈ 200 000 € (à la sortie)",
+    "ch": 570,
+    "vitesseMax": 325,
+    "zeroCent": 3.4,
+    "poids": 1485,
+    "moteur": "V8 4.5L atmosphérique",
+    "anecdote": "Le dernier V8 atmosphérique de série de Ferrari avant le passage au turbo, adulé pour sa sonorité."
+  },
+  "ferrari-fxx--2008-ferrari-fxx-evolution": {
+    "prix": "Programme client XX (non homologuée route)",
+    "ch": 860,
+    "moteur": "V12 6.3L atmosphérique",
+    "anecdote": "Dérivée de l'Enzo, réservée à la piste et au programme XX. Les clients ne la conservent pas chez eux."
+  },
+  "ferrari-f12--2013-ferrari-f12-berlinetta": {
+    "prix": "≈ 280 000 € (à la sortie)",
+    "ch": 740,
+    "vitesseMax": 340,
+    "zeroCent": 3.1,
+    "poids": 1630,
+    "moteur": "V12 6.3L atmosphérique",
+    "anecdote": "La Ferrari V12 avant la plus puissante de son temps ; travail aérodynamique du canal Aero Bridge."
+  },
+  "ferrari-laferrari--2014-ferrari-laferrari": {
+    "prix": "≈ 1 200 000 € (à la sortie)",
+    "ch": 963,
+    "vitesseMax": 350,
+    "zeroCent": 2.6,
+    "poids": 1585,
+    "moteur": "V12 6.3L + moteur électrique HY-KERS (hybride)",
+    "production": "499 exemplaires",
+    "anecdote": "Première hypercar hybride de Ferrari. Son nom se traduit littéralement par « la Ferrari »."
+  },
+  "ferrari-fxx-k--2015-ferrari-fxx-k": {
+    "prix": "Programme client XX (non homologuée route)",
+    "ch": 1050,
+    "moteur": "V12 6.3L + KERS (hybride)",
+    "anecdote": "Version piste de la LaFerrari. Le « K » désigne le KERS, système de récupération d'énergie issu de la F1."
+  },
+  "ferrari-488--2016-ferrari-488-gtb": {
+    "prix": "≈ 220 000 € (à la sortie)",
+    "ch": 670,
+    "vitesseMax": 330,
+    "zeroCent": 3.0,
+    "poids": 1475,
+    "moteur": "V8 3.9L biturbo",
+    "anecdote": "Retour du turbo sur la berlinetta V8 après le 288 GTO et la F40. GTB = Gran Turismo Berlinetta."
+  },
+  "ferrari-gtc4-lusso--2017-ferrari-gtc4-lusso": {
+    "prix": "≈ 260 000 € (à la sortie)",
+    "ch": 690,
+    "vitesseMax": 335,
+    "zeroCent": 3.4,
+    "poids": 1920,
+    "moteur": "V12 6.3L atmosphérique",
+    "anecdote": "Break de chasse 4 places à transmission intégrale, digne successeur de la FF."
+  },
+  "ferrari-j50--2017-ferrari-j50": {
+    "prix": "Série spéciale (non communiqué)",
+    "ch": 690,
+    "moteur": "V8 3.9L biturbo",
+    "production": "10 exemplaires",
+    "anecdote": "Série limitée célébrant les 50 ans de Ferrari au Japon, sur base 488 Spider."
+  },
+  "ferrari-812--2018-ferrari-812-superfast": {
+    "prix": "≈ 300 000 € (à la sortie)",
+    "ch": 800,
+    "vitesseMax": 340,
+    "zeroCent": 2.9,
+    "poids": 1630,
+    "moteur": "V12 6.5L atmosphérique",
+    "anecdote": "À sa sortie, le V12 atmosphérique de série le plus puissant jamais monté par Ferrari."
+  },
+  "ferrari-portofino--2018-ferrari-portofino": {
+    "prix": "≈ 200 000 € (à la sortie)",
+    "ch": 600,
+    "vitesseMax": 320,
+    "zeroCent": 3.5,
+    "poids": 1664,
+    "moteur": "V8 3.9L biturbo",
+    "anecdote": "Cabriolet à toit rigide escamotable, porte d'entrée de la gamme, remplaçante de la California T."
+  },
+  "ferrari-sp38--2018-ferrari-sp38-deborah": {
+    "prix": "One-off (non communiqué)",
+    "moteur": "V8 3.9L biturbo",
+    "production": "1 exemplaire",
+    "anecdote": "Pièce unique du programme One-Off, sur base 488 GTB, inspirée de la F40."
+  },
+  "ferrari-monza--2019-ferrari-monza-sp1": {
+    "prix": "≈ 1 600 000 € (à la sortie)",
+    "ch": 810,
+    "vitesseMax": 300,
+    "zeroCent": 2.9,
+    "poids": 1500,
+    "moteur": "V12 6.5L atmosphérique",
+    "anecdote": "Barchetta sans pare-brise de la série Icona. La SP1 est monoplace, la SP2 biplace."
+  },
+  "ferrari-p80c--2019-ferrari-p80c": {
+    "prix": "One-off (non communiqué)",
+    "moteur": "V8 3.9L biturbo",
+    "production": "1 exemplaire",
+    "anecdote": "One-off le plus radical de Ferrari, conçu sur base 488 GT3 pour un client passionné."
+  },
+  "ferrari-f8--2020-ferrari-f8-tributo": {
+    "prix": "≈ 250 000 € (à la sortie)",
+    "ch": 720,
+    "vitesseMax": 340,
+    "zeroCent": 2.9,
+    "poids": 1435,
+    "moteur": "V8 3.9L biturbo",
+    "anecdote": "« Tributo » au V8 Ferrari élu plusieurs fois meilleur moteur du monde."
+  },
+  "ferrari-roma--2020-ferrari-roma": {
+    "prix": "≈ 200 000 € (à la sortie)",
+    "ch": 620,
+    "vitesseMax": 320,
+    "zeroCent": 3.4,
+    "poids": 1570,
+    "moteur": "V8 3.9L biturbo",
+    "anecdote": "GT au style épuré, sous le signe de « La Nuova Dolce Vita »."
+  },
+  "ferrari-sf90--2020-ferrari-sf90-stradale": {
+    "prix": "≈ 470 000 € (à la sortie)",
+    "ch": 1000,
+    "vitesseMax": 340,
+    "zeroCent": 2.5,
+    "poids": 1570,
+    "moteur": "V8 4.0L biturbo + 3 moteurs électriques (hybride rechargeable)",
+    "anecdote": "Première Ferrari de série hybride rechargeable et à transmission intégrale. SF90 = 90 ans de la Scuderia Ferrari."
+  },
+  "ferrari-296--2022-ferrari-296-gtb": {
+    "prix": "≈ 269 000 € (à la sortie)",
+    "ch": 830,
+    "vitesseMax": 330,
+    "zeroCent": 2.9,
+    "poids": 1470,
+    "moteur": "V6 2.9L biturbo + moteur électrique (hybride rechargeable)",
+    "anecdote": "Premier V6 badgé Ferrari sur une berlinetta de série, clin d'œil au Dino 246."
+  },
+  "ferrari-daytona-sp3--2022-ferrari-daytona-sp3": {
+    "prix": "≈ 2 000 000 € (à la sortie)",
+    "ch": 840,
+    "vitesseMax": 340,
+    "zeroCent": 2.85,
+    "poids": 1485,
+    "moteur": "V12 6.5L atmosphérique",
+    "production": "599 exemplaires",
+    "anecdote": "Série Icona en hommage au triplé Ferrari aux 24 Heures de Daytona 1967. V12 atmosphérique le plus puissant de la marque."
+  },
+  "ferrari-purosangue--2023-ferrari-purosangue": {
+    "prix": "≈ 390 000 € (à la sortie)",
+    "ch": 725,
+    "vitesseMax": 310,
+    "zeroCent": 3.3,
+    "poids": 2033,
+    "moteur": "V12 6.5L atmosphérique",
+    "anecdote": "Premier modèle 4 portes / 4 places de Ferrari. « Purosangue » signifie pur-sang. Portes arrière antagonistes."
+  },
+  "ferrari-12cilindri--2025-ferrari-12cilindri": {
+    "prix": "≈ 395 000 € (à la sortie)",
+    "ch": 830,
+    "vitesseMax": 340,
+    "zeroCent": 2.9,
+    "poids": 1560,
+    "moteur": "V12 6.5L atmosphérique",
+    "anecdote": "Un nom qui célèbre les douze cylindres : ode au V12 atmosphérique à l'ère de l'électrification."
+  }
+}

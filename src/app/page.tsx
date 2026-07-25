@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Experience from "@/components/three/Experience";
 import GarageControls from "@/components/ui/GarageControls";
 
@@ -16,7 +17,12 @@ export default function Home() {
           <span className="text-sm font-medium uppercase tracking-[0.3em] text-muted">
             Guess the Model
           </span>
-          <span className="text-xs text-muted">Garage · aperçu</span>
+          <Link
+            href="/musee"
+            className="pointer-events-auto rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs uppercase tracking-[0.25em] backdrop-blur-md transition hover:border-accent/60 hover:text-foreground"
+          >
+            Musée →
+          </Link>
         </header>
 
         <GarageControls />
