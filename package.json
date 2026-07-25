@@ -9,7 +9,7 @@
     "lint": "eslint",
     "optimize:car": "bash scripts/optimize-car.sh",
     "generate:registry": "node scripts/generate-registry.mjs",
-    "sync:sketchfab": "node scripts/sync-sketchfab.mjs"
+    "build:museum": "node scripts/build-museum.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

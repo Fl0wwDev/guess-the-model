@@ -1,0 +1,376 @@
+{
+  "id": "bugatti",
+  "name": "Bugatti",
+  "models": [
+    {
+      "id": "bugatti-eb110",
+      "name": "EB110",
+      "baseVariantId": "bugatti-eb110--1992-bugatti-eb110-super-sport",
+      "variants": [
+        {
+          "id": "bugatti-eb110--1992-bugatti-eb110-super-sport",
+          "name": "1992 Bugatti EB110 Super Sport",
+          "year": 1992,
+          "sketchfab": {
+            "uid": "caf6332013dd4b8aaaaf0eeeeceee6c0",
+            "thumbnail": "https://media.sketchfab.com/models/caf6332013dd4b8aaaaf0eeeeceee6c0/thumbnails/5a9bee4b130f4dbab8738fed5246e7d6/d967b31c820049f69694a260e3781695.jpeg",
+            "name": "1992 Bugatti EB110 Super Sport",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-veyron",
+      "name": "Veyron",
+      "baseVariantId": "bugatti-veyron--2009-bugatti-veyron-16-4",
+      "variants": [
+        {
+          "id": "bugatti-veyron--2009-bugatti-veyron-16-4",
+          "name": "2009 Bugatti Veyron 16.4",
+          "year": 2009,
+          "sketchfab": {
+            "uid": "33da16dacdb34d8088324a24645a1802",
+            "thumbnail": "https://media.sketchfab.com/models/33da16dacdb34d8088324a24645a1802/thumbnails/fb8353b134324d3f9829535706c13676/128fc8fdc9744cb79d11e6b057744e43.jpeg",
+            "name": "2009 Bugatti Veyron 16.4",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-veyron--2010-bugatti-veyron-16-4-super-sport-431-km-h",
+          "name": "2010 Bugatti Veyron 16.4 Super Sport 431 km/h",
+          "year": 2010,
+          "sketchfab": {
+            "uid": "0bafa5fd4e754305b01e67510143fdc8",
+            "thumbnail": "https://media.sketchfab.com/models/0bafa5fd4e754305b01e67510143fdc8/thumbnails/04dc5a4ea8cb493db5d7f59423114200/4910ce6e8be843ebbe71edc027046515.jpeg",
+            "name": "2010 Bugatti Veyron 16.4 Super Sport 431 km/h",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "bugatti-veyron--2011-bugatti-veyron-super-sport",
+          "name": "2011 Bugatti Veyron Super Sport",
+          "year": 2011,
+          "sketchfab": {
+            "uid": "b2eecbbc2dcd41e68494e33af6882e00",
+            "thumbnail": "https://media.sketchfab.com/models/b2eecbbc2dcd41e68494e33af6882e00/thumbnails/35394cd906fa4822ade40cdb757c7882/a47616fc23324316a1c494f012d7c6e0.jpeg",
+            "name": "2011 Bugatti Veyron Super Sport",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "bugatti-veyron--2012-bugatti-veyron-grand-sport-vitesse",
+          "name": "2012 Bugatti Veyron Grand Sport Vitesse",
+          "year": 2012,
+          "sketchfab": {
+            "uid": "d442ba882f03409fa16965af57ebf4bb",
+            "thumbnail": "https://media.sketchfab.com/models/d442ba882f03409fa16965af57ebf4bb/thumbnails/1a3e0b400ca8400b818b75e70723be57/91af69e6f2f948539421c1dda94e933b.jpeg",
+            "name": "2012 Bugatti Veyron Grand Sport Vitesse",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-veyron--2012-bugatti-veyron-super-sport-patrol",
+          "name": "2012 Bugatti Veyron Super Sport - Patrol",
+          "year": 2012,
+          "sketchfab": {
+            "uid": "6b43ac3a3aac432da07c8667cdb64cb6",
+            "thumbnail": "https://media.sketchfab.com/models/6b43ac3a3aac432da07c8667cdb64cb6/thumbnails/2db14c46912e44edac879826ec653a53/51bd688ee30f49ed9ac4efd871d33515.jpeg",
+            "name": "2012 Bugatti Veyron Super Sport - Patrol",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-veyron--2013-bugatti-veyron-grand-sport-vitesse-wrc",
+          "name": "2013 Bugatti Veyron Grand Sport Vitesse WRC",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "eb689c548b8a4c8b80d04b48dbe7881b",
+            "thumbnail": "https://media.sketchfab.com/models/eb689c548b8a4c8b80d04b48dbe7881b/thumbnails/4d1bba83394e4ecab96c6a7563f9a6b6/228e98d61faa47429d7b31fa62a1076a.jpeg",
+            "name": "2013 Bugatti Veyron Grand Sport Vitesse WRC",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-veyron--2013-bugatti-veyron-legend-jean-bugatti",
+          "name": "2013 Bugatti Veyron Legend Jean Bugatti",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "810a976ac5db4bec90ef71be2d113f8a",
+            "thumbnail": "https://media.sketchfab.com/models/810a976ac5db4bec90ef71be2d113f8a/thumbnails/22bef600922d403db3ccdce02a8f1693/ea466a8059264ac6ae8d7f48e7579ab1.jpeg",
+            "name": "2013 Bugatti Veyron Legend Jean Bugatti",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-veyron--2014-bugatti-veyron-legend-ettore-bugatti",
+          "name": "2014 Bugatti Veyron Legend Ettore Bugatti",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "0fc187a6059a489ab6dc3063e42ea779",
+            "thumbnail": "https://media.sketchfab.com/models/0fc187a6059a489ab6dc3063e42ea779/thumbnails/7d268818e2c041f7bace046f11969803/2b7155318de44d7c81ef1a85df63fe37.jpeg",
+            "name": "2014 Bugatti Veyron Legend Ettore Bugatti",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-atlantic",
+      "name": "Atlantic",
+      "baseVariantId": "bugatti-atlantic--2015-bugatti-atlantic-concept-car",
+      "variants": [
+        {
+          "id": "bugatti-atlantic--2015-bugatti-atlantic-concept-car",
+          "name": "2015 Bugatti Atlantic - Concept Car",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "cc04ce7b78ef4fb3b1c7ee9a232fb220",
+            "thumbnail": "https://media.sketchfab.com/models/cc04ce7b78ef4fb3b1c7ee9a232fb220/thumbnails/dcbcbda2e55b4a8ea740930dcea1f9c0/1ad25d89352e4600a02dc4c0a5e28c94.jpeg",
+            "name": "2015 Bugatti Atlantic - Concept Car",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-chiron",
+      "name": "Chiron",
+      "baseVariantId": "bugatti-chiron--2016-bugatti-chiron",
+      "variants": [
+        {
+          "id": "bugatti-chiron--2016-bugatti-chiron",
+          "name": "2016 Bugatti Chiron",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "065129f73f2849029909d8beeea760ff",
+            "thumbnail": "https://media.sketchfab.com/models/065129f73f2849029909d8beeea760ff/thumbnails/9af036a1f1a14374beded09964069767/1a9df6c3b2cc4e4b828cda8601e96c69.jpeg",
+            "name": "2016 Bugatti Chiron",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-chiron--2021-bugatti-chiron-pur-sport",
+          "name": "2021 Bugatti Chiron Pur Sport",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "f791c209b88249e9856a552672b64fea",
+            "thumbnail": "https://media.sketchfab.com/models/f791c209b88249e9856a552672b64fea/thumbnails/427095860e334d25bd00955961df8f8d/b6b50d6af0f44facb242579206e3cad3.jpeg",
+            "name": "2021 Bugatti Chiron Pur Sport",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-chiron--2021-bugatti-chiron-pur-sport-grand-prix-edition",
+          "name": "2021 Bugatti Chiron Pur Sport Grand Prix Edition",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "e84e004668784b86b826baead4f50d97",
+            "thumbnail": "https://media.sketchfab.com/models/e84e004668784b86b826baead4f50d97/thumbnails/9dd7ec7efd64485095c9e041a2d056d5/71a3234739b14229af7611c1ecf769df.jpeg",
+            "name": "2021 Bugatti Chiron Pur Sport Grand Prix Edition",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-chiron--2021-bugatti-chiron-super-sport-300",
+          "name": "2021 Bugatti Chiron Super Sport 300+",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "95045eaaf0294dae8ae1d04222575a5c",
+            "thumbnail": "https://media.sketchfab.com/models/95045eaaf0294dae8ae1d04222575a5c/thumbnails/2a8eb0bea6734166bfe637952cfe974d/1c3ec0e39a79482d80793f52050868f6.jpeg",
+            "name": "2021 Bugatti Chiron Super Sport 300+",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-chiron--2022-bugatti-chiron-profilee",
+          "name": "2022 Bugatti Chiron Profilee",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "b28d46d8d28649729b81472969e35397",
+            "thumbnail": "https://media.sketchfab.com/models/b28d46d8d28649729b81472969e35397/thumbnails/6c9fda5979294b3f91f7eec8211997f5/9f79fa08124b433d96a0ba75ea798be4.jpeg",
+            "name": "2022 Bugatti Chiron Profilee",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-chiron--2022-bugatti-chiron-super-sport",
+          "name": "2022 Bugatti Chiron Super Sport",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "6a7520f6853f433eb200ed10fef96f94",
+            "thumbnail": "https://media.sketchfab.com/models/6a7520f6853f433eb200ed10fef96f94/thumbnails/1a3703445ea54662b8edc7f4362be2e7/6fc98816bb544ed0aebacc6126bfe534.jpeg",
+            "name": "2022 Bugatti Chiron Super Sport",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-centodieci",
+      "name": "Centodieci",
+      "baseVariantId": "bugatti-centodieci--2019-bugatti-centodieci",
+      "variants": [
+        {
+          "id": "bugatti-centodieci--2019-bugatti-centodieci",
+          "name": "2019 Bugatti Centodieci",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "7647afdfba6b47a086f9b644442ebeb6",
+            "thumbnail": "https://media.sketchfab.com/models/7647afdfba6b47a086f9b644442ebeb6/thumbnails/d87ae7a8300948eb9a554e21922a8da7/31ecba11d1734441920077f3958a979c.jpeg",
+            "name": "2019 Bugatti Centodieci",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-centodieci--2020-bugatti-centodieci",
+          "name": "2020 Bugatti Centodieci",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "8cadea870c3d483fab074c37432c2625",
+            "thumbnail": "https://media.sketchfab.com/models/8cadea870c3d483fab074c37432c2625/thumbnails/25a99f0fbb3840a3beae4a03014a7e38/ad97314ba1fa4756b69c00d0ff540c88.jpeg",
+            "name": "2020 Bugatti Centodieci",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-divo",
+      "name": "Divo",
+      "baseVariantId": "bugatti-divo--2019-bugatti-divo",
+      "variants": [
+        {
+          "id": "bugatti-divo--2019-bugatti-divo",
+          "name": "2019 Bugatti Divo",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "7849e9f9cf2347c28fb5e41b1629991c",
+            "thumbnail": "https://media.sketchfab.com/models/7849e9f9cf2347c28fb5e41b1629991c/thumbnails/e7802e2435284be8bd8eec1867a7c843/cca9e69f73164e55a4e8d99e2970f334.jpeg",
+            "name": "2019 Bugatti Divo",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-divo--2019-bugatti-divo-110-ans",
+          "name": "2019 Bugatti Divo 110 Ans",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "ece4243c5b4249169988a95a5e744a16",
+            "thumbnail": "https://media.sketchfab.com/models/ece4243c5b4249169988a95a5e744a16/thumbnails/3984f8c5fb7f4bcfbb50f7121bc7729f/b93d1fdf77b741cfab1655e4fed101ab.jpeg",
+            "name": "2019 Bugatti Divo 110 Ans",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-la-voiture-noire",
+      "name": "LA Voiture Noire",
+      "baseVariantId": "bugatti-la-voiture-noire--2019-bugatti-la-voiture-noire",
+      "variants": [
+        {
+          "id": "bugatti-la-voiture-noire--2019-bugatti-la-voiture-noire",
+          "name": "2019 Bugatti La Voiture Noire",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "5a4f0bad5ecb4fccafa2ea36f9bfaeea",
+            "thumbnail": "https://media.sketchfab.com/models/5a4f0bad5ecb4fccafa2ea36f9bfaeea/thumbnails/8ed6e1fa0f244708bd534d376492d0fb/2db36d30e73d4d938d6c36fe6cff8c5e.jpeg",
+            "name": "2019 Bugatti La Voiture Noire",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-bolide",
+      "name": "Bolide",
+      "baseVariantId": "bugatti-bolide--2020-bugatti-bolide-concept",
+      "variants": [
+        {
+          "id": "bugatti-bolide--2020-bugatti-bolide-concept",
+          "name": "2020 Bugatti Bolide Concept",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "658684653b154ffba72d5f9511312ca8",
+            "thumbnail": "https://media.sketchfab.com/models/658684653b154ffba72d5f9511312ca8/thumbnails/d1b263ca64b64325b2bec5f37b01fb25/2ea422ad37714c46a9541a6ed4595116.jpeg",
+            "name": "2020 Bugatti Bolide Concept",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bugatti-bolide--2025-bugatti-bolide",
+          "name": "2025 Bugatti Bolide",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "76e2690a8baf4850a6baeaa245e468eb",
+            "thumbnail": "https://media.sketchfab.com/models/76e2690a8baf4850a6baeaa245e468eb/thumbnails/64a75a35d1d04150b83cc2e3f2cbb42e/8d85791a7c824d83a031f8fd088446a7.jpeg",
+            "name": "2025 Bugatti Bolide",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-mistral",
+      "name": "Mistral",
+      "baseVariantId": "bugatti-mistral--2024-bugatti-w16-mistral",
+      "variants": [
+        {
+          "id": "bugatti-mistral--2024-bugatti-w16-mistral",
+          "name": "2024 Bugatti W16 Mistral",
+          "year": 2024,
+          "sketchfab": {
+            "uid": "570e7a6d70b14696b81b916f55486271",
+            "thumbnail": "https://media.sketchfab.com/models/570e7a6d70b14696b81b916f55486271/thumbnails/27f54dcb20cf4aadbbf25c054a4ddfb4/c0ba737b21c44be5a9743101bea51318.jpeg",
+            "name": "2024 Bugatti W16 Mistral",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugatti-tourbillon",
+      "name": "Tourbillon",
+      "baseVariantId": "bugatti-tourbillon--2026-bugatti-tourbillon",
+      "variants": [
+        {
+          "id": "bugatti-tourbillon--2026-bugatti-tourbillon",
+          "name": "2026 Bugatti Tourbillon",
+          "year": 2026,
+          "sketchfab": {
+            "uid": "4f63f5a74611477989cefd9861b9784a",
+            "thumbnail": "https://media.sketchfab.com/models/4f63f5a74611477989cefd9861b9784a/thumbnails/61787db740c441ddb758cc01a2bed130/8748f3a6ea114a79a3fc7ae9524ef657.jpeg",
+            "name": "2026 Bugatti Tourbillon",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    }
+  ]
+}

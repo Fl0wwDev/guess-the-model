@@ -1,0 +1,1375 @@
+{
+  "id": "bmw",
+  "name": "BMW",
+  "models": [
+    {
+      "id": "bmw-3-0-csl",
+      "name": "3.0 CSL",
+      "baseVariantId": "bmw-3-0-csl--1973-bmw-3-0-csl-rhd-e9",
+      "variants": [
+        {
+          "id": "bmw-3-0-csl--1973-bmw-3-0-csl-rhd-e9",
+          "name": "1973 BMW 3.0 CSL RHD (E9)",
+          "year": 1973,
+          "sketchfab": {
+            "uid": "86ee7c1a83334576933ab431542269d5",
+            "thumbnail": "https://media.sketchfab.com/models/86ee7c1a83334576933ab431542269d5/thumbnails/8860b994a7464e17b3aa8bd2d0e6825b/6639def199ee44d9a152a0b2da7439b0.jpeg",
+            "name": "1973 BMW 3.0 CSL RHD (E9)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-3-0-csl--2015-bmw-3-0-csl-hommage-concept",
+          "name": "2015 BMW 3.0 CSL Hommage Concept",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "8d5669d6e7304debac69957c412c3bcc",
+            "thumbnail": "https://media.sketchfab.com/models/8d5669d6e7304debac69957c412c3bcc/thumbnails/993697bafcca43c2b7337c93b725fb2e/cbbeed603296490b8a891e6838bc05b0.jpeg",
+            "name": "2015 BMW 3.0 CSL Hommage Concept",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m1",
+      "name": "M1",
+      "baseVariantId": "bmw-m1--1979-bmw-m1",
+      "variants": [
+        {
+          "id": "bmw-m1--1979-bmw-m1",
+          "name": "1979 BMW M1",
+          "year": 1979,
+          "sketchfab": {
+            "uid": "381d36aaa42e4a3a88502971f385334f",
+            "thumbnail": "https://media.sketchfab.com/models/381d36aaa42e4a3a88502971f385334f/thumbnails/c7401e4c95124e9fa4440a94895d3d63/819bdd51d6b4499db295d87167787a9c.jpeg",
+            "name": "1979 BMW M1",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m3",
+      "name": "M3",
+      "baseVariantId": "bmw-m3--1988-bmw-m3-evolution-ii-e30",
+      "variants": [
+        {
+          "id": "bmw-m3--1988-bmw-m3-evolution-ii-e30",
+          "name": "1988 BMW M3 Evolution II (E30)",
+          "year": 1988,
+          "sketchfab": {
+            "uid": "9099df483850404a8cf94529b3df148b",
+            "thumbnail": "https://media.sketchfab.com/models/9099df483850404a8cf94529b3df148b/thumbnails/108b70b462064d5bb9f4c9095502b8f9/b47bf5e871fd4f28bd7020edca0f3fa8.jpeg",
+            "name": "1988 BMW M3 Evolution II (E30)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--1990-bmw-e30-m3-sport-evolution",
+          "name": "1990 BMW E30 M3 Sport Evolution",
+          "year": 1990,
+          "sketchfab": {
+            "uid": "ab2574c2d1414062bedc6a5457443757",
+            "thumbnail": "https://media.sketchfab.com/models/ab2574c2d1414062bedc6a5457443757/thumbnails/36cd78c767ef442692ef7283c69697ed/8f816ab1a19e4c7f9cd70cb371e43969.jpeg",
+            "name": "1990 BMW E30 M3 Sport Evolution",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--1993-bmw-m3-coupe-e36",
+          "name": "1993 BMW M3 Coupe (E36)",
+          "year": 1993,
+          "sketchfab": {
+            "uid": "76401039fa80419ab036bea09acb898d",
+            "thumbnail": "https://media.sketchfab.com/models/76401039fa80419ab036bea09acb898d/thumbnails/aa387449ba5a4ad79324b41473a7c481/0e1d40de43264be4afc604e20d621f46.jpeg",
+            "name": "1993 BMW M3 Coupe (E36)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2003-bmw-m3-csl-e46",
+          "name": "2003 BMW M3 CSL (E46)",
+          "year": 2003,
+          "sketchfab": {
+            "uid": "9a44382562e243a78badb5c080714508",
+            "thumbnail": "https://media.sketchfab.com/models/9a44382562e243a78badb5c080714508/thumbnails/15e73829dba64baca69a0406c711c1aa/9939f4f7d0ac4e2aaa337bc9136173be.jpeg",
+            "name": "2003 BMW M3 CSL (E46)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2003-bmw-m3-e46-coup",
+          "name": "2003 BMW M3 E46 Coupé",
+          "year": 2003,
+          "sketchfab": {
+            "uid": "7b43e776153f4dc199f564469cedbaa0",
+            "thumbnail": "https://media.sketchfab.com/models/7b43e776153f4dc199f564469cedbaa0/thumbnails/e2a007bb26724aadb4dd9f272a1c252a/9786944c18c14243971a0e8b78517826.jpeg",
+            "name": "2003 BMW M3 E46 Coupé",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2005-bmw-m3-e46",
+          "name": "2005 BMW M3 (E46)",
+          "year": 2005,
+          "sketchfab": {
+            "uid": "50549fe15a294acd8a8340988a943eae",
+            "thumbnail": "https://media.sketchfab.com/models/50549fe15a294acd8a8340988a943eae/thumbnails/a4745852fd8e46d7bf4459e2ca217560/2fef7dccbca54cb5a5d3d43376f13081.jpeg",
+            "name": "2005 BMW M3 (E46)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2005-bmw-m3-e46-gtr-nfs-most-wanted",
+          "name": "2005 BMW M3 E46 GTR - NFS Most Wanted",
+          "year": 2005,
+          "sketchfab": {
+            "uid": "2999936a393340c0a389c6bd31961a63",
+            "thumbnail": "https://media.sketchfab.com/models/2999936a393340c0a389c6bd31961a63/thumbnails/97ea33374cc149ce84c8db43458f403c/70606b429ec843f7866198d60f4de538.jpeg",
+            "name": "2005 BMW M3 E46 GTR - NFS Most Wanted",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2008-bmw-m3-coupe",
+          "name": "2008 BMW M3 Coupe",
+          "year": 2008,
+          "sketchfab": {
+            "uid": "dbd8f3e6465c4c249160fef007756bbd",
+            "thumbnail": "https://media.sketchfab.com/models/dbd8f3e6465c4c249160fef007756bbd/thumbnails/1f6ead17ee534ad5b05a366b185ac3f0/c7f89e4b104046318f719e14af2f9c1f.jpeg",
+            "name": "2008 BMW M3 Coupe",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2010-bmw-m3-e92",
+          "name": "2010 BMW M3 (E92)",
+          "year": 2010,
+          "sketchfab": {
+            "uid": "14f97cec80fe4ecd9bd48f3b47bceaad",
+            "thumbnail": "https://media.sketchfab.com/models/14f97cec80fe4ecd9bd48f3b47bceaad/thumbnails/2d537629f87242209de2a8412e0c3bd1/095b8405d45a479c9dbebde2f694a19e.jpeg",
+            "name": "2010 BMW M3 (E92)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2010-dtm-fiberwerkz-bmw-m3-e30-widebody-kit",
+          "name": "2010 DTM FiberWerkz BMW M3 E30 WIDEBODY KIT",
+          "year": 2010,
+          "sketchfab": {
+            "uid": "272aa2f2a82e4e85bfb9de34877a336f",
+            "thumbnail": "https://media.sketchfab.com/models/272aa2f2a82e4e85bfb9de34877a336f/thumbnails/eb7aa060722049fbb4092a10675902e7/ea0ce91b316b45ba96f6bbc57a97d218.jpeg",
+            "name": "2010 DTM FiberWerkz BMW M3 E30 WIDEBODY KIT",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2011-bmw-e92-m3-gts",
+          "name": "2011 BMW E92 M3 GTS",
+          "year": 2011,
+          "sketchfab": {
+            "uid": "ba0c261ab55649f5a8ec1572700ae0e3",
+            "thumbnail": "https://media.sketchfab.com/models/ba0c261ab55649f5a8ec1572700ae0e3/thumbnails/12a41cea2abe4dcfb2b820b5e424a21e/50dc9483188341bc9557296adbba1371.jpeg",
+            "name": "2011 BMW E92 M3 GTS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2013-bmw-m3-e92-lb-works-ver-2",
+          "name": "2013 BMW M3 (E92) LB★WORKS Ver.2",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "8cac09243a454b93a64ebef6d34c5a63",
+            "thumbnail": "https://media.sketchfab.com/models/8cac09243a454b93a64ebef6d34c5a63/thumbnails/7e105651a46e43639d516178f6f4bb7f/dc2131e334044864a3c127f8354a3473.jpeg",
+            "name": "2013 BMW M3 (E92) LB★WORKS Ver.2",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2013-vorsteiner-bmw-m3-e92-gtrs3-widebody",
+          "name": "2013 Vorsteiner BMW M3 E92 GTRS3 Widebody",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "aa3d709eca7d4495ba8767094e8d1c02",
+            "thumbnail": "https://media.sketchfab.com/models/aa3d709eca7d4495ba8767094e8d1c02/thumbnails/af6a1331760d44cd8043b32e3a01bcbc/02bc6470355c465a82bbf53b76a7944c.jpeg",
+            "name": "2013 Vorsteiner BMW M3 E92 GTRS3 Widebody",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2015-bmw-m3-f80",
+          "name": "2015 BMW M3 (F80)",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "547ab5f3b534473fbef71404bae708c5",
+            "thumbnail": "https://media.sketchfab.com/models/547ab5f3b534473fbef71404bae708c5/thumbnails/0bfdf6d8c53646feab014ff8ba42a471/a4f524d0386e444fa612e38f11b7ffad.jpeg",
+            "name": "2015 BMW M3 (F80)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2015-pandem-bmw-e46-m3-with-duckbill",
+          "name": "2015 Pandem BMW E46 M3 with Duckbill",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "afbb5b4d6d5146e0a24726f99a8b42d2",
+            "thumbnail": "https://media.sketchfab.com/models/afbb5b4d6d5146e0a24726f99a8b42d2/thumbnails/f1cd451bdc9244e88cf89d294941a60a/61905616fd8249cd8bef0bbc8f54082e.jpeg",
+            "name": "2015 Pandem BMW E46 M3 with Duckbill",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "bmw-m3--2016-duke-dynamics-bmw-e92-m3-widebody",
+          "name": "2016 Duke Dynamics BMW E92 M3 Widebody",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "489eed8a15bd485b8c3331f22747fc12",
+            "thumbnail": "https://media.sketchfab.com/models/489eed8a15bd485b8c3331f22747fc12/thumbnails/e5a1a16c60314af28bfcfcb1146e2606/a38a94966ef84f988b22b0c803109607.jpeg",
+            "name": "2016 Duke Dynamics BMW E92 M3 Widebody",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2017-pandem-bmw-m3-e92-rocket-bunny-gt-wing",
+          "name": "2017 PANDEM BMW M3 (E92) Rocket Bunny GT Wing",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "e52550ce88cd4f42924ccb9d8120e127",
+            "thumbnail": "https://media.sketchfab.com/models/e52550ce88cd4f42924ccb9d8120e127/thumbnails/711b78f726634438a8dfa25b4af378bc/859c5b66070c436c8ca76d65f55b21d8.jpeg",
+            "name": "2017 PANDEM BMW M3 (E92) Rocket Bunny GT Wing",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2018-dtm-fiberwerkz-bmw-m3-e46-widebody-kit",
+          "name": "2018 DTM FiberWerkz BMW M3 E46 WIDEBODY KIT",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "3adae3169e134956b061de8605eeb8ae",
+            "thumbnail": "https://media.sketchfab.com/models/3adae3169e134956b061de8605eeb8ae/thumbnails/080f5d3fb42349a0af064c2b79bb08d7/c9d59c46f3e648fea0768abb33604cad.jpeg",
+            "name": "2018 DTM FiberWerkz BMW M3 E46 WIDEBODY KIT",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2023-bmw-m3-touring",
+          "name": "2023 BMW M3 Touring",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "f540fdbc0d93435d96ef354f01720dc0",
+            "thumbnail": "https://media.sketchfab.com/models/f540fdbc0d93435d96ef354f01720dc0/thumbnails/b2364211c7c7440fa8a59aa0131a54c8/ef4632131b63453f9b9663eff5cbea3e.jpeg",
+            "name": "2023 BMW M3 Touring",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m3--2025-bmw-m3-cs-touring",
+          "name": "2025 BMW M3 CS Touring",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "ebda8c29a8ef4ec789391e918d52ef55",
+            "thumbnail": "https://media.sketchfab.com/models/ebda8c29a8ef4ec789391e918d52ef55/thumbnails/15e78fb6fe624a848f326380b87dee76/32b61b15d5554950aa724fd0db80e101.jpeg",
+            "name": "2025 BMW M3 CS Touring",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-328i",
+      "name": "328i",
+      "baseVariantId": "bmw-328i--1999-bmw-e46-328i-sport",
+      "variants": [
+        {
+          "id": "bmw-328i--1999-bmw-e46-328i-sport",
+          "name": "1999 BMW E46 328i Sport",
+          "year": 1999,
+          "sketchfab": {
+            "uid": "5fce3b693344450380b0112a4d21cfe5",
+            "thumbnail": "https://media.sketchfab.com/models/5fce3b693344450380b0112a4d21cfe5/thumbnails/74f8dbb47b8846b3a2a221f7218e4a14/1e14e9713a4d47ecac1e12ee2425d565.jpeg",
+            "name": "1999 BMW E46 328i Sport",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m6",
+      "name": "M6",
+      "baseVariantId": "bmw-m6--2005-bmw-m6-coup-e63",
+      "variants": [
+        {
+          "id": "bmw-m6--2005-bmw-m6-coup-e63",
+          "name": "2005 BMW M6 Coupé (E63)",
+          "year": 2005,
+          "sketchfab": {
+            "uid": "6387a9e1f5d14141b58ea9acd3af3335",
+            "thumbnail": "https://media.sketchfab.com/models/6387a9e1f5d14141b58ea9acd3af3335/thumbnails/db30293ac7c34ea5a37910ff3b9c6382/4c4f0963f2e843d2ab2d71098a8adb81.jpeg",
+            "name": "2005 BMW M6 Coupé (E63)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m6--2013-bmw-m6-coupe-f13",
+          "name": "2013 BMW M6 Coupe F13",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "dd710d1396a04a9c9d3831285b2f2874",
+            "thumbnail": "https://media.sketchfab.com/models/dd710d1396a04a9c9d3831285b2f2874/thumbnails/bb1090822809499487c7f451ddf475b9/292b76dd65044b36ad9ee0587521df3a.jpeg",
+            "name": "2013 BMW M6 Coupe F13",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m6--2018-bmw-m6-gt3",
+          "name": "2018 BMW M6 GT3",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "783f76d476f8477ab3e63928bc70fc00",
+            "thumbnail": "https://media.sketchfab.com/models/783f76d476f8477ab3e63928bc70fc00/thumbnails/53d50a8b14a74a11b3f70913e37ff488/61a139c1dba84d5eb27fa3510d7f2411.jpeg",
+            "name": "2018 BMW M6 GT3",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-z4",
+      "name": "Z4",
+      "baseVariantId": "bmw-z4--2006-bmw-z4-m-coupe-e86",
+      "variants": [
+        {
+          "id": "bmw-z4--2006-bmw-z4-m-coupe-e86",
+          "name": "2006 BMW Z4 M Coupe (E86)",
+          "year": 2006,
+          "sketchfab": {
+            "uid": "66f0d4ade9594962ac98dfd5523f8680",
+            "thumbnail": "https://media.sketchfab.com/models/66f0d4ade9594962ac98dfd5523f8680/thumbnails/a87c424f5dd7492f9ac6f3125fa2aa34/df46102af8df41b4ae5e9b938c8cffc7.jpeg",
+            "name": "2006 BMW Z4 M Coupe (E86)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-z4--2006-custom-bmw-z4-m-coupe",
+          "name": "2006 Custom BMW Z4 M Coupe",
+          "year": 2006,
+          "sketchfab": {
+            "uid": "3a47cbb6eb0c486dbf406e05d6bf1311",
+            "thumbnail": "https://media.sketchfab.com/models/3a47cbb6eb0c486dbf406e05d6bf1311/thumbnails/f93a32ea50b94ef8a1c0de7f865cfe5b/9264480314dc4db291fa074e8435a19f.jpeg",
+            "name": "2006 Custom BMW Z4 M Coupe",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-z4--2014-bmw-z4-sdrive35is",
+          "name": "2014 BMW Z4 sDrive35is",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "6a1fd02fa5fa46488a131777c569354e",
+            "thumbnail": "https://media.sketchfab.com/models/6a1fd02fa5fa46488a131777c569354e/thumbnails/91fa1286462d4007aa33909d3079a184/1fe9578cffaa4957bb748629aaa34836.jpeg",
+            "name": "2014 BMW Z4 sDrive35is",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-z4--2019-bmw-z4-m40i",
+          "name": "2019 BMW Z4 M40i",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "c6178ca22425467080939e29e1b42f8c",
+            "thumbnail": "https://media.sketchfab.com/models/c6178ca22425467080939e29e1b42f8c/thumbnails/e69056f616434df5ac1d53d21eb5bada/cabd3b13fed146ca92349c32b84026b6.jpeg",
+            "name": "2019 BMW Z4 M40i",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-1-series",
+      "name": "1 Series",
+      "baseVariantId": "bmw-1-series--2009-bmw-1-series-128i-coupe",
+      "variants": [
+        {
+          "id": "bmw-1-series--2009-bmw-1-series-128i-coupe",
+          "name": "2009 BMW 1-series 128i Coupe",
+          "year": 2009,
+          "sketchfab": {
+            "uid": "f474a256fd7b4b6ea60b1fdcdd8a933d",
+            "thumbnail": "https://media.sketchfab.com/models/f474a256fd7b4b6ea60b1fdcdd8a933d/thumbnails/2ad0748df3634baa849ae1103ae750fe/0479881fdc1d4bc3b74200fd1fa693f3.jpeg",
+            "name": "2009 BMW 1-series 128i Coupe",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-x6",
+      "name": "X6",
+      "baseVariantId": "bmw-x6--2010-bmw-x6-m",
+      "variants": [
+        {
+          "id": "bmw-x6--2010-bmw-x6-m",
+          "name": "2010 BMW X6 M",
+          "year": 2010,
+          "sketchfab": {
+            "uid": "260361fd3ab34913851e279da4746674",
+            "thumbnail": "https://media.sketchfab.com/models/260361fd3ab34913851e279da4746674/thumbnails/8a5f93fdf3b04f1eaa0b20710d824550/3b9e3cdd406d476993def68e52d65406.jpeg",
+            "name": "2010 BMW X6 M",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x6--2015-bmw-x6-f16",
+          "name": "2015 BMW X6 F16",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "3e1551da01db4bfbb1ff6aa765cb4ff3",
+            "thumbnail": "https://media.sketchfab.com/models/3e1551da01db4bfbb1ff6aa765cb4ff3/thumbnails/44b5cb0bf4b84a59b4f47d69d366ea30/0a86cc9ffe7f4c62990c9808435a3216.jpeg",
+            "name": "2015 BMW X6 F16",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x6--2016-bmw-x6-m",
+          "name": "2016 BMW X6 M",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "9cba50132a864bd79bfab48bd631574d",
+            "thumbnail": "https://media.sketchfab.com/models/9cba50132a864bd79bfab48bd631574d/thumbnails/74ea8f6974094a208f9ab6cd0c4a3c25/22627d5443684c8693df2aaab931a5d4.jpeg",
+            "name": "2016 BMW X6 M",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x6--2020-bmw-x6-xdrive40i",
+          "name": "2020 BMW X6 xDrive40i",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "43b22440191d48b888f8f267d105b422",
+            "thumbnail": "https://media.sketchfab.com/models/43b22440191d48b888f8f267d105b422/thumbnails/11d1b35f19cd4ce4b5e1aa55b5bfa722/d86d06936c5e492384aa77be3ec30ef0.jpeg",
+            "name": "2020 BMW X6 xDrive40i",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-335i",
+      "name": "335i",
+      "baseVariantId": "bmw-335i--2013-bmw-335i-gran-turismo-f34",
+      "variants": [
+        {
+          "id": "bmw-335i--2013-bmw-335i-gran-turismo-f34",
+          "name": "2013 BMW 335i Gran Turismo (F34)",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "e4f91073e4374de5a3ff0858f25400d2",
+            "thumbnail": "https://media.sketchfab.com/models/e4f91073e4374de5a3ff0858f25400d2/thumbnails/34745ae6c3574ccdb5c1300181c1f6c3/fa804ac01dd14f2790f85aa5816e64f4.jpeg",
+            "name": "2013 BMW 335i Gran Turismo (F34)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-5-series",
+      "name": "5 Series",
+      "baseVariantId": "bmw-5-series--2014-bmw-5-series-gran-turismo",
+      "variants": [
+        {
+          "id": "bmw-5-series--2014-bmw-5-series-gran-turismo",
+          "name": "2014 BMW 5-Series Gran Turismo",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "124325f980584b10b147c4aec85f9b0a",
+            "thumbnail": "https://media.sketchfab.com/models/124325f980584b10b147c4aec85f9b0a/thumbnails/c74e9819f1504791b53d42bb740c76fe/30edff2a9ab14ea3925d84dcd7e9ccd4.jpeg",
+            "name": "2014 BMW 5-Series Gran Turismo",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m2",
+      "name": "M2",
+      "baseVariantId": "bmw-m2--2014-m2-motoring-bmw-m3-e46",
+      "variants": [
+        {
+          "id": "bmw-m2--2014-m2-motoring-bmw-m3-e46",
+          "name": "2014 M2 Motoring BMW M3 E46",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "7a76c50fb2964af4ab23858090bfabe3",
+            "thumbnail": "https://media.sketchfab.com/models/7a76c50fb2964af4ab23858090bfabe3/thumbnails/2a3859c2c6644fa480e44ba0755a4365/092c92194ac742f2bc3f3cf29f7dac6c.jpeg",
+            "name": "2014 M2 Motoring BMW M3 E46",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m2--2018-bmw-m2-special-edition-asphalt-8",
+          "name": "2018 BMW M2 Special Edition - Asphalt 8",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "6b5569079f284a2bb9d844315a553697",
+            "thumbnail": "https://media.sketchfab.com/models/6b5569079f284a2bb9d844315a553697/thumbnails/1224ae2eb0c8440b983cc1a74512df64/c1e4208fcbfd452e891a5a99590cfce3.jpeg",
+            "name": "2018 BMW M2 Special Edition - Asphalt 8",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m2--2019-bmw-m2-competition",
+          "name": "2019 BMW M2 Competition",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "e43741a793da4e3f8e9747e31a1a8ff6",
+            "thumbnail": "https://media.sketchfab.com/models/e43741a793da4e3f8e9747e31a1a8ff6/thumbnails/26c4664e63fa4d62ac7c10ecf9be4d3c/8cf9c17b944644e5a9aad455b25b5baf.jpeg",
+            "name": "2019 BMW M2 Competition",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m2--2023-bmw-m2-g87-coup",
+          "name": "2023 BMW M2 G87 Coupé",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "7a608716b25b4589a8cc323e9cbd1e8d",
+            "thumbnail": "https://media.sketchfab.com/models/7a608716b25b4589a8cc323e9cbd1e8d/thumbnails/60345b91ba754e539b658013ee2c7629/bdfe18f79d514873ab5430b32ec6d6c9.jpeg",
+            "name": "2023 BMW M2 G87 Coupé",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m2--2023-bmw-m2-m-performance-parts-g87",
+          "name": "2023 BMW M2 M-Performance Parts G87",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "bb8b3a1f0abb46e0a5b460f1f6ffd9b4",
+            "thumbnail": "https://media.sketchfab.com/models/bb8b3a1f0abb46e0a5b460f1f6ffd9b4/thumbnails/f5f658cb9e1d4178af8d4b7a0f11f679/b67095b81eec4efe866ab2d149eade64.jpeg",
+            "name": "2023 BMW M2 M-Performance Parts G87",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m235i",
+      "name": "M235i",
+      "baseVariantId": "bmw-m235i--2014-bmw-m235i-coupe",
+      "variants": [
+        {
+          "id": "bmw-m235i--2014-bmw-m235i-coupe",
+          "name": "2014 BMW M235i Coupe",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "a347df8f1ba8404fabe46d87f8f8430b",
+            "thumbnail": "https://media.sketchfab.com/models/a347df8f1ba8404fabe46d87f8f8430b/thumbnails/ce9eb4ecf24740258378c7d0f291559f/0ee92f3bd5904ed3bc48039ff4d09c0d.jpeg",
+            "name": "2014 BMW M235i Coupe",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m235i--2019-bmw-m235i-xdrive-gran-coup",
+          "name": "2019 BMW M235i xDrive Gran Coupé",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "1efbe2ff21414af89fb14c70655cc88b",
+            "thumbnail": "https://media.sketchfab.com/models/1efbe2ff21414af89fb14c70655cc88b/thumbnails/d6ba476daceb4e9986360aef7157e655/43a7c0d0175642c6b7ce04a97b3e16dc.jpeg",
+            "name": "2019 BMW M235i xDrive Gran Coupé",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-i8",
+      "name": "i8",
+      "baseVariantId": "bmw-i8--2015-bmw-i8",
+      "variants": [
+        {
+          "id": "bmw-i8--2015-bmw-i8",
+          "name": "2015 BMW i8",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "16a133ad9a0644e6a6ed834fdab962e8",
+            "thumbnail": "https://media.sketchfab.com/models/16a133ad9a0644e6a6ed834fdab962e8/thumbnails/6a49d780c05f4de88a8133edcdcca49b/eaf4361df44a4051b9355968470f1417.jpeg",
+            "name": "2015 BMW i8",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-i8--2015-energy-motor-sport-evo-bmw-i8-wide-body-kit",
+          "name": "2015 Energy Motor Sport EVO BMW i8 Wide Body Kit",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "2fd2ba4bd2dc4e50852d741c7871950d",
+            "thumbnail": "https://media.sketchfab.com/models/2fd2ba4bd2dc4e50852d741c7871950d/thumbnails/8baecaf216b441ccba089be6034bf2a5/e54155d9f5d246abb07dabf761ead344.jpeg",
+            "name": "2015 Energy Motor Sport EVO BMW i8 Wide Body Kit",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "bmw-i8--2017-ac-schnitzer-bmw-i8-acs8",
+          "name": "2017 AC Schnitzer BMW i8 ACS8",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "3f8495ff63dc4b52a1fc709b915703e1",
+            "thumbnail": "https://media.sketchfab.com/models/3f8495ff63dc4b52a1fc709b915703e1/thumbnails/e2a39e2493a24b95bac0f35379d7d7ae/26f86766d3e6457c99d821c39e7a8737.jpeg",
+            "name": "2017 AC Schnitzer BMW i8 ACS8",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-i8--2018-3d-design-body-kit-for-bmw-i8-i12",
+          "name": "2018 3D Design Body Kit for BMW i8 (I12)",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "4d9bc145d7594e309c4cc9bf7eda1ba4",
+            "thumbnail": "https://media.sketchfab.com/models/4d9bc145d7594e309c4cc9bf7eda1ba4/thumbnails/b31699c4685349468e6d2b24295bf4ca/9a3685afc8aa4e048d6b1026def4d22c.jpeg",
+            "name": "2018 3D Design Body Kit for BMW i8 (I12)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-i8--2019-lb-works-bmw-i8-ver-2",
+          "name": "2019 LB★WORKS BMW i8 ver.2",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "bfa0be2e7d6d4afcb1a84d0542efaae6",
+            "thumbnail": "https://media.sketchfab.com/models/bfa0be2e7d6d4afcb1a84d0542efaae6/thumbnails/10ed260fb36f4d95ac480dd788a63389/3dfee2745bb542d8aeeb11fe4abecb2d.jpeg",
+            "name": "2019 LB★WORKS BMW i8 ver.2",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m4",
+      "name": "M4",
+      "baseVariantId": "bmw-m4--2015-bmw-m4-coupe-f82",
+      "variants": [
+        {
+          "id": "bmw-m4--2014-bmw-m4-based-md4-by-duke-dynamics",
+          "name": "2014 BMW M4 Based MD4 by Duke Dynamics",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "d8f91a3589b54389b8010a8e77c9e1af",
+            "thumbnail": "https://media.sketchfab.com/models/d8f91a3589b54389b8010a8e77c9e1af/thumbnails/f27daf10b6e14c80857dcdd7dedd311d/d13bdcdf211a453b8ef724ccd36244c6.jpeg",
+            "name": "2014 BMW M4 Based MD4 by Duke Dynamics",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "bmw-m4--2015-bmw-m4-coupe-f82",
+          "name": "2015 BMW M4 Coupe (F82)",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "08030fc6db9b4167b1cddcb04a5d70c1",
+            "thumbnail": "https://media.sketchfab.com/models/08030fc6db9b4167b1cddcb04a5d70c1/thumbnails/c19d717588aa430b8f2b80edcaae0be4/2d965728a3d24c56a045e7cdef75193c.jpeg",
+            "name": "2015 BMW M4 Coupe (F82)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2015-varis-full-widebody-kit-f82-bmw-m4",
+          "name": "2015 Varis Full Widebody Kit F82 BMW M4",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "e9b2bbe016ae4ab5a6be59b98b669cfd",
+            "thumbnail": "https://media.sketchfab.com/models/e9b2bbe016ae4ab5a6be59b98b669cfd/thumbnails/d5a4c8d3281e44c78aa1a93a1f568674/afb13a8883374f1e8e6cf4ef87398c50.jpeg",
+            "name": "2015 Varis Full Widebody Kit F82 BMW M4",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2016-bmw-m4-gts",
+          "name": "2016 BMW M4 GTS",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "180ad25824fd4311a9d5532c4027d88e",
+            "thumbnail": "https://media.sketchfab.com/models/180ad25824fd4311a9d5532c4027d88e/thumbnails/6822895b92ef416c90ae85fe6d25cdb8/f55dd6fbabfd483dbe4c884a996a6840.jpeg",
+            "name": "2016 BMW M4 GTS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2018-bmw-m4-convertible-f83",
+          "name": "2018 BMW M4 Convertible (F83)",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "2f758a606f004d7e8932e2845c7e9056",
+            "thumbnail": "https://media.sketchfab.com/models/2f758a606f004d7e8932e2845c7e9056/thumbnails/5cdde83b0f8842bb8d3136d6bdff6f8d/a4396a267fa1432f98f190cb6c94269f.jpeg",
+            "name": "2018 BMW M4 Convertible (F83)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2018-bmw-m4-coupe-f82-lci",
+          "name": "2018 BMW M4 Coupe (F82 LCi)",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "6dcbd7234690431e87e68f580be60e22",
+            "thumbnail": "https://media.sketchfab.com/models/6dcbd7234690431e87e68f580be60e22/thumbnails/7d62d4d519e7479190bc9f28258d289c/bb75b8dd17954d7b87945294f3fd6401.jpeg",
+            "name": "2018 BMW M4 Coupe (F82 LCi)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2018-bmw-m4-f82-gt4",
+          "name": "2018 BMW M4 F82 GT4",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "950f5b87902643a3b6127b639c4ef937",
+            "thumbnail": "https://media.sketchfab.com/models/950f5b87902643a3b6127b639c4ef937/thumbnails/d42a9bdfa6f24825805684b08ca3a863/43e023ae86854b1d92ba977763f7454c.jpeg",
+            "name": "2018 BMW M4 F82 GT4",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "bmw-m4--2019-varis-f82-bmw-m4-gts-sema-build",
+          "name": "2019 Varis F82 BMW M4 GTS - SEMA Build",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "449b10bb93f142aeb2dd2de568347fec",
+            "thumbnail": "https://media.sketchfab.com/models/449b10bb93f142aeb2dd2de568347fec/thumbnails/29ada307370b4d25b3fe67fb42a73d59/db49c0ff1f874a5ba13c66380522a823.jpeg",
+            "name": "2019 Varis F82 BMW M4 GTS - SEMA Build",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2021-bmw-m4-competition-g82",
+          "name": "2021 BMW M4 Competition (G82)",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "b16d7a4d771e4abd85ce4e29d41402ed",
+            "thumbnail": "https://media.sketchfab.com/models/b16d7a4d771e4abd85ce4e29d41402ed/thumbnails/4b738c86395741dab228b152ee8f83aa/2e8fb80267774fed86aaf5d8e6f928f9.jpeg",
+            "name": "2021 BMW M4 Competition (G82)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2021-bmw-m4-coup-competition",
+          "name": "2021 BMW M4 Coupé Competition",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "3ef64497e63e4c569419fde9aa238b76",
+            "thumbnail": "https://media.sketchfab.com/models/3ef64497e63e4c569419fde9aa238b76/thumbnails/d2e12f81847342cd8c23ad846db4caaa/6462746ee7dd4858a49aaf97ceba8015.jpeg",
+            "name": "2021 BMW M4 Coupé Competition",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2021-bmw-m4-g82-coup-m-performance",
+          "name": "2021 BMW M4 G82 Coupé M Performance",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "9ee2e82650614df6affaf69806973342",
+            "thumbnail": "https://media.sketchfab.com/models/9ee2e82650614df6affaf69806973342/thumbnails/b1895fcdfe95467083a679c903018a6b/cedf4445752742fb991a03fe012eb0f2.jpeg",
+            "name": "2021 BMW M4 G82 Coupé M Performance",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2021-bmw-m4-g82-zacoe-carbon-fiber-body-kit",
+          "name": "2021 BMW M4 G82 Zacoe Carbon Fiber Body kit",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "27e547d14f2f4403a6edd42e4d890d63",
+            "thumbnail": "https://media.sketchfab.com/models/27e547d14f2f4403a6edd42e4d890d63/thumbnails/7170fd5b2d164b19aee007c72047645c/d9010c0ba8c4428981d2d116b6638136.jpeg",
+            "name": "2021 BMW M4 G82 Zacoe Carbon Fiber Body kit",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2022-bmw-g82-m4-adro-carbon-fiber-widebody-kit",
+          "name": "2022 BMW G82 M4 ADRO CARBON FIBER WIDEBODY KIT",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "54f2273c00e94ebdba0f0db1a7945bf2",
+            "thumbnail": "https://media.sketchfab.com/models/54f2273c00e94ebdba0f0db1a7945bf2/thumbnails/a415d6c9341744129ac5769e1ed17ff0/5530520b135341418d79ad48df73b1c3.jpeg",
+            "name": "2022 BMW G82 M4 ADRO CARBON FIBER WIDEBODY KIT",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2022-bmw-m4-csl",
+          "name": "2022 BMW M4 CSL",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "cbd90adb3b2c4af28da1ede516d55b79",
+            "thumbnail": "https://media.sketchfab.com/models/cbd90adb3b2c4af28da1ede516d55b79/thumbnails/395606819073454e833deef89c7ce44c/2f987495b4644f1f9be169852c3a74ac.jpeg",
+            "name": "2022 BMW M4 CSL",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2022-bmw-m4-gt3",
+          "name": "2022 BMW M4 GT3",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "61695f14da8d4821beda6f0e376c2f73",
+            "thumbnail": "https://media.sketchfab.com/models/61695f14da8d4821beda6f0e376c2f73/thumbnails/5d3eddeb63a64c4e801c42074ae61dcc/0f3fb45c987d4ae891c41154c2ec0be7.jpeg",
+            "name": "2022 BMW M4 GT3",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m4--2025-bmw-m4-competition",
+          "name": "2025 BMW M4 Competition",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "f8141ecd755547989c9209784b71ad43",
+            "thumbnail": "https://media.sketchfab.com/models/f8141ecd755547989c9209784b71ad43/thumbnails/ee40835361884cfbb150e56f5b06c790/f2782b7a374f4d0baa943d30fd5d0547.jpeg",
+            "name": "2025 BMW M4 Competition",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-x5",
+      "name": "X5",
+      "baseVariantId": "bmw-x5--2015-bmw-x5",
+      "variants": [
+        {
+          "id": "bmw-x5--2015-bmw-x5",
+          "name": "2015 BMW X5",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "a2e7d663902e4be7bd170fdb9f333ad8",
+            "thumbnail": "https://media.sketchfab.com/models/a2e7d663902e4be7bd170fdb9f333ad8/thumbnails/d6902095ad474ff99fdc6819ac0cd541/35e24dc251d74fe6a91797cce221c709.jpeg",
+            "name": "2015 BMW X5",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x5--2016-bmw-x5-m",
+          "name": "2016 BMW X5 M",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "349f567cc7614acabd91a297a8e4dc75",
+            "thumbnail": "https://media.sketchfab.com/models/349f567cc7614acabd91a297a8e4dc75/thumbnails/a974d6d6ccbd4b0c9bf5f6bc729da323/c1b6efbbdf94404c9ec636a56785bd7a.jpeg",
+            "name": "2016 BMW X5 M",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x5--2019-bmw-x5-xdrive30d",
+          "name": "2019 BMW X5 xDrive30d",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "850fb32f984c4630969840fc61f44902",
+            "thumbnail": "https://media.sketchfab.com/models/850fb32f984c4630969840fc61f44902/thumbnails/067b17d5edc640fd8a8cce914c9d16cc/44339985802a4031b722bd7a48716235.jpeg",
+            "name": "2019 BMW X5 xDrive30d",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x5--2024-bmw-x5-xdrive40i",
+          "name": "2024 Bmw X5 xDrive40i",
+          "year": 2024,
+          "sketchfab": {
+            "uid": "b453ba441ff04f9290955d09c3d46b9f",
+            "thumbnail": "https://media.sketchfab.com/models/b453ba441ff04f9290955d09c3d46b9f/thumbnails/7297bb67d4184e818d095dda4fca8f41/ebf691af32e64c3db71441e4d9d4e914.jpeg",
+            "name": "2024 Bmw X5 xDrive40i",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-v1-5",
+      "name": "V1.5",
+      "baseVariantId": "bmw-v1-5--2017-pandem-bmw-e30-v1-5-bodykit",
+      "variants": [
+        {
+          "id": "bmw-v1-5--2017-pandem-bmw-e30-v1-5-bodykit",
+          "name": "2017 Pandem BMW E30 V1.5 bodykit",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "776628e54c494c42b730282d58d09114",
+            "thumbnail": "https://media.sketchfab.com/models/776628e54c494c42b730282d58d09114/thumbnails/6cf04b4c86e94de0bf9f67c683d5e455/1e237328b95e424582d2d3bfb0ef7faf.jpeg",
+            "name": "2017 Pandem BMW E30 V1.5 bodykit",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m5",
+      "name": "M5",
+      "baseVariantId": "bmw-m5--2018-bmw-m5",
+      "variants": [
+        {
+          "id": "bmw-m5--2018-bmw-m5",
+          "name": "2018 BMW M5",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "785e6ad50fae4df5a4abb6a39fcc6fcc",
+            "thumbnail": "https://media.sketchfab.com/models/785e6ad50fae4df5a4abb6a39fcc6fcc/thumbnails/38401607fcbe4ba2ab3b5b6ea200fe53/f85f2fab45bb49dd980efa9535c56244.jpeg",
+            "name": "2018 BMW M5",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m5--2021-bmw-m5-competition",
+          "name": "2021 BMW M5 Competition",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "29a4c13761cb40e6a050871bd40a0963",
+            "thumbnail": "https://media.sketchfab.com/models/29a4c13761cb40e6a050871bd40a0963/thumbnails/af379bb0ef9d4b26a5f1274ebd91fcf2/bf4e7c9f3e6541fbb5a0c7cd4ad94e15.jpeg",
+            "name": "2021 BMW M5 Competition",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m5--2022-bmw-m5-cs",
+          "name": "2022 BMW M5 CS",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "dc34c3fd9056460da48317ce0ff6b998",
+            "thumbnail": "https://media.sketchfab.com/models/dc34c3fd9056460da48317ce0ff6b998/thumbnails/4a155fb43f7642298b2d19bbf39920fa/793a55b4a5bd4305adac2b33c4107cd6.jpeg",
+            "name": "2022 BMW M5 CS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m5--2025-bmw-m5-g99-touring",
+          "name": "2025 BMW M5 G99 Touring",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "2a9a46b0d2a34dd4947be27ce6c98d3d",
+            "thumbnail": "https://media.sketchfab.com/models/2a9a46b0d2a34dd4947be27ce6c98d3d/thumbnails/807e0f402d134fcda19583410090937d/be3ae7d94a2e46159c6c27cfc6bb7aed.jpeg",
+            "name": "2025 BMW M5 G99 Touring",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m5--2025-bmw-m5-sedan",
+          "name": "2025 BMW M5 Sedan",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "4ab34c43bada482b8e467be97ebaeba3",
+            "thumbnail": "https://media.sketchfab.com/models/4ab34c43bada482b8e467be97ebaeba3/thumbnails/8e6aef381c9a48cc894500bf6b04b123/f96fa132c85d4c6d820f9be2a0fa5b19.jpeg",
+            "name": "2025 BMW M5 Sedan",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-x3",
+      "name": "X3",
+      "baseVariantId": "bmw-x3--2018-bmw-x3-g01-model-m",
+      "variants": [
+        {
+          "id": "bmw-x3--2018-bmw-x3-g01-model-m",
+          "name": "2018 BMW X3 (G01) Model M",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "9c9cbbf7d50f4bd49eb0bfe3e9f220a6",
+            "thumbnail": "https://media.sketchfab.com/models/9c9cbbf7d50f4bd49eb0bfe3e9f220a6/thumbnails/26b25e30e82d40d482bddd53dd2a94b6/a0e073837831403f92901d2d27f83e04.jpeg",
+            "name": "2018 BMW X3 (G01) Model M",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x3--2022-bmw-x3-xdrive-30i",
+          "name": "2022 BMW X3 xDrive 30i",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "b5c660d8e39340538a06561eaca69b5f",
+            "thumbnail": "https://media.sketchfab.com/models/b5c660d8e39340538a06561eaca69b5f/thumbnails/074152ccf9f54be88fb4c7eb2bc09afa/abe6e5dc18e941fa93cac75b28ec88af.jpeg",
+            "name": "2022 BMW X3 xDrive 30i",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-x3--2024-bmw-x3-m40i",
+          "name": "2024 BMW X3 M40i",
+          "year": 2024,
+          "sketchfab": {
+            "uid": "d35d04aac7f242d997af5d8d2d7fbeca",
+            "thumbnail": "https://media.sketchfab.com/models/d35d04aac7f242d997af5d8d2d7fbeca/thumbnails/bdc99ad3a59847d9a72e3be52c464be6/60598ee654ff4fd39fd3bfd894480760.jpeg",
+            "name": "2024 BMW X3 M40i",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-330i",
+      "name": "330i",
+      "baseVariantId": "bmw-330i--2019-bmw-330i-m-sport",
+      "variants": [
+        {
+          "id": "bmw-330i--2019-bmw-330i-m-sport",
+          "name": "2019 BMW 330i M Sport",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "0360b93a5d504c97adcfd52296ef88c9",
+            "thumbnail": "https://media.sketchfab.com/models/0360b93a5d504c97adcfd52296ef88c9/thumbnails/815a0312d35b47048a7d032c680d1297/8c578036a98e486ab8f331820708dd15.jpeg",
+            "name": "2019 BMW 330i M Sport",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-x2",
+      "name": "X2",
+      "baseVariantId": "bmw-x2--2019-bmw-x2-xdrive20d-m-sport-x",
+      "variants": [
+        {
+          "id": "bmw-x2--2019-bmw-x2-xdrive20d-m-sport-x",
+          "name": "2019 BMW X2 xDrive20d M Sport X",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "cea85cf2fa9d4af682c2446cced5ccae",
+            "thumbnail": "https://media.sketchfab.com/models/cea85cf2fa9d4af682c2446cced5ccae/thumbnails/2aaba4569b6c4473a0b9b1fc1093ac32/943b267feb664c5184daca139cb0cab4.jpeg",
+            "name": "2019 BMW X2 xDrive20d M Sport X",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-x4",
+      "name": "X4",
+      "baseVariantId": "bmw-x4--2019-bmw-x4-xdrive20d",
+      "variants": [
+        {
+          "id": "bmw-x4--2019-bmw-x4-xdrive20d",
+          "name": "2019 BMW X4 xDrive20d",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "a5eb74a0ad3f4ed594e854a862a0e029",
+            "thumbnail": "https://media.sketchfab.com/models/a5eb74a0ad3f4ed594e854a862a0e029/thumbnails/7beda2cd9b3347c8aec9ef188c8e6dfe/882a2d7fcda44a81b1a2373a79281ef8.jpeg",
+            "name": "2019 BMW X4 xDrive20d",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-x7",
+      "name": "X7",
+      "baseVariantId": "bmw-x7--2019-bmw-x7-xdrive40i",
+      "variants": [
+        {
+          "id": "bmw-x7--2019-bmw-x7-xdrive40i",
+          "name": "2019 BMW X7 xDrive40i",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "a4b1edf1ec614f06b5d4db7208fe9650",
+            "thumbnail": "https://media.sketchfab.com/models/a4b1edf1ec614f06b5d4db7208fe9650/thumbnails/ec0e601b6b6e4f26bf85ba4ef208ae96/3be62337ed584184851f36eb487819df.jpeg",
+            "name": "2019 BMW X7 xDrive40i",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-750li",
+      "name": "750Li",
+      "baseVariantId": "bmw-750li--2020-bmw-750li-xdrive",
+      "variants": [
+        {
+          "id": "bmw-750li--2020-bmw-750li-xdrive",
+          "name": "2020 BMW 750Li xDrive",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "0c3ebd90567a409894682becd3d92efe",
+            "thumbnail": "https://media.sketchfab.com/models/0c3ebd90567a409894682becd3d92efe/thumbnails/e86d4fbc616f497bb19185b560748c89/bf1beffe6f0f424d8f5372c2abe6aa66.jpeg",
+            "name": "2020 BMW 750Li xDrive",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m340i",
+      "name": "M340i",
+      "baseVariantId": "bmw-m340i--2020-bmw-m340i-xdrive",
+      "variants": [
+        {
+          "id": "bmw-m340i--2020-bmw-m340i-xdrive",
+          "name": "2020 BMW M340i XDrive",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "69dbf0293c6f4959a90d5bd0d68e097f",
+            "thumbnail": "https://media.sketchfab.com/models/69dbf0293c6f4959a90d5bd0d68e097f/thumbnails/6e355ae9b86743e3a9f2f32a136c1071/70f3b097354d4566acfa37efcdb6c2be.jpeg",
+            "name": "2020 BMW M340i XDrive",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m8",
+      "name": "M8",
+      "baseVariantId": "bmw-m8--2020-bmw-m8-competition-coup",
+      "variants": [
+        {
+          "id": "bmw-m8--2020-bmw-m8-competition-convertible",
+          "name": "2020 BMW M8 Competition Convertible",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "f7c1401ee5724e969db890c207fb099f",
+            "thumbnail": "https://media.sketchfab.com/models/f7c1401ee5724e969db890c207fb099f/thumbnails/e8baff2a44c84081ab0c28e0f2de1a15/598cdbc0f2a54acfbff94e187b54ff8c.jpeg",
+            "name": "2020 BMW M8 Competition Convertible",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m8--2020-bmw-m8-competition-coup",
+          "name": "2020 BMW M8 Competition Coupé",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "f68a25584899494391c8f2ae28c03b2f",
+            "thumbnail": "https://media.sketchfab.com/models/f68a25584899494391c8f2ae28c03b2f/thumbnails/bfe037abe2af46959fd54d168c428594/0c43022a5fd54befb8c1c6f4933ca7d3.jpeg",
+            "name": "2020 BMW M8 Competition Coupé",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m8--2020-bmw-m8-competition-pride-convertible",
+          "name": "2020 BMW M8 Competition Pride Convertible",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "85c9f215906e408da12a66848bd55416",
+            "thumbnail": "https://media.sketchfab.com/models/85c9f215906e408da12a66848bd55416/thumbnails/6beaf635b3184c588dbfda19f4244650/66b9654105bb49d88ec3e81c9618e8ff.jpeg",
+            "name": "2020 BMW M8 Competition Pride Convertible",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-m8--2020-bmw-m8-coup",
+          "name": "2020 BMW M8 Coupé",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "f3557814de544abe8be017405f2eec49",
+            "thumbnail": "https://media.sketchfab.com/models/f3557814de544abe8be017405f2eec49/thumbnails/8c3b2148bf6d4070a597493330951e38/cc2e368c5cc546f1b983d223b08c2806.jpeg",
+            "name": "2020 BMW M8 Coupé",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m850i",
+      "name": "M850i",
+      "baseVariantId": "bmw-m850i--2020-bmw-m850i-gran-coupe",
+      "variants": [
+        {
+          "id": "bmw-m850i--2020-bmw-m850i-gran-coupe",
+          "name": "2020 BMW M850i Gran Coupe",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "6d51b027dba044a4aa6c93d11228f03f",
+            "thumbnail": "https://media.sketchfab.com/models/6d51b027dba044a4aa6c93d11228f03f/thumbnails/478497e185304ea58c3a84728fb4d20f/992572c0eaa94255b0765e4dd36217f1.jpeg",
+            "name": "2020 BMW M850i Gran Coupe",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-x1",
+      "name": "X1",
+      "baseVariantId": "bmw-x1--2020-bmw-x1-xdrive-18d",
+      "variants": [
+        {
+          "id": "bmw-x1--2020-bmw-x1-xdrive-18d",
+          "name": "2020 BMW X1 xDrive 18d",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "4ca3a2247af44e51919074565ed93486",
+            "thumbnail": "https://media.sketchfab.com/models/4ca3a2247af44e51919074565ed93486/thumbnails/61e7d1574547474ca02f96fd688f6a47/1d0c5ae1ccd445eca1c6bf7c55f1a69f.jpeg",
+            "name": "2020 BMW X1 xDrive 18d",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-218i",
+      "name": "218i",
+      "baseVariantId": "bmw-218i--2021-bmw-218i-gran-coup-1-5",
+      "variants": [
+        {
+          "id": "bmw-218i--2021-bmw-218i-gran-coup-1-5",
+          "name": "2021 BMW 218i Gran Coupé 1.5",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "c2e7d8cea31546b5a9f46d5d26c9471d",
+            "thumbnail": "https://media.sketchfab.com/models/c2e7d8cea31546b5a9f46d5d26c9471d/thumbnails/661d8468b3844bf2afea5e2df6ea916b/10c847d791a04e0f96d79fa5be61db6d.jpeg",
+            "name": "2021 BMW 218i Gran Coupé 1.5",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-3-series",
+      "name": "3 Series",
+      "baseVariantId": "bmw-3-series--2021-bmw-3-series-325li",
+      "variants": [
+        {
+          "id": "bmw-3-series--2021-bmw-3-series-325li",
+          "name": "2021 BMW 3 Series 325LI",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "6465b6ee36e24233b5b269b99471f8ef",
+            "thumbnail": "https://media.sketchfab.com/models/6465b6ee36e24233b5b269b99471f8ef/thumbnails/1f1f870d5dfa4482909ec5e6044494e6/23c1ac09b3964e63b3b75b584442cb7b.jpeg",
+            "name": "2021 BMW 3 Series 325LI",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-4-series",
+      "name": "4 Series",
+      "baseVariantId": "bmw-4-series--2021-bmw-430i-xdrive-coup-4-series",
+      "variants": [
+        {
+          "id": "bmw-4-series--2014-lb-works-bmw-4-series-body-kit-f82",
+          "name": "2014 LB★WORKS BMW 4 Series Body Kit (F82)",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "cd3892440b4148a1a5845d8af34515bd",
+            "thumbnail": "https://media.sketchfab.com/models/cd3892440b4148a1a5845d8af34515bd/thumbnails/68a731fbc0ea4c73984b3e52046a9269/9c35371ec7c348f69cd508de443c1521.jpeg",
+            "name": "2014 LB★WORKS BMW 4 Series Body Kit (F82)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "bmw-4-series--2021-bmw-430i-xdrive-coup-4-series",
+          "name": "2021 BMW 430i xDrive Coupé (4-Series)",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "3d507e8432494480b31bdc0dcdcf51d5",
+            "thumbnail": "https://media.sketchfab.com/models/3d507e8432494480b31bdc0dcdcf51d5/thumbnails/50f2ea0527084934afea931312eef243/8d5b5a4aa6a848f59c50f18e01bbce97.jpeg",
+            "name": "2021 BMW 430i xDrive Coupé (4-Series)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bmw-m440i",
+      "name": "M440i",
+      "baseVariantId": "bmw-m440i--2022-bmw-m440i-xdrive-gran-coup",
+      "variants": [
+        {
+          "id": "bmw-m440i--2022-bmw-m440i-xdrive-gran-coup",
+          "name": "2022 BMW M440i xDrive Gran Coupé",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "a41efb9c01e64d9d81a7896d2bbbb167",
+            "thumbnail": "https://media.sketchfab.com/models/a41efb9c01e64d9d81a7896d2bbbb167/thumbnails/0a48355ee58c48c693851d34458bfb90/e98629f72c054215a6b82cd894860703.jpeg",
+            "name": "2022 BMW M440i xDrive Gran Coupé",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    }
+  ]
+}

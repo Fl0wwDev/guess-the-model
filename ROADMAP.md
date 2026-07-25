@@ -11,9 +11,15 @@ _État vivant + prochaines étapes. `CLAUDE.md` = architecture durable ; ce fich
 - Listes de référence par marque : `public/models/<marque>/MODELS.md`.
 - **Aucun vrai doublon** (vérifié md5). 2 fichiers `(1)` (Huracan evo/sterrato) = contenus distincts → gardés (à renommer éventuellement).
 
-## PIVOT majeur : le musée = **embeds Sketchfab** (plus de GLB local pour le musée)
+## PIVOT majeur : le musée = **100 % Sketchfab, catalogue construit DEPUIS les collections Ddiaz**
 
-**Décision user (validée)** : musée **100 % Sketchfab** (auteur **Ddiaz Design**, collections « base models » par marque). Sketchfab rend/streame en qualité max → zéro lag, zéro optimisation, **vignettes gratuites** via son CDN. On perd le offline + risque de link-rot (assumé). Le **quiz** gardera la 3D locale (un embed affiche le nom → spoil).
+**Décision user (validée)** : musée **full Sketchfab**. Le catalogue musée est **découplé de `cars.ts`** et généré directement depuis les collections « Base Models » de **Ddiaz Design** via `npm run build:museum` (`scripts/build-museum.mjs`) → `src/content/museum/<marque>.json`. Config : `src/content/museum/collections.json` (marque → uid de collection + `modelKeys` pour BMW). Loader : `src/content/museum.ts`.
+
+**5 marques actives** : Ferrari (35 mod.), Lamborghini (26), Porsche (16), BMW (31), Bugatti (10) — **couverture 3D 100 %** par construction. Regroupement des variantes : seedé sur `cars.ts` (→ ids Ferrari stables, specs OK 33/33), match par tokens, fallback 1er token. `cars.ts` (dossiers, ~2,7 Go GLB) ne sert plus QU'au **garage d'accueil** (et futur quiz local).
+
+**Ménage fait** : supprimés `sync-sketchfab.mjs`, `src/content/sketchfab.*`, `src/lib/museum.ts`. **Reste** : les 2,7 Go GLB ne servent plus qu'au garage → à convertir/supprimer si on veut full-Sketchfab partout (décision destructive, à confirmer).
+
+UID collections Ddiaz : ferrari `e82e32907e864ec88a9c903bb662afb4` · lamborghini `8b38b8a6578f4fabb302e605a1ba6e53` · porsche `14cb80db95d6422a9187ba52ac1299ed` · bmw `c707bb093b9c433180439b9c96b618d5` · bugatti `08ae330925324dfc9edb8077537b7081`.
 
 - Sync : `npm run sync:sketchfab -- <brandId> <collectionUid>` → `src/content/sketchfab/<brand>.json` (clé = **id de variante**, match par nom normalisé). Overrides possibles : `src/content/sketchfab/<brand>.overrides.json` (`variantId → uid`). Loader : `src/content/sketchfab.ts`.
 - Ferrari : collection `e82e32907e864ec88a9c903bb662afb4`, **62/62 variantes mappées**.

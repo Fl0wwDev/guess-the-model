@@ -1,0 +1,1019 @@
+{
+  "id": "ferrari",
+  "name": "Ferrari",
+  "models": [
+    {
+      "id": "ferrari-250-gto",
+      "name": "250 GTO",
+      "baseVariantId": "ferrari-250-gto--1962-ferrari-250-gto",
+      "variants": [
+        {
+          "id": "ferrari-250-gto--1962-ferrari-250-gto",
+          "name": "1962 Ferrari 250 GTO",
+          "year": 1962,
+          "sketchfab": {
+            "uid": "0d2a7ee6ace246c0b545280ca5cc4031",
+            "thumbnail": "https://media.sketchfab.com/models/0d2a7ee6ace246c0b545280ca5cc4031/thumbnails/3fba38d3f878464da6ac9572237d89ac/5a29ecc0e5ce4c36a8b23f711fea5957.jpeg",
+            "name": "1962 Ferrari 250 GTO",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-testarossa",
+      "name": "Testarossa",
+      "baseVariantId": "ferrari-testarossa--1984-ferrari-testarossa-f110",
+      "variants": [
+        {
+          "id": "ferrari-testarossa--1984-ferrari-testarossa-f110",
+          "name": "1984 Ferrari Testarossa (f110)",
+          "year": 1984,
+          "sketchfab": {
+            "uid": "16b3c7c010b742acb3f18d0e1be64ac7",
+            "thumbnail": "https://media.sketchfab.com/models/16b3c7c010b742acb3f18d0e1be64ac7/thumbnails/9aa0ec9a1e164205a8e8e7634acb0050/52ab10bd936644f8987e35638aa3d621.jpeg",
+            "name": "1984 Ferrari Testarossa (f110)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-testarossa--1988-ferrari-testarossa",
+          "name": "1988 Ferrari Testarossa",
+          "year": 1988,
+          "sketchfab": {
+            "uid": "8968ceebb4ae445091f02d2344d367ea",
+            "thumbnail": "https://media.sketchfab.com/models/8968ceebb4ae445091f02d2344d367ea/thumbnails/8b637b047f5845498988296c31c47050/71fee62e30834392afbcfe5f197f4a2d.jpeg",
+            "name": "1988 Ferrari Testarossa",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-testarossa--2026-ferrari-849-testarossa",
+          "name": "2026 Ferrari 849 Testarossa",
+          "year": 2026,
+          "sketchfab": {
+            "uid": "6e0619a84ef746998989d633a33a1851",
+            "thumbnail": "https://media.sketchfab.com/models/6e0619a84ef746998989d633a33a1851/thumbnails/30f56dab78e54bc7889e7ce1ccca8268/ad360fce3a154bcdadfd3a296ca32475.jpeg",
+            "name": "2026 Ferrari 849 Testarossa",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-f40",
+      "name": "F40",
+      "baseVariantId": "ferrari-f40--1987-ferrari-f40",
+      "variants": [
+        {
+          "id": "ferrari-f40--1987-donna-s-ferrari-f40-from-csr2",
+          "name": "1987 Donna's Ferrari F40 from CSR2",
+          "year": 1987,
+          "sketchfab": {
+            "uid": "cdf0d8f409904065b6ce5b9354db4dd2",
+            "thumbnail": "https://media.sketchfab.com/models/cdf0d8f409904065b6ce5b9354db4dd2/thumbnails/02ccc0ba6de94f828ad2e7b5e7ed2bbf/7757eb526212424b90ce083e39029d80.jpeg",
+            "name": "1987 Donna's Ferrari F40 from CSR2",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-f40--1987-ferrari-f40",
+          "name": "1987 Ferrari F40",
+          "year": 1987,
+          "sketchfab": {
+            "uid": "80b0cdeb364b4223a006f3be12f16dc4",
+            "thumbnail": "https://media.sketchfab.com/models/80b0cdeb364b4223a006f3be12f16dc4/thumbnails/37440a684ac740e6b5d55cea010c97d4/57823c405d294c65a274d0c647c998bf.jpeg",
+            "name": "1987 Ferrari F40",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-f40--1989-ferrari-f40-lm",
+          "name": "1989 Ferrari F40 LM",
+          "year": 1989,
+          "sketchfab": {
+            "uid": "8f67f3c0bbcc4e7084ee7f49cab9c7db",
+            "thumbnail": "https://media.sketchfab.com/models/8f67f3c0bbcc4e7084ee7f49cab9c7db/thumbnails/b31f822142504a3ca4d8edb868ff4b75/1a5d438419284f1b885c7777d47f19e0.jpeg",
+            "name": "1989 Ferrari F40 LM",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-348",
+      "name": "348",
+      "baseVariantId": "ferrari-348--1989-ferrari-348-tb",
+      "variants": [
+        {
+          "id": "ferrari-348--1989-ferrari-348-tb",
+          "name": "1989 Ferrari 348 TB",
+          "year": 1989,
+          "sketchfab": {
+            "uid": "4fb556e70394423ba20c63e8b359ea1c",
+            "thumbnail": "https://media.sketchfab.com/models/4fb556e70394423ba20c63e8b359ea1c/thumbnails/bff0ee68a9834f87b0677a08b3f32c93/28212b31fac043049d386c3a9ff88956.jpeg",
+            "name": "1989 Ferrari 348 TB",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-512-tr",
+      "name": "512 TR",
+      "baseVariantId": "ferrari-512-tr--1991-ferrari-512-tr",
+      "variants": [
+        {
+          "id": "ferrari-512-tr--1991-ferrari-512-tr",
+          "name": "1991 Ferrari 512 TR",
+          "year": 1991,
+          "sketchfab": {
+            "uid": "c8214cd7ee4f493aa2d2ab7345849db5",
+            "thumbnail": "https://media.sketchfab.com/models/c8214cd7ee4f493aa2d2ab7345849db5/thumbnails/42f8c461ebf24f898522145c2432e05a/62ceff20eed84e5eb69963e055ff2643.jpeg",
+            "name": "1991 Ferrari 512 TR",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-f50",
+      "name": "F50",
+      "baseVariantId": "ferrari-f50--1995-ferrari-f50",
+      "variants": [
+        {
+          "id": "ferrari-f50--1995-ferrari-f50",
+          "name": "1995 Ferrari F50",
+          "year": 1995,
+          "sketchfab": {
+            "uid": "9d7ec096be3546e3967ebdb5e4a87e31",
+            "thumbnail": "https://media.sketchfab.com/models/9d7ec096be3546e3967ebdb5e4a87e31/thumbnails/f0c109839a844369ac61879c3581bf20/51592642754249a7ba70089673cbe12b.jpeg",
+            "name": "1995 Ferrari F50",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-f50--1995-ferrari-f50-spider",
+          "name": "1995 Ferrari F50 Spider",
+          "year": 1995,
+          "sketchfab": {
+            "uid": "3bbc4d08b5e0404d9e94c58c773a6e45",
+            "thumbnail": "https://media.sketchfab.com/models/3bbc4d08b5e0404d9e94c58c773a6e45/thumbnails/f664dbfb87bc46f994a74d2da2626e0a/3012a188c7d24be88d6ac7ad78157498.jpeg",
+            "name": "1995 Ferrari F50 Spider",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-f50--1996-ferrari-f50-gt",
+          "name": "1996 Ferrari F50 GT",
+          "year": 1996,
+          "sketchfab": {
+            "uid": "5133239bfa9b4b9fa10450fde7faad6b",
+            "thumbnail": "https://media.sketchfab.com/models/5133239bfa9b4b9fa10450fde7faad6b/thumbnails/8f8bcfc75c9d4feaa569c6f8875d8cb1/a2dd2acc77e541a89d824291d6be6e6d.jpeg",
+            "name": "1996 Ferrari F50 GT",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-360-modena",
+      "name": "360 Modena",
+      "baseVariantId": "ferrari-360-modena--1999-ferrari-360-modena",
+      "variants": [
+        {
+          "id": "ferrari-360-modena--1999-ferrari-360-modena",
+          "name": "1999 Ferrari 360 Modena",
+          "year": 1999,
+          "sketchfab": {
+            "uid": "ae8192a1699742869c542314f88b3ccc",
+            "thumbnail": "https://media.sketchfab.com/models/ae8192a1699742869c542314f88b3ccc/thumbnails/3d4d71d099914e2c891823c194d3a452/52649a9d9c654ba2937c269643bc75a7.jpeg",
+            "name": "1999 Ferrari 360 Modena",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-enzo",
+      "name": "Enzo",
+      "baseVariantId": "ferrari-enzo--2002-ferrari-enzo",
+      "variants": [
+        {
+          "id": "ferrari-enzo--2002-ferrari-enzo",
+          "name": "2002 Ferrari Enzo",
+          "year": 2002,
+          "sketchfab": {
+            "uid": "9e790860a49d4594a6eef87cab190bba",
+            "thumbnail": "https://media.sketchfab.com/models/9e790860a49d4594a6eef87cab190bba/thumbnails/742936dbb017462898181f029342f4fc/2fd7a00ba5a141698f2f2324083cacdd.jpeg",
+            "name": "2002 Ferrari Enzo",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-612-scaglietti",
+      "name": "612 Scaglietti",
+      "baseVariantId": "ferrari-612-scaglietti--2004-ferrari-612-scaglietti",
+      "variants": [
+        {
+          "id": "ferrari-612-scaglietti--2004-ferrari-612-scaglietti",
+          "name": "2004 Ferrari 612 Scaglietti",
+          "year": 2004,
+          "sketchfab": {
+            "uid": "cad456e361a24f088d3019adcf91ff59",
+            "thumbnail": "https://media.sketchfab.com/models/cad456e361a24f088d3019adcf91ff59/thumbnails/7bcbdc73f62842ba938930c77a2256d8/87cb669bcc384f85bab533f74a668fee.jpeg",
+            "name": "2004 Ferrari 612 Scaglietti",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-f430",
+      "name": "F430",
+      "baseVariantId": "ferrari-f430--2005-ferrari-f430",
+      "variants": [
+        {
+          "id": "ferrari-f430--2005-ferrari-f430",
+          "name": "2005 Ferrari F430",
+          "year": 2005,
+          "sketchfab": {
+            "uid": "52d13d3b2bbc4803a94e682fe958fea7",
+            "thumbnail": "https://media.sketchfab.com/models/52d13d3b2bbc4803a94e682fe958fea7/thumbnails/7cfaf3b7d0d64fe0818e8ebf118172e7/fe3e20a13788406d9c52666141ec4893.jpeg",
+            "name": "2005 Ferrari F430",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-430",
+      "name": "430",
+      "baseVariantId": "ferrari-430--2008-ferrari-430-scuderia",
+      "variants": [
+        {
+          "id": "ferrari-430--2008-ferrari-430-scuderia",
+          "name": "2008 Ferrari 430 Scuderia",
+          "year": 2008,
+          "sketchfab": {
+            "uid": "b00843d61131449595b82ac83f341558",
+            "thumbnail": "https://media.sketchfab.com/models/b00843d61131449595b82ac83f341558/thumbnails/2b3249b6db0344cba3fe2d58edcc7eaf/e6ff8b6edf424fceb41897ca2369119c.jpeg",
+            "name": "2008 Ferrari 430 Scuderia",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-california",
+      "name": "California",
+      "baseVariantId": "ferrari-california--2008-ferrari-california",
+      "variants": [
+        {
+          "id": "ferrari-california--2008-ferrari-california",
+          "name": "2008 Ferrari California",
+          "year": 2008,
+          "sketchfab": {
+            "uid": "9f110e246c194c6fb3583d07bb54ba22",
+            "thumbnail": "https://media.sketchfab.com/models/9f110e246c194c6fb3583d07bb54ba22/thumbnails/9da344f6e2cd41ffbd90991970c23a7f/1e7e446a13644d1caccf18b1b8d08c06.jpeg",
+            "name": "2008 Ferrari California",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-california--2012-ferrari-california",
+          "name": "2012 Ferrari California",
+          "year": 2012,
+          "sketchfab": {
+            "uid": "493edc1a96fb47b9be315e2c1f3de863",
+            "thumbnail": "https://media.sketchfab.com/models/493edc1a96fb47b9be315e2c1f3de863/thumbnails/9cf35d95c147462b8f780273dd076ac6/a3202310768d4ce6971cd10680ca7053.jpeg",
+            "name": "2012 Ferrari California",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-fxx",
+      "name": "FXX",
+      "baseVariantId": "ferrari-fxx--2008-ferrari-fxx-evolution",
+      "variants": [
+        {
+          "id": "ferrari-fxx--2008-ferrari-fxx-evolution",
+          "name": "2008 Ferrari FXX Evolution",
+          "year": 2008,
+          "sketchfab": {
+            "uid": "d46782425bf746e786398dce05ed93dc",
+            "thumbnail": "https://media.sketchfab.com/models/d46782425bf746e786398dce05ed93dc/thumbnails/5791f597653c4efabdf1a86399a4aff1/9faa7d6a76a74fddb2ab5efad1b0b624.jpeg",
+            "name": "2008 Ferrari FXX Evolution",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-599",
+      "name": "599",
+      "baseVariantId": "ferrari-599--2010-ferrari-599-gto",
+      "variants": [
+        {
+          "id": "ferrari-599--2010-ferrari-599-gto",
+          "name": "2010 Ferrari 599 GTO",
+          "year": 2010,
+          "sketchfab": {
+            "uid": "7867470dc87147feb401bf2773496e48",
+            "thumbnail": "https://media.sketchfab.com/models/7867470dc87147feb401bf2773496e48/thumbnails/1f1b9a68c90047a3addf15dfb38073a7/dfa2bb557fb845b69c7415d0a7f78047.jpeg",
+            "name": "2010 Ferrari 599 GTO",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-599--2010-ferrari-599-gto",
+          "name": "2010 Ferrari 599 GTO",
+          "year": 2010,
+          "sketchfab": {
+            "uid": "bcf0a0bbb49d43cb830e98e434a41e80",
+            "thumbnail": "https://media.sketchfab.com/models/bcf0a0bbb49d43cb830e98e434a41e80/thumbnails/b1da7b6dafa14031a4c4ff97a927053d/ab72a0a2f82248c9a9c16ef4e8c2a2e7.jpeg",
+            "name": "2010 Ferrari 599 GTO",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-458",
+      "name": "458",
+      "baseVariantId": "ferrari-458--2011-ferrari-458-italia",
+      "variants": [
+        {
+          "id": "ferrari-458--2011-ferrari-458-italia",
+          "name": "2011 Ferrari 458 Italia",
+          "year": 2011,
+          "sketchfab": {
+            "uid": "bb6c7fa565c04ec59cd9d0e0a4d0098c",
+            "thumbnail": "https://media.sketchfab.com/models/bb6c7fa565c04ec59cd9d0e0a4d0098c/thumbnails/4d1cb145b7b74be5a1cf30620e476f3c/1b28cc3f81544d08bedd74d32f48942c.jpeg",
+            "name": "2011 Ferrari 458 Italia",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-458--2013-ferrari-458-spider",
+          "name": "2013 Ferrari 458 Spider",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "d12eab5e5c6d421da468e1c348a860a6",
+            "thumbnail": "https://media.sketchfab.com/models/d12eab5e5c6d421da468e1c348a860a6/thumbnails/30836411ff4f4ce68f9dfe9c77a2a393/f9100894cb5c46f2b0950f75ec3e3a6e.jpeg",
+            "name": "2013 Ferrari 458 Spider",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-599xx",
+      "name": "599XX",
+      "baseVariantId": "ferrari-599xx--2011-ferrari-599xx-evolution",
+      "variants": [
+        {
+          "id": "ferrari-599xx--2011-ferrari-599xx-evolution",
+          "name": "2011 Ferrari 599XX Evolution",
+          "year": 2011,
+          "sketchfab": {
+            "uid": "6fe49993c4a94984ae01d6d10923a544",
+            "thumbnail": "https://media.sketchfab.com/models/6fe49993c4a94984ae01d6d10923a544/thumbnails/0355b0a135c94642b847c0e054131048/75c3e051de1941c3ae8f87fab71cd4bd.jpeg",
+            "name": "2011 Ferrari 599XX Evolution",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-ff",
+      "name": "FF",
+      "baseVariantId": "ferrari-ff--2012-ferrari-ff",
+      "variants": [
+        {
+          "id": "ferrari-ff--2012-ferrari-ff",
+          "name": "2012 Ferrari FF",
+          "year": 2012,
+          "sketchfab": {
+            "uid": "29bb8dfd0b7b45a7aea642541514a2fa",
+            "thumbnail": "https://media.sketchfab.com/models/29bb8dfd0b7b45a7aea642541514a2fa/thumbnails/c6172108ae274668862758e1bebe4b55/319f294d87754ba4871eac395f36cb8a.jpeg",
+            "name": "2012 Ferrari FF",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-ff--2012-ferrari-ff-patrol",
+          "name": "2012 Ferrari FF - Patrol",
+          "year": 2012,
+          "sketchfab": {
+            "uid": "25f754cfe78a4ec2855f702136ed519c",
+            "thumbnail": "https://media.sketchfab.com/models/25f754cfe78a4ec2855f702136ed519c/thumbnails/7eee8fcf99c94428a632cdba4848e072/b668959bddc2411f8ca99a335885f82b.jpeg",
+            "name": "2012 Ferrari FF - Patrol",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-f12",
+      "name": "F12",
+      "baseVariantId": "ferrari-f12--2013-ferrari-f12-berlinetta",
+      "variants": [
+        {
+          "id": "ferrari-f12--2013-ferrari-f12-berlinetta",
+          "name": "2013 Ferrari F12 Berlinetta",
+          "year": 2013,
+          "sketchfab": {
+            "uid": "8934abc630964e7a875d833c6d168a10",
+            "thumbnail": "https://media.sketchfab.com/models/8934abc630964e7a875d833c6d168a10/thumbnails/455a7b5e842c435aa1f035ed28f2cd63/f0adf2e9b6c54151b037954f794657bf.jpeg",
+            "name": "2013 Ferrari F12 Berlinetta",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-f12--2016-ferrari-f12tdf",
+          "name": "2016 Ferrari F12tdf",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "2f3fa2a7f95f4b69a87061df1db72593",
+            "thumbnail": "https://media.sketchfab.com/models/2f3fa2a7f95f4b69a87061df1db72593/thumbnails/33131a681a5f4ec3ae7752586703e48a/fe0961c322c24cb6bd4e323966072b8f.jpeg",
+            "name": "2016 Ferrari F12tdf",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-f12--2017-ferrari-f12-70th-anniversary",
+          "name": "2017 Ferrari F12 70th Anniversary",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "b8e2b21534df47318d1d5c521308678d",
+            "thumbnail": "https://media.sketchfab.com/models/b8e2b21534df47318d1d5c521308678d/thumbnails/8350d2b7902d48f7b0129c51d771f154/914e802a65784177942da657e0520298.jpeg",
+            "name": "2017 Ferrari F12 70th Anniversary",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-laferrari",
+      "name": "LaFerrari",
+      "baseVariantId": "ferrari-laferrari--2014-ferrari-laferrari",
+      "variants": [
+        {
+          "id": "ferrari-laferrari--2014-ferrari-laferrari",
+          "name": "2014 Ferrari LaFerrari",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "8b46fa49718647de846387ef4c1e95b3",
+            "thumbnail": "https://media.sketchfab.com/models/8b46fa49718647de846387ef4c1e95b3/thumbnails/cfe22c7e331f4d89b9966c9164a3c57a/98791cee6ceb4f75bd7b4c5bdacdbf39.jpeg",
+            "name": "2014 Ferrari LaFerrari",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-laferrari--2017-ferrari-laferrari-aperta",
+          "name": "2017 Ferrari LaFerrari Aperta",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "4a129721f8174c27ba0083f892913a51",
+            "thumbnail": "https://media.sketchfab.com/models/4a129721f8174c27ba0083f892913a51/thumbnails/e5960a2c2e4c4976a14e9b37e0638a74/9c31c6d5467c4750a24f1941bce2145c.jpeg",
+            "name": "2017 Ferrari LaFerrari Aperta",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-fxx-k",
+      "name": "FXX-K",
+      "baseVariantId": "ferrari-fxx-k--2015-ferrari-fxx-k",
+      "variants": [
+        {
+          "id": "ferrari-fxx-k--2015-ferrari-fxx-k",
+          "name": "2015 Ferrari FXX K",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "8508899a06754aee90286c9bceabe63c",
+            "thumbnail": "https://media.sketchfab.com/models/8508899a06754aee90286c9bceabe63c/thumbnails/f99a63b175ff4385bf77dc25a9b31e9a/3617a88f4e7d463299ae999741d8704d.jpeg",
+            "name": "2015 Ferrari FXX K",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-fxx-k--2018-ferrari-fxx-k-evo",
+          "name": "2018 Ferrari FXX-K Evo",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "8c7293deff594e188b7d97b3d43b5abc",
+            "thumbnail": "https://media.sketchfab.com/models/8c7293deff594e188b7d97b3d43b5abc/thumbnails/028577f36af24c5bb2f6738e7117a67c/a3f151deeeb341e2aa7cb857bb7233a3.jpeg",
+            "name": "2018 Ferrari FXX-K Evo",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-488",
+      "name": "488",
+      "baseVariantId": "ferrari-488--2016-ferrari-488-gtb",
+      "variants": [
+        {
+          "id": "ferrari-488--2016-ferrari-488-gtb",
+          "name": "2016 Ferrari 488 GTB",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "929feda77330442c892c334522d6ec10",
+            "thumbnail": "https://media.sketchfab.com/models/929feda77330442c892c334522d6ec10/thumbnails/11a19cd99aac4bfeb9235e9ef30fefd8/159a435009c34315b6539ac65524888b.jpeg",
+            "name": "2016 Ferrari 488 GTB",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-488--2018-ferrari-488-gt3",
+          "name": "2018 Ferrari 488 GT3",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "bb14ee3833564f349a317d704a506cd3",
+            "thumbnail": "https://media.sketchfab.com/models/bb14ee3833564f349a317d704a506cd3/thumbnails/848fc4ae15354cffab925d0560906956/b26af6cef9724993a775a65e1b35bd4b.jpeg",
+            "name": "2018 Ferrari 488 GT3",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-488--2019-ferrari-488-pista",
+          "name": "2019 Ferrari 488 Pista",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "1d1344847d8540e9a6a7f21184ab7769",
+            "thumbnail": "https://media.sketchfab.com/models/1d1344847d8540e9a6a7f21184ab7769/thumbnails/ca979a5124ef49bb8fd6c41f59a3dd78/c2e1262edb5a4f7a80d0b3833d79872c.jpeg",
+            "name": "2019 Ferrari 488 Pista",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-488--2019-ferrari-488-pista-spider",
+          "name": "2019 Ferrari 488 Pista Spider",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "e542a8f3cf274ba9805ec2b09bee6567",
+            "thumbnail": "https://media.sketchfab.com/models/e542a8f3cf274ba9805ec2b09bee6567/thumbnails/17d4f4fda2ef4d359c3a5b45ba3f1b2a/4cf8da3df95d44149c7b0e4ad23c4473.jpeg",
+            "name": "2019 Ferrari 488 Pista Spider",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-488--2021-ferrari-488-challenge-evo",
+          "name": "2021 Ferrari 488 Challenge EVO",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "0bf32544a2104244a8ff7c1fd68ce8a0",
+            "thumbnail": "https://media.sketchfab.com/models/0bf32544a2104244a8ff7c1fd68ce8a0/thumbnails/10985db1494c4d65b9521e45a3f74139/2fbc10649be04bc8bf1ce8172b8b2c39.jpeg",
+            "name": "2021 Ferrari 488 Challenge EVO",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-488--2021-ferrari-488-gt-modificata",
+          "name": "2021 Ferrari 488 GT Modificata",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "84ee596c4198453b8225db3a7c6e3839",
+            "thumbnail": "https://media.sketchfab.com/models/84ee596c4198453b8225db3a7c6e3839/thumbnails/960ec24a078c470498fc0a12ab5ba1ca/887b450138504f1dbc3085495a08d04f.jpeg",
+            "name": "2021 Ferrari 488 GT Modificata",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-gtc4-lusso",
+      "name": "GTC4 Lusso",
+      "baseVariantId": "ferrari-gtc4-lusso--2017-ferrari-gtc4-lusso",
+      "variants": [
+        {
+          "id": "ferrari-gtc4-lusso--2017-ferrari-gtc4-lusso",
+          "name": "2017 Ferrari GTC4 Lusso",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "02ac103a26d347029c2388d85e4af97b",
+            "thumbnail": "https://media.sketchfab.com/models/02ac103a26d347029c2388d85e4af97b/thumbnails/a676a4579ef44731924539c198ca4a63/bcfb3e5bac6e49beb75577e18ebd1842.jpeg",
+            "name": "2017 Ferrari GTC4 Lusso",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-gtc4-lusso--2018-ferrari-gtc4-lusso-70th-anniversary",
+          "name": "2018 Ferrari GTC4 Lusso 70th Anniversary",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "e2f7cf662fe0402c80dbd46218ee1311",
+            "thumbnail": "https://media.sketchfab.com/models/e2f7cf662fe0402c80dbd46218ee1311/thumbnails/9663329a71884ea992f153353e88fb06/fe3aa98821b541f786d7ba6c4f78bbe2.jpeg",
+            "name": "2018 Ferrari GTC4 Lusso 70th Anniversary",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-j50",
+      "name": "J50",
+      "baseVariantId": "ferrari-j50--2017-ferrari-j50",
+      "variants": [
+        {
+          "id": "ferrari-j50--2017-ferrari-j50",
+          "name": "2017 Ferrari J50",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "75fa17b49980429685ca3b92c91ab73f",
+            "thumbnail": "https://media.sketchfab.com/models/75fa17b49980429685ca3b92c91ab73f/thumbnails/a06569e90f5b44bca3ce1e8e38e5e622/f3d4122015c24387a0f4e29f1e695547.jpeg",
+            "name": "2017 Ferrari J50",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-812",
+      "name": "812",
+      "baseVariantId": "ferrari-812--2018-ferrari-812-superfast",
+      "variants": [
+        {
+          "id": "ferrari-812--2018-ferrari-812-superfast",
+          "name": "2018 Ferrari 812 Superfast",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "6716d40cad6c4f7db9c42e2db3a94ce3",
+            "thumbnail": "https://media.sketchfab.com/models/6716d40cad6c4f7db9c42e2db3a94ce3/thumbnails/71d6558a4ffc419b950748ed28713edf/5ee6af28ebac4406bcd9e66415ca943b.jpeg",
+            "name": "2018 Ferrari 812 Superfast",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-812--2020-ferrari-812-gts",
+          "name": "2020 Ferrari 812 GTS",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "91ed463e1c6a4ef688e97cc011873fe0",
+            "thumbnail": "https://media.sketchfab.com/models/91ed463e1c6a4ef688e97cc011873fe0/thumbnails/f3983327498d40169f788557c34bd7d4/fea705e17fb546d599cda6f8fc1dc06f.jpeg",
+            "name": "2020 Ferrari 812 GTS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-812--2023-ferrari-812-competizione",
+          "name": "2023 Ferrari 812 Competizione",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "2a1c6415c50048e0abdca02067fae59d",
+            "thumbnail": "https://media.sketchfab.com/models/2a1c6415c50048e0abdca02067fae59d/thumbnails/235bb6856a064ae18a800c4520cf3d93/d8155a3f144d4e7fb5d48068819e020b.jpeg",
+            "name": "2023 Ferrari 812 Competizione",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-portofino",
+      "name": "Portofino",
+      "baseVariantId": "ferrari-portofino--2018-ferrari-portofino",
+      "variants": [
+        {
+          "id": "ferrari-portofino--2018-ferrari-portofino",
+          "name": "2018 Ferrari Portofino",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "4c71e8ff9c5a437c8e414bd71395d38b",
+            "thumbnail": "https://media.sketchfab.com/models/4c71e8ff9c5a437c8e414bd71395d38b/thumbnails/26339f7cfe7d49e7b861a40f5ac6c77f/0497a3581d2947ed8d8d248581a9b13b.jpeg",
+            "name": "2018 Ferrari Portofino",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-sp38",
+      "name": "SP38",
+      "baseVariantId": "ferrari-sp38--2018-ferrari-sp38-deborah",
+      "variants": [
+        {
+          "id": "ferrari-sp38--2018-ferrari-sp38-deborah",
+          "name": "2018 Ferrari SP38 (Deborah)",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "9a60f56481d7485f9e374dc9471c9e99",
+            "thumbnail": "https://media.sketchfab.com/models/9a60f56481d7485f9e374dc9471c9e99/thumbnails/05545668285a4840a22520251cb09040/d97902fef02641208a41167faaf3d3cc.jpeg",
+            "name": "2018 Ferrari SP38 (Deborah)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-monza",
+      "name": "Monza",
+      "baseVariantId": "ferrari-monza--2019-ferrari-monza-sp1",
+      "variants": [
+        {
+          "id": "ferrari-monza--2019-ferrari-monza-sp1",
+          "name": "2019 Ferrari Monza SP1",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "cb758da1c8aa4dc2a2ab0433b93661e9",
+            "thumbnail": "https://media.sketchfab.com/models/cb758da1c8aa4dc2a2ab0433b93661e9/thumbnails/cd0ecbe310274c3690bd18a5e68fc143/635b93cc544c41d6a631b056dacc6fed.jpeg",
+            "name": "2019 Ferrari Monza SP1",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-monza--2019-ferrari-monza-sp2",
+          "name": "2019 Ferrari Monza SP2",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "09b0681baaed40d9aada9138a5f75875",
+            "thumbnail": "https://media.sketchfab.com/models/09b0681baaed40d9aada9138a5f75875/thumbnails/f72cefa695244c6aa7f8a3c0bd2a9d1e/6d2e35c31c694a35a8c1ecdc57746c88.jpeg",
+            "name": "2019 Ferrari Monza SP2",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-p80c",
+      "name": "P80C",
+      "baseVariantId": "ferrari-p80c--2019-ferrari-p80-c",
+      "variants": [
+        {
+          "id": "ferrari-p80c--2019-ferrari-p80-c",
+          "name": "2019 Ferrari P80/C",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "f55ad553e43c4dd690186d66efb49120",
+            "thumbnail": "https://media.sketchfab.com/models/f55ad553e43c4dd690186d66efb49120/thumbnails/72dd9ce95baa495dacd9559d0b61f647/fef6788f128b4d7a8942e744d1c5dfbf.jpeg",
+            "name": "2019 Ferrari P80/C",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-f8",
+      "name": "F8",
+      "baseVariantId": "ferrari-f8--2020-ferrari-f8-tributo",
+      "variants": [
+        {
+          "id": "ferrari-f8--2020-ferrari-f8-spider",
+          "name": "2020 Ferrari F8 Spider",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "e57f64cb32c54f7e8851ec23875bdff6",
+            "thumbnail": "https://media.sketchfab.com/models/e57f64cb32c54f7e8851ec23875bdff6/thumbnails/482e5f2446ff46f6ab52a73d3d2236a8/73a861d60b264371863a0eba46e37240.jpeg",
+            "name": "2020 Ferrari F8 Spider",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-f8--2020-ferrari-f8-tributo",
+          "name": "2020 Ferrari F8 Tributo",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "8a86c4d634f64f8b8ee836bc93fa6ac8",
+            "thumbnail": "https://media.sketchfab.com/models/8a86c4d634f64f8b8ee836bc93fa6ac8/thumbnails/aa9ed7ccdcee4ac79009e3a85780605f/b985a9ce412045dcbca08070ce073d1f.jpeg",
+            "name": "2020 Ferrari F8 Tributo",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-roma",
+      "name": "Roma",
+      "baseVariantId": "ferrari-roma--2020-ferrari-roma",
+      "variants": [
+        {
+          "id": "ferrari-roma--2020-ferrari-roma",
+          "name": "2020 Ferrari Roma",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "cbc0c13c0fb54fc8bbfa79a9ff99e3aa",
+            "thumbnail": "https://media.sketchfab.com/models/cbc0c13c0fb54fc8bbfa79a9ff99e3aa/thumbnails/be4adc0e4bf047e185ff1243a43b1b56/df5eb6385c514cb49e8aff4abb66f470.jpeg",
+            "name": "2020 Ferrari Roma",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-sf90",
+      "name": "SF90",
+      "baseVariantId": "ferrari-sf90--2020-ferrari-sf90-stradale",
+      "variants": [
+        {
+          "id": "ferrari-sf90--2020-ferrari-sf90-stradale",
+          "name": "2020 Ferrari SF90 Stradale",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "b98147fea0da42d29a2e41a4aba0fc20",
+            "thumbnail": "https://media.sketchfab.com/models/b98147fea0da42d29a2e41a4aba0fc20/thumbnails/f0b4e60c1a1c47119c24a6b47bfe0455/35ad6eef44614a55940bc950fce7f1e0.jpeg",
+            "name": "2020 Ferrari SF90 Stradale",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-sf90--2021-ferrari-sf90-spider",
+          "name": "2021 Ferrari SF90 Spider",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "8f8ef613e39746668b4f0268a3176dde",
+            "thumbnail": "https://media.sketchfab.com/models/8f8ef613e39746668b4f0268a3176dde/thumbnails/42b863bf273d48c9834cd00b7fd54f81/1114e4dc2841488b9c64ce5ca3ee831b.jpeg",
+            "name": "2021 Ferrari SF90 Spider",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-sf90--2023-ferrari-sf90-xx-stradale",
+          "name": "2023 Ferrari SF90 XX Stradale",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "2c80c667232544649328cf3589921bcd",
+            "thumbnail": "https://media.sketchfab.com/models/2c80c667232544649328cf3589921bcd/thumbnails/e6e1f4a8847d4941a12049f7019c97b0/34af16cb1b7b470ca7f661a548707e02.jpeg",
+            "name": "2023 Ferrari SF90 XX Stradale",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-sf90--2024-ferrari-sf90-xx-spider",
+          "name": "2024 Ferrari SF90 XX Spider",
+          "year": 2024,
+          "sketchfab": {
+            "uid": "ed3da12ae24d4eb58138fa366890775f",
+            "thumbnail": "https://media.sketchfab.com/models/ed3da12ae24d4eb58138fa366890775f/thumbnails/1c41e21668ab4149b7afc0a5d19bd392/7d1d9a3570864277a926a3785a9ba09a.jpeg",
+            "name": "2024 Ferrari SF90 XX Spider",
+            "author": "Ddiaz Design",
+            "license": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-296",
+      "name": "296",
+      "baseVariantId": "ferrari-296--2022-ferrari-296-gtb",
+      "variants": [
+        {
+          "id": "ferrari-296--2022-ferrari-296-gtb",
+          "name": "2022 Ferrari 296 GTB",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "269f4fd01b584dd38f7e512de60c4645",
+            "thumbnail": "https://media.sketchfab.com/models/269f4fd01b584dd38f7e512de60c4645/thumbnails/a8ac023958c34e5da2ec466b274291ed/de1469b5a00b41f298ced72a7f964f30.jpeg",
+            "name": "2022 Ferrari 296 GTB",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "ferrari-296--2023-ferrari-296-gts",
+          "name": "2023 Ferrari 296 GTS",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "9a596b9d09414adfad64fc1f5fd019f9",
+            "thumbnail": "https://media.sketchfab.com/models/9a596b9d09414adfad64fc1f5fd019f9/thumbnails/9cde9841640544428cf5871aed8f30dd/dc072a3974b447149c4f10f635b86de0.jpeg",
+            "name": "2023 Ferrari 296 GTS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-daytona-sp3",
+      "name": "Daytona SP3",
+      "baseVariantId": "ferrari-daytona-sp3--2022-ferrari-daytona-sp3",
+      "variants": [
+        {
+          "id": "ferrari-daytona-sp3--2022-ferrari-daytona-sp3",
+          "name": "2022 Ferrari Daytona SP3",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "36f271240bfd47d9aca48c2903703d6e",
+            "thumbnail": "https://media.sketchfab.com/models/36f271240bfd47d9aca48c2903703d6e/thumbnails/55eccfaede3d42cfac7e7abf75bf1bcb/6614889b25284766b1e6e87aefd02863.jpeg",
+            "name": "2022 Ferrari Daytona SP3",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-purosangue",
+      "name": "Purosangue",
+      "baseVariantId": "ferrari-purosangue--2023-ferrari-purosangue",
+      "variants": [
+        {
+          "id": "ferrari-purosangue--2023-ferrari-purosangue",
+          "name": "2023 Ferrari Purosangue",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "541dc84c37174356a7b0efd44904593d",
+            "thumbnail": "https://media.sketchfab.com/models/541dc84c37174356a7b0efd44904593d/thumbnails/8e5c910b9808441e8a44fbac5988416a/f8a492e748b74219a014038a88373c14.jpeg",
+            "name": "2023 Ferrari Purosangue",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferrari-12cilindri",
+      "name": "12Cilindri",
+      "baseVariantId": "ferrari-12cilindri--2025-ferrari-12cilindri",
+      "variants": [
+        {
+          "id": "ferrari-12cilindri--2025-ferrari-12cilindri",
+          "name": "2025 Ferrari 12Cilindri",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "cb0b42a5bda844bd8ccd62451f1db427",
+            "thumbnail": "https://media.sketchfab.com/models/cb0b42a5bda844bd8ccd62451f1db427/thumbnails/706e36cfb4904465998d705dec2fa0de/63d43fa5299d4f83a6216e4e90cbc947.jpeg",
+            "name": "2025 Ferrari 12Cilindri",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "ferrari-12cilindri--2025-ferrari-12cilindri-spider",
+          "name": "2025 Ferrari 12Cilindri Spider",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "62adb79968234dd2ae7819f647502d8b",
+            "thumbnail": "https://media.sketchfab.com/models/62adb79968234dd2ae7819f647502d8b/thumbnails/f70078bbc6fa4532aa6a960e2a912f9b/45ad019eb16c4dc4a7f76bf2be719001.jpeg",
+            "name": "2025 Ferrari 12Cilindri Spider",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    }
+  ]
+}

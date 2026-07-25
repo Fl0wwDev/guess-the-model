@@ -4,14 +4,14 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { SketchfabEmbed } from "./SketchfabEmbed";
 import type { CarSpecs } from "@/content/specs";
-import type { SketchfabModel } from "@/content/sketchfab";
+import type { MuseumSketchfab } from "@/content/museum";
 
 export type ExplorerVariant = {
   id: string;
   name: string;
   year: number | null;
   specs: CarSpecs | null;
-  sketchfab: SketchfabModel | null;
+  sketchfab: MuseumSketchfab | null;
 };
 
 type Props = {

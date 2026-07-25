@@ -1,0 +1,982 @@
+{
+  "id": "porsche",
+  "name": "Porsche",
+  "models": [
+    {
+      "id": "porsche-911",
+      "name": "911",
+      "baseVariantId": "porsche-911--magnus-walker-s-1971-porsche-911-277",
+      "variants": [
+        {
+          "id": "porsche-911--magnus-walker-s-1971-porsche-911-277",
+          "name": "Magnus Walker’s 1971 Porsche 911 “277”",
+          "year": 1971,
+          "sketchfab": {
+            "uid": "15d895b104374790b715be320277772e",
+            "thumbnail": "https://media.sketchfab.com/models/15d895b104374790b715be320277772e/thumbnails/8c276291811b49e7ac12fe32097309d8/8df1b31493004f87a33d765e1d9d57a2.jpeg",
+            "name": "Magnus Walker’s 1971 Porsche 911 “277”",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1982-porsche-930-911-turbo-3-3",
+          "name": "1982 Porsche 930 911 Turbo 3.3",
+          "year": 1982,
+          "sketchfab": {
+            "uid": "4cbde48bef674e15b50a891f0fea04c5",
+            "thumbnail": "https://media.sketchfab.com/models/4cbde48bef674e15b50a891f0fea04c5/thumbnails/f8b90482dad34366b37bc6de348dcd1f/87162e6a722846a3891158135fb880f4.jpeg",
+            "name": "1982 Porsche 930 911 Turbo 3.3",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1989-porsche-911-964-carrera-4",
+          "name": "1989 Porsche 911 (964) Carrera 4",
+          "year": 1989,
+          "sketchfab": {
+            "uid": "3f1a399631a84f55b1d1cd04310e361f",
+            "thumbnail": "https://media.sketchfab.com/models/3f1a399631a84f55b1d1cd04310e361f/thumbnails/3fd3b534880740e7a2d6d8ee83d0bd29/4d04f39b99134f3a974d28bc1c3ef632.jpeg",
+            "name": "1989 Porsche 911 (964) Carrera 4",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1991-rwb-porsche-911-964",
+          "name": "1991 RWB Porsche 911 964",
+          "year": 1991,
+          "sketchfab": {
+            "uid": "9f712de78b164191a556729086a29d03",
+            "thumbnail": "https://media.sketchfab.com/models/9f712de78b164191a556729086a29d03/thumbnails/b68db83d7d6e496389c104d27a2f0eb3/8e4f6ff17b3b4013bbe733fc052a8a9c.jpeg",
+            "name": "1991 RWB Porsche 911 964",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1992-porsche-911-964-turbo-s-3-6",
+          "name": "1992 Porsche 911 (964) Turbo S 3.6",
+          "year": 1992,
+          "sketchfab": {
+            "uid": "27240ad1a825434f99e980d7c904c3d0",
+            "thumbnail": "https://media.sketchfab.com/models/27240ad1a825434f99e980d7c904c3d0/thumbnails/728da45f86a34b7692173edbadf8c528/4b78996399e844bbb5d2e0a8a315c49e.jpeg",
+            "name": "1992 Porsche 911 (964) Turbo S 3.6",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1995-porsche-911-carrera-rs-993",
+          "name": "1995 Porsche 911 Carrera RS (993)",
+          "year": 1995,
+          "sketchfab": {
+            "uid": "e461497e3c5f4f69bc57ce7614739930",
+            "thumbnail": "https://media.sketchfab.com/models/e461497e3c5f4f69bc57ce7614739930/thumbnails/503fc9c2b8454bc39f55daebafc22191/9ea0b2f45455401bb01945e9f0e7bcc0.jpeg",
+            "name": "1995 Porsche 911 Carrera RS (993)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1995-porsche-911-gt2-993",
+          "name": "1995 Porsche 911 GT2 (993)",
+          "year": 1995,
+          "sketchfab": {
+            "uid": "2b3843db0f784ab0a8702f6361d16d2a",
+            "thumbnail": "https://media.sketchfab.com/models/2b3843db0f784ab0a8702f6361d16d2a/thumbnails/295b91f4af7f4c56bdcfd7a4aef89530/63bf09d65b634ed1945c9a6d8a85c537.jpeg",
+            "name": "1995 Porsche 911 GT2 (993)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1997-porsche-911-carrera-s-993",
+          "name": "1997 Porsche 911 Carrera S (993)",
+          "year": 1997,
+          "sketchfab": {
+            "uid": "b7eb0c467a50436aa4a8e09070af51a0",
+            "thumbnail": "https://media.sketchfab.com/models/b7eb0c467a50436aa4a8e09070af51a0/thumbnails/4d7053362d744060a3c4f6bef0bd9153/7ad9ba84e4b842e7a6b45028a360d43c.jpeg",
+            "name": "1997 Porsche 911 Carrera S (993)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1998-porsche-911-gt1",
+          "name": "1998 Porsche 911 GT1",
+          "year": 1998,
+          "sketchfab": {
+            "uid": "5b2522aed6584793aa1bc13d135ac57e",
+            "thumbnail": "https://media.sketchfab.com/models/5b2522aed6584793aa1bc13d135ac57e/thumbnails/10f6a933fd4844f084c72aa41ac77026/97ec9538e98d437bbb5514cee4416712.jpeg",
+            "name": "1998 Porsche 911 GT1",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--1998-porsche-911-gt1-stra-enversion",
+          "name": "1998 Porsche 911 GT1 Straßenversion",
+          "year": 1998,
+          "sketchfab": {
+            "uid": "de18411fee0d455fab2168930642cb01",
+            "thumbnail": "https://media.sketchfab.com/models/de18411fee0d455fab2168930642cb01/thumbnails/996237df73be4f7a8a240f79f11db127/d9fbdf7ed6744fe9bd183e176623bc47.jpeg",
+            "name": "1998 Porsche 911 GT1 Straßenversion",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2002-porsche-911-turbo-996",
+          "name": "2002 Porsche 911 Turbo (996)",
+          "year": 2002,
+          "sketchfab": {
+            "uid": "cddd89c2a7f74975ae1e144b9812dd26",
+            "thumbnail": "https://media.sketchfab.com/models/cddd89c2a7f74975ae1e144b9812dd26/thumbnails/110992fce00e4a34b0cc6ec7fa1e6243/71ce606b3fc14eec87ec50065e4a9101.jpeg",
+            "name": "2002 Porsche 911 Turbo (996)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2011-porsche-911-speedster-997-2",
+          "name": "2011 Porsche 911 Speedster (997-2)",
+          "year": 2011,
+          "sketchfab": {
+            "uid": "e8a72dded43d4e67b470db16b9ebdc92",
+            "thumbnail": "https://media.sketchfab.com/models/e8a72dded43d4e67b470db16b9ebdc92/thumbnails/b2a406748d304509a5bdaa0f4a236d6a/b14282b9410e452d997e9d6abd85e898.jpeg",
+            "name": "2011 Porsche 911 Speedster (997-2)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2014-porsche-911-gt3-991",
+          "name": "2014 Porsche 911 GT3 (991)",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "249b3088ba9449038d89670c9cd8d789",
+            "thumbnail": "https://media.sketchfab.com/models/249b3088ba9449038d89670c9cd8d789/thumbnails/9ce32e657e414e34bc2e37a5d4fe0cfc/53fd076fb54b47c2addb6f99d4626bb5.jpeg",
+            "name": "2014 Porsche 911 GT3 (991)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2016-porsche-911-turbo-s-991-2",
+          "name": "2016 Porsche 911 Turbo S (991.2)",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "45982328a4bc458199da0c9f95b4f28d",
+            "thumbnail": "https://media.sketchfab.com/models/45982328a4bc458199da0c9f95b4f28d/thumbnails/ee6852c5777a455a89b1be1ed20ecc14/ea1835c73dbd4ff39ca85b0518ac9a54.jpeg",
+            "name": "2016 Porsche 911 Turbo S (991.2)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2017-porsche-911-991-gt3-rs",
+          "name": "2017 Porsche 911 (991) GT3 RS",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "b45ae79c8ec840a98fae0581af4be396",
+            "thumbnail": "https://media.sketchfab.com/models/b45ae79c8ec840a98fae0581af4be396/thumbnails/46339ca086664894bb571e439e4ddcf8/561462671190453e883cc6b07527b777.jpeg",
+            "name": "2017 Porsche 911 (991) GT3 RS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2017-porsche-911-turbo-s-exclusive-series-991-2",
+          "name": "2017 Porsche 911 Turbo S Exclusive Series 991.2",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "2826fd94a234422d94c88f2f5ef9fdfd",
+            "thumbnail": "https://media.sketchfab.com/models/2826fd94a234422d94c88f2f5ef9fdfd/thumbnails/69f5ad0ae78b49f8be08973b85dd1d50/9550f5de7290458082a29655ff6a2460.jpeg",
+            "name": "2017 Porsche 911 Turbo S Exclusive Series 991.2",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2018-porsche-911-carrera-gts",
+          "name": "2018 Porsche 911 Carrera GTS",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "5c5f8627e7d443fbbf2288429d5afad6",
+            "thumbnail": "https://media.sketchfab.com/models/5c5f8627e7d443fbbf2288429d5afad6/thumbnails/c90ad0236c934b46a0830a90ba1415da/39ff95295a7348ed9088f03c789206e1.jpeg",
+            "name": "2018 Porsche 911 Carrera GTS",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2018-porsche-911-gt2-rs-clubsport",
+          "name": "2018 Porsche 911 GT2 RS Clubsport",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "5ceffc9a7dc0482088f3ac2aef3987f0",
+            "thumbnail": "https://media.sketchfab.com/models/5ceffc9a7dc0482088f3ac2aef3987f0/thumbnails/724af5a2133a49228c9667a9a25ce0c1/3239e60a7a8e4cd3a19a0b719f45aa17.jpeg",
+            "name": "2018 Porsche 911 GT2 RS Clubsport",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2018-porsche-911-gt2-rs-weissach-package",
+          "name": "2018 Porsche 911 GT2 RS Weissach Package",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "3d84bed1c5794403a80580eebc2a4c72",
+            "thumbnail": "https://media.sketchfab.com/models/3d84bed1c5794403a80580eebc2a4c72/thumbnails/164e6b047508478ab8bf2a84138165ce/3f8ad28c90574630b521549cc3a3056c.jpeg",
+            "name": "2018 Porsche 911 GT2 RS Weissach Package",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-991-2-gt3-rs",
+          "name": "2019 Porsche 911 (991.2) GT3 RS",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "97ea84db846e4945961dffb8b2d7af18",
+            "thumbnail": "https://media.sketchfab.com/models/97ea84db846e4945961dffb8b2d7af18/thumbnails/d895322f69064fb8b2374ed15504c548/9acaa50e550a4751aa39af2e82bfdd2b.jpeg",
+            "name": "2019 Porsche 911 (991.2) GT3 RS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-991-2-gt3-rs-weissach-package",
+          "name": "2019 Porsche 911 (991.2) GT3 RS Weissach Package",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "1ab438e7fc444fedb6f1ee255f21902a",
+            "thumbnail": "https://media.sketchfab.com/models/1ab438e7fc444fedb6f1ee255f21902a/thumbnails/6d4e43a4c6644db785f8d278dbb57c76/ab472ac8db5d4ddb976744ed54a934f0.jpeg",
+            "name": "2019 Porsche 911 (991.2) GT3 RS Weissach Package",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-carrera-4s-992",
+          "name": "2019 Porsche 911 Carrera 4S (992)",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "4e324fdfada24355aba3f34cf09a9552",
+            "thumbnail": "https://media.sketchfab.com/models/4e324fdfada24355aba3f34cf09a9552/thumbnails/72c82f1cae18450c849d8c0c663720a2/41869667f5364f409a400cdea3039407.jpeg",
+            "name": "2019 Porsche 911 Carrera 4S (992)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-carrera-4s-cabriolet-992",
+          "name": "2019 Porsche 911 Carrera 4S Cabriolet (992)",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "ce837502def244c4aea720502c953f7c",
+            "thumbnail": "https://media.sketchfab.com/models/ce837502def244c4aea720502c953f7c/thumbnails/bc934246b09348e0891b12ffc8cac028/023b970b8510498e86689024bbad4d61.jpeg",
+            "name": "2019 Porsche 911 Carrera 4S Cabriolet (992)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-gt2-rs-clubsport-23-salzburg",
+          "name": "2019 Porsche 911 GT2 RS Clubsport 23 Salzburg",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "d079b1eef64b46de8b2699e079a616ab",
+            "thumbnail": "https://media.sketchfab.com/models/d079b1eef64b46de8b2699e079a616ab/thumbnails/1bb69212e46542acaa649e1409fe0054/ca9acda8e9024b109ec9d502743f1aa7.jpeg",
+            "name": "2019 Porsche 911 GT2 RS Clubsport 23 Salzburg",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-speedster-991-2",
+          "name": "2019 Porsche 911 Speedster (991.2)",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "e0eb0fe3f02843989d2de3eadfed92c5",
+            "thumbnail": "https://media.sketchfab.com/models/e0eb0fe3f02843989d2de3eadfed92c5/thumbnails/54aa8fca4e10470e8dc08346366ee046/56ea054147a24e9bbfa06dbe31f6eb3e.jpeg",
+            "name": "2019 Porsche 911 Speedster (991.2)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-speedster-heritage-edition",
+          "name": "2019 Porsche 911 Speedster Heritage Edition",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "626f4a5d85d14480939eb8bb3c217c30",
+            "thumbnail": "https://media.sketchfab.com/models/626f4a5d85d14480939eb8bb3c217c30/thumbnails/1e8f48fbf00942d7a27a5aaf26dbc51c/6c92994012374eb3b1c0c60872ddd971.jpeg",
+            "name": "2019 Porsche 911 Speedster Heritage Edition",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2019-porsche-911-targa-4s-991-2",
+          "name": "2019 Porsche 911 Targa 4S (991.2)",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "7c503ca4615148d88c98466b45a84c0a",
+            "thumbnail": "https://media.sketchfab.com/models/7c503ca4615148d88c98466b45a84c0a/thumbnails/a893da9779924facb9de33e98acfbe48/484664a5380a49fdaa4dfbbdf00a0e3c.jpeg",
+            "name": "2019 Porsche 911 Targa 4S (991.2)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2021-porsche-911-targa-4s-992",
+          "name": "2021 Porsche 911 Targa 4S (992)",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "8981d73373bd4d92bb429c5621f0f50d",
+            "thumbnail": "https://media.sketchfab.com/models/8981d73373bd4d92bb429c5621f0f50d/thumbnails/ed1266e4835e449d88d764e9a77b7608/99a5b630ece74b28a09694e83db6d459.jpeg",
+            "name": "2021 Porsche 911 Targa 4S (992)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2021-porsche-911-targa-4s-heritage-design-992",
+          "name": "2021 Porsche 911 Targa 4S Heritage Design (992)",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "0e118f0e927645a1876a4f213cddb0f0",
+            "thumbnail": "https://media.sketchfab.com/models/0e118f0e927645a1876a4f213cddb0f0/thumbnails/8592a9ddfdaa404884ee0e3d270f3cee/64391a867f784956a2f135540448cb82.jpeg",
+            "name": "2021 Porsche 911 Targa 4S Heritage Design (992)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2021-porsche-911-turbo-s-992",
+          "name": "2021 Porsche 911 Turbo S (992)",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "b6756fc06654405a839bf14e931e4c83",
+            "thumbnail": "https://media.sketchfab.com/models/b6756fc06654405a839bf14e931e4c83/thumbnails/7c23cf2beb534958be3cb61c15f51039/80ab9d388ae24f0eadac5b69c3ea861d.jpeg",
+            "name": "2021 Porsche 911 Turbo S (992)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2022-porsche-911-gt3-992",
+          "name": "2022 Porsche 911 GT3 (992)",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "ba01afbaf32846e598db315be3507db3",
+            "thumbnail": "https://media.sketchfab.com/models/ba01afbaf32846e598db315be3507db3/thumbnails/e08cf46378b4485ab21c1c1201628587/f1b35b400b82452489657f6750122741.jpeg",
+            "name": "2022 Porsche 911 GT3 (992)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2022-porsche-911-gt3-touring-992",
+          "name": "2022 Porsche 911 GT3 Touring (992)",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "a76364a3d50c4d78912a28250cb57be5",
+            "thumbnail": "https://media.sketchfab.com/models/a76364a3d50c4d78912a28250cb57be5/thumbnails/f9f2fa5e95aa4ccf9b70f08b764737c2/4aada59243324a9a8cefcc950242a81a.jpeg",
+            "name": "2022 Porsche 911 GT3 Touring (992)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2023-porsche-911-dakar-rallye-design-package",
+          "name": "2023 Porsche 911 Dakar Rallye Design Package",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "3d08be7f0ed04c368d487ee72bc05225",
+            "thumbnail": "https://media.sketchfab.com/models/3d08be7f0ed04c368d487ee72bc05225/thumbnails/7225f0bac49a43209def96ec49b3e8e3/c126e0a0c285469eaa334e8003bf011e.jpeg",
+            "name": "2023 Porsche 911 Dakar Rallye Design Package",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2023-porsche-911-gt3-rs-2-7-carrera-tribute-992",
+          "name": "2023 Porsche 911 GT3 RS 2.7 Carrera Tribute 992",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "f17a982d5d8a4d97baef4b00b51a4e9a",
+            "thumbnail": "https://media.sketchfab.com/models/f17a982d5d8a4d97baef4b00b51a4e9a/thumbnails/66ed6bbbf65048159f5b275f09ad3559/69c90dcfe9d9487aabc4e43867e1da1a.jpeg",
+            "name": "2023 Porsche 911 GT3 RS 2.7 Carrera Tribute 992",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2024-porsche-911-s-t",
+          "name": "2024 Porsche 911 S/T",
+          "year": 2024,
+          "sketchfab": {
+            "uid": "f39f7c539a3440428c22a3da2f52af43",
+            "thumbnail": "https://media.sketchfab.com/models/f39f7c539a3440428c22a3da2f52af43/thumbnails/d452d5f278374bedaa3e728d7e258e99/105e7eb83fac4a26ae49a57788a7da79.jpeg",
+            "name": "2024 Porsche 911 S/T",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-911--2025-porsche-911-gt3-992-2",
+          "name": "2025 Porsche 911 GT3 (992-2)",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "1503f8d08f154ec7ab52f95a99c55134",
+            "thumbnail": "https://media.sketchfab.com/models/1503f8d08f154ec7ab52f95a99c55134/thumbnails/f5953144f9924c1ea069d101235e9910/30fb123b05d04125b25c83be5f8f69fa.jpeg",
+            "name": "2025 Porsche 911 GT3 (992-2)",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-911--2025-porsche-911-targa-4-gts",
+          "name": "2025 Porsche 911 Targa 4 GTS",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "b8488f9425d84381a4efe5521db7f111",
+            "thumbnail": "https://media.sketchfab.com/models/b8488f9425d84381a4efe5521db7f111/thumbnails/39e0b138211645b69e9bdc0ed6112046/4601d99fc19642c89827340d396e9dd9.jpeg",
+            "name": "2025 Porsche 911 Targa 4 GTS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-959",
+      "name": "959",
+      "baseVariantId": "porsche-959--1988-porsche-959-bruce-canepa-upgrade",
+      "variants": [
+        {
+          "id": "porsche-959--1988-porsche-959-bruce-canepa-upgrade",
+          "name": "1988 Porsche 959 Bruce Canepa Upgrade",
+          "year": 1988,
+          "sketchfab": {
+            "uid": "7765513274d2486d882f755794fefc89",
+            "thumbnail": "https://media.sketchfab.com/models/7765513274d2486d882f755794fefc89/thumbnails/7c114f5cd6d745528c5ddb071884746b/c6ced064f73b4540b1d8ae8d8406ff50.jpeg",
+            "name": "1988 Porsche 959 Bruce Canepa Upgrade",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-carrera-gt",
+      "name": "Carrera GT",
+      "baseVariantId": "porsche-carrera-gt--2004-porsche-carrera-gt",
+      "variants": [
+        {
+          "id": "porsche-carrera-gt--2004-porsche-carrera-gt",
+          "name": "2004 Porsche Carrera GT",
+          "year": 2004,
+          "sketchfab": {
+            "uid": "a43be10ac0174dc0a35984c2d41d4058",
+            "thumbnail": "https://media.sketchfab.com/models/a43be10ac0174dc0a35984c2d41d4058/thumbnails/1c4520e2cc2f409bb4aea0b05f41c94f/7233d3f163da4ce3af7d176a2b1be6d7.jpeg",
+            "name": "2004 Porsche Carrera GT",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-carrera-gt--2004-porsche-carrera-gt-patrol",
+          "name": "2004 Porsche Carrera GT- Patrol",
+          "year": 2004,
+          "sketchfab": {
+            "uid": "a52826b8677d4b37a640b22939456d68",
+            "thumbnail": "https://media.sketchfab.com/models/a52826b8677d4b37a640b22939456d68/thumbnails/41cf38a5b6c645f8b9527aac42fde892/d8565b2aefdf4aecb002a14769753074.jpeg",
+            "name": "2004 Porsche Carrera GT- Patrol",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-cayenne",
+      "name": "Cayenne",
+      "baseVariantId": "porsche-cayenne--2009-porsche-cayenne-turbo-s",
+      "variants": [
+        {
+          "id": "porsche-cayenne--2009-porsche-cayenne-turbo-s",
+          "name": "2009 Porsche Cayenne Turbo S",
+          "year": 2009,
+          "sketchfab": {
+            "uid": "b52a9d6e47ed440a93986a5b955b6d64",
+            "thumbnail": "https://media.sketchfab.com/models/b52a9d6e47ed440a93986a5b955b6d64/thumbnails/1b7c50b171354f5f9a60cff06be83bbc/6cc726cf5f6b4559b61b4fa297cb6238.jpeg",
+            "name": "2009 Porsche Cayenne Turbo S",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-cayenne--2016-porsche-cayenne-turbo-s",
+          "name": "2016 Porsche Cayenne Turbo S",
+          "year": 2016,
+          "sketchfab": {
+            "uid": "802e8c1f2c1341d9a5c026cabe952832",
+            "thumbnail": "https://media.sketchfab.com/models/802e8c1f2c1341d9a5c026cabe952832/thumbnails/5ab5f704f6724c1bb9879f375923a71e/2194d3b5fdbf4125b85a0082a46f0573.jpeg",
+            "name": "2016 Porsche Cayenne Turbo S",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-cayenne--2020-porsche-cayenne-turbo-coupe",
+          "name": "2020 Porsche Cayenne Turbo Coupe",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "4774f59cbb1146be81cffd795f61a9f6",
+            "thumbnail": "https://media.sketchfab.com/models/4774f59cbb1146be81cffd795f61a9f6/thumbnails/2b3f08998cd14482a7caca0579ca4768/8f21cf1b9abc4d8193be910d49c4ac04.jpeg",
+            "name": "2020 Porsche Cayenne Turbo Coupe",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-cayenne--2022-porsche-cayenne-turbo-gt",
+          "name": "2022 Porsche Cayenne Turbo GT",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "74fbea5a4dfc4197839fdd2bf654369a",
+            "thumbnail": "https://media.sketchfab.com/models/74fbea5a4dfc4197839fdd2bf654369a/thumbnails/64e0451d080d4b92a7f341fb5ebc347b/20658c1edcd64c8c8cff715e6a94c86d.jpeg",
+            "name": "2022 Porsche Cayenne Turbo GT",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-boxster",
+      "name": "Boxster",
+      "baseVariantId": "porsche-boxster--2012-porsche-boxster-2-7-981",
+      "variants": [
+        {
+          "id": "porsche-boxster--2010-porsche-boxster-spyder",
+          "name": "2010 Porsche Boxster Spyder",
+          "year": 2010,
+          "sketchfab": {
+            "uid": "c0dee1a7f11e4650a9c54814abdba459",
+            "thumbnail": "https://media.sketchfab.com/models/c0dee1a7f11e4650a9c54814abdba459/thumbnails/0e903ddd27a14f7483419d5833d8422a/77dcf50a6ec24ea1ab2bee475816221f.jpeg",
+            "name": "2010 Porsche Boxster Spyder",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-boxster--2012-porsche-boxster-2-7-981",
+          "name": "2012 Porsche Boxster 2.7 (981)",
+          "year": 2012,
+          "sketchfab": {
+            "uid": "f5619c4f33e1410c8c8194b4546a5cfd",
+            "thumbnail": "https://media.sketchfab.com/models/f5619c4f33e1410c8c8194b4546a5cfd/thumbnails/f647dc0001894597bc1e115109f35325/23ef26af91cf4a8cb4a956838470250b.jpeg",
+            "name": "2012 Porsche Boxster 2.7 (981)",
+            "author": "Ddiaz Design",
+            "license": null
+          }
+        },
+        {
+          "id": "porsche-boxster--2015-porsche-boxster-gts-718",
+          "name": "2015 Porsche Boxster GTS (718)",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "706606b037ff458ea229042ea52cd1bd",
+            "thumbnail": "https://media.sketchfab.com/models/706606b037ff458ea229042ea52cd1bd/thumbnails/6d7423afa0ca44deb805aec924dda62c/8963246539154c529316121e78134987.jpeg",
+            "name": "2015 Porsche Boxster GTS (718)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-cayman",
+      "name": "Cayman",
+      "baseVariantId": "porsche-cayman--2014-porsche-cayman-s-981",
+      "variants": [
+        {
+          "id": "porsche-cayman--2014-porsche-cayman-s-981",
+          "name": "2014 Porsche Cayman S (981)",
+          "year": 2014,
+          "sketchfab": {
+            "uid": "03e383400bb74626bcdedbbe198a5849",
+            "thumbnail": "https://media.sketchfab.com/models/03e383400bb74626bcdedbbe198a5849/thumbnails/56b29db28d604cc68b74697bdc271c5a/a9a4701206d0459daf731cf3bad62604.jpeg",
+            "name": "2014 Porsche Cayman S (981)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-918-spyder",
+      "name": "918 Spyder",
+      "baseVariantId": "porsche-918-spyder--2015-mark-webber-porsche-918-spyder",
+      "variants": [
+        {
+          "id": "porsche-918-spyder--2015-mark-webber-porsche-918-spyder",
+          "name": "2015 Mark Webber Porsche 918 Spyder",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "ca1040479c9843558c50b8f0ae75f640",
+            "thumbnail": "https://media.sketchfab.com/models/ca1040479c9843558c50b8f0ae75f640/thumbnails/92b0cd5e44ca4e658c4d7491b5c93b21/bceeab2bf2f14f94847f7f832e185e99.jpeg",
+            "name": "2015 Mark Webber Porsche 918 Spyder",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-918-spyder--2015-porsche-918-spyder",
+          "name": "2015 Porsche 918 Spyder",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "f6d03ef13bf243c8b632ca7bacd8c0f3",
+            "thumbnail": "https://media.sketchfab.com/models/f6d03ef13bf243c8b632ca7bacd8c0f3/thumbnails/214dad1b36494de6ae396950890e87f0/9160f4066e824081b7c5ef322822b6ec.jpeg",
+            "name": "2015 Porsche 918 Spyder",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-918-spyder--2015-porsche-918-spyder-weissach-package-25",
+          "name": "2015 Porsche 918 Spyder Weissach Package 25",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "cd13e94e183a4766b4902fcd51cedcee",
+            "thumbnail": "https://media.sketchfab.com/models/cd13e94e183a4766b4902fcd51cedcee/thumbnails/a199a1d3ea5a4e26b247f5ac5a46094a/c340d4b71d0846eca4bbd9f04c0b7f71.jpeg",
+            "name": "2015 Porsche 918 Spyder Weissach Package 25",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-918-spyder--2015-porsche-918-spyder-weissach-package-3",
+          "name": "2015 Porsche 918 Spyder Weissach Package 3",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "979eca0308774e659bad73b0e0a93b6e",
+            "thumbnail": "https://media.sketchfab.com/models/979eca0308774e659bad73b0e0a93b6e/thumbnails/8adaae515644429c902f743260ceb69d/ffa1d7e862154bb59bb12691846db6e5.jpeg",
+            "name": "2015 Porsche 918 Spyder Weissach Package 3",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-918-spyder--2015-porsche-918-spyder-weissach-package-martini",
+          "name": "2015 Porsche 918 Spyder Weissach Package Martini",
+          "year": 2015,
+          "sketchfab": {
+            "uid": "03c743336bc047268eed05eb8a818ba6",
+            "thumbnail": "https://media.sketchfab.com/models/03c743336bc047268eed05eb8a818ba6/thumbnails/2d04a1ebe2ba4e2484619bf89b755c03/38173192a8974b24ae72e2e560bc12c1.jpeg",
+            "name": "2015 Porsche 918 Spyder Weissach Package Martini",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-718",
+      "name": "718",
+      "baseVariantId": "porsche-718--2017-porsche-718-boxster-s",
+      "variants": [
+        {
+          "id": "porsche-718--2017-porsche-718-boxster-s",
+          "name": "2017 Porsche 718 Boxster S",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "4b52cfc4ce32438aa732880fae81c047",
+            "thumbnail": "https://media.sketchfab.com/models/4b52cfc4ce32438aa732880fae81c047/thumbnails/5bccd3e197dc4fb49698f1302e82504f/545177e64210425d92b11a892a650245.jpeg",
+            "name": "2017 Porsche 718 Boxster S",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-718--2019-porsche-718-boxster-t",
+          "name": "2019 Porsche 718 Boxster T",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "5ab56c0a7666450cabb59d5e44539a12",
+            "thumbnail": "https://media.sketchfab.com/models/5ab56c0a7666450cabb59d5e44539a12/thumbnails/39e517ef433846bcb9628b773f967925/7e994ae8db0744468ccffa5c5892f318.jpeg",
+            "name": "2019 Porsche 718 Boxster T",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-718--2020-porsche-718-spyder",
+          "name": "2020 Porsche 718 Spyder",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "1bb367ebaee14829a24e9b5444c15087",
+            "thumbnail": "https://media.sketchfab.com/models/1bb367ebaee14829a24e9b5444c15087/thumbnails/0d7ccd93ba97443ab0e64f56ee987556/023c0b14a91b4a3b94326d53ff83f876.jpeg",
+            "name": "2020 Porsche 718 Spyder",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-718--2024-porsche-718-spyder-rs",
+          "name": "2024 Porsche 718 Spyder RS",
+          "year": 2024,
+          "sketchfab": {
+            "uid": "fccbe0a4f6884deda7cde7f94f06b618",
+            "thumbnail": "https://media.sketchfab.com/models/fccbe0a4f6884deda7cde7f94f06b618/thumbnails/937eae07d2144adc937cded0cd7b24b5/7ca1d8a1843b43ceb22af1a9940562ce.jpeg",
+            "name": "2024 Porsche 718 Spyder RS",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-718--2024-porsche-718-spyder-rs",
+          "name": "2024 Porsche 718 Spyder RS",
+          "year": 2024,
+          "sketchfab": {
+            "uid": "2c4a64ebf4ba4da29b119f6e3ac7b1fa",
+            "thumbnail": "https://media.sketchfab.com/models/2c4a64ebf4ba4da29b119f6e3ac7b1fa/thumbnails/ce166802ff974980810e953c9d8cc188/fd7582a4ba444d3ca6793c5a1661ec13.jpeg",
+            "name": "2024 Porsche 718 Spyder RS",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-718-cayman",
+      "name": "718 Cayman",
+      "baseVariantId": "porsche-718-cayman--2017-porsche-718-cayman-982",
+      "variants": [
+        {
+          "id": "porsche-718-cayman--2017-porsche-718-cayman-982",
+          "name": "2017 Porsche 718 Cayman (982)",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "c599b3aa82eb46f7ba3bb2d22bd9dfc6",
+            "thumbnail": "https://media.sketchfab.com/models/c599b3aa82eb46f7ba3bb2d22bd9dfc6/thumbnails/ca9d54c589bf4683b871c92a04f52982/8178f1beeba84989910faf1a93c6c9a1.jpeg",
+            "name": "2017 Porsche 718 Cayman (982)",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-718-cayman--2018-porsche-718-cayman-gts",
+          "name": "2018 Porsche 718 Cayman GTS",
+          "year": 2018,
+          "sketchfab": {
+            "uid": "ed07dfc50f8146aea10143232657c061",
+            "thumbnail": "https://media.sketchfab.com/models/ed07dfc50f8146aea10143232657c061/thumbnails/80e7c27e61584bfabdeb928b5ce73b79/acdfd9b00f544a2591c327f4213ee25c.jpeg",
+            "name": "2018 Porsche 718 Cayman GTS",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-718-cayman--2020-porsche-718-cayman-gt4",
+          "name": "2020 Porsche 718 Cayman GT4",
+          "year": 2020,
+          "sketchfab": {
+            "uid": "15b425f889c74b53922b7559677cdc06",
+            "thumbnail": "https://media.sketchfab.com/models/15b425f889c74b53922b7559677cdc06/thumbnails/e43f3e3a1c3243fc85c4255473b5e1f3/9ca15b251d0d454d82720476162fda69.jpeg",
+            "name": "2020 Porsche 718 Cayman GT4",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-718-cayman--2022-porsche-718-cayman-gt4-rs",
+          "name": "2022 Porsche 718 Cayman GT4 RS",
+          "year": 2022,
+          "sketchfab": {
+            "uid": "b1d87619f6174f10be47423fcd4de444",
+            "thumbnail": "https://media.sketchfab.com/models/b1d87619f6174f10be47423fcd4de444/thumbnails/2ab44d1665694cdba89ebf028dbadbb4/8c1e4ea7d0ee4bbdacd24f1747362b12.jpeg",
+            "name": "2022 Porsche 718 Cayman GT4 RS",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-gt-rsr",
+      "name": "GT-RSR",
+      "baseVariantId": "porsche-gt-rsr--2017-porsche-gt-rsr-991-duke-dynamics-widebody",
+      "variants": [
+        {
+          "id": "porsche-gt-rsr--2017-porsche-gt-rsr-991-duke-dynamics-widebody",
+          "name": "2017 Porsche GT-RSR 991 DUKE DYNAMICS Widebody",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "38e8f0fd15244a56a61d54375c7dcfb9",
+            "thumbnail": "https://media.sketchfab.com/models/38e8f0fd15244a56a61d54375c7dcfb9/thumbnails/433d86261f994f9981b536176b3fc385/c531a565d6f84f43aee48724bd201e42.jpeg",
+            "name": "2017 Porsche GT-RSR 991 DUKE DYNAMICS Widebody",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-panamera",
+      "name": "Panamera",
+      "baseVariantId": "porsche-panamera--2017-porsche-panamera-turbo",
+      "variants": [
+        {
+          "id": "porsche-panamera--2017-porsche-panamera-turbo",
+          "name": "2017 Porsche Panamera Turbo",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "f472abb10e07442b80f46ade49a24d64",
+            "thumbnail": "https://media.sketchfab.com/models/f472abb10e07442b80f46ade49a24d64/thumbnails/575d154958a8433a8919bcc771e8674d/c1b5497f11174c4cb48c792d71b4b3b4.jpeg",
+            "name": "2017 Porsche Panamera Turbo",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        },
+        {
+          "id": "porsche-panamera--2021-porsche-panamera-turbo-s-sport-turismo",
+          "name": "2021 Porsche Panamera Turbo S Sport Turismo",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "f2269fdf74f64257a3a9b0872eb9b2d8",
+            "thumbnail": "https://media.sketchfab.com/models/f2269fdf74f64257a3a9b0872eb9b2d8/thumbnails/36ba91ca139545b1a0c6a1d8ed3d2bff/4ed67135dbb643118a18a22610055da2.jpeg",
+            "name": "2021 Porsche Panamera Turbo S Sport Turismo",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-935",
+      "name": "935",
+      "baseVariantId": "porsche-935--2019-porsche-935-martini-racing",
+      "variants": [
+        {
+          "id": "porsche-935--2019-porsche-935-martini-racing",
+          "name": "2019 Porsche 935 Martini Racing",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "416a88e8841547b78f32a09d27a8abff",
+            "thumbnail": "https://media.sketchfab.com/models/416a88e8841547b78f32a09d27a8abff/thumbnails/0e7a2735f6e94917ae8bc64e324bb02a/2d4b1b86c57849f49c191d5cfc61f9b1.jpeg",
+            "name": "2019 Porsche 935 Martini Racing",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-935--2019-porsche-935-salzburg-red-spare-package",
+          "name": "2019 Porsche 935 Salzburg Red Spare Package",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "613e1fe725c94fea8a098d46b57731cb",
+            "thumbnail": "https://media.sketchfab.com/models/613e1fe725c94fea8a098d46b57731cb/thumbnails/f54d0d3d3dc041b2b8d802c8dba2db28/dab90b3e660c4ec9ad93e625698038da.jpeg",
+            "name": "2019 Porsche 935 Salzburg Red Spare Package",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-macan",
+      "name": "Macan",
+      "baseVariantId": "porsche-macan--2019-porsche-macan-turbo",
+      "variants": [
+        {
+          "id": "porsche-macan--2017-porsche-macan-gts",
+          "name": "2017 Porsche Macan GTS",
+          "year": 2017,
+          "sketchfab": {
+            "uid": "b5ad0d9051044a018de918dcf84d2b9b",
+            "thumbnail": "https://media.sketchfab.com/models/b5ad0d9051044a018de918dcf84d2b9b/thumbnails/448e425e579d4825b3952ac45a6ea82e/b0e118f796004122820e2ce50a1fd8fd.jpeg",
+            "name": "2017 Porsche Macan GTS",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        },
+        {
+          "id": "porsche-macan--2019-porsche-macan-turbo",
+          "name": "2019 Porsche Macan Turbo",
+          "year": 2019,
+          "sketchfab": {
+            "uid": "b61426730e5f49c0a73c48f0004406c5",
+            "thumbnail": "https://media.sketchfab.com/models/b61426730e5f49c0a73c48f0004406c5/thumbnails/1a03c0a10f0d4097bcc84676a214e47f/0e8db402ee9641a8bb0424c855f5c3f3.jpeg",
+            "name": "2019 Porsche Macan Turbo",
+            "author": "Ddiaz Design",
+            "license": "by"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-mission-r",
+      "name": "Mission R",
+      "baseVariantId": "porsche-mission-r--2021-porsche-mission-r-concept",
+      "variants": [
+        {
+          "id": "porsche-mission-r--2021-porsche-mission-r-concept",
+          "name": "2021 Porsche Mission R Concept",
+          "year": 2021,
+          "sketchfab": {
+            "uid": "7dd949e0104e4ef99446a77a2f7a6126",
+            "thumbnail": "https://media.sketchfab.com/models/7dd949e0104e4ef99446a77a2f7a6126/thumbnails/f905d702225447d386ffcde560f83a5e/27165d55f40b42228edbf8bb531bd5e7.jpeg",
+            "name": "2021 Porsche Mission R Concept",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-963",
+      "name": "963",
+      "baseVariantId": "porsche-963--2023-porsche-963-lmdh-racecar-no-5",
+      "variants": [
+        {
+          "id": "porsche-963--2023-porsche-963-lmdh-racecar-no-5",
+          "name": "2023 Porsche 963 LMDh Racecar No.5",
+          "year": 2023,
+          "sketchfab": {
+            "uid": "0b46fea1c4484a0c887bd0b9aac86f5d",
+            "thumbnail": "https://media.sketchfab.com/models/0b46fea1c4484a0c887bd0b9aac86f5d/thumbnails/6b83a332ef1b4ed6a4d58552d8e82d1e/211f587f219d4a378c1f69aee01c71b3.jpeg",
+            "name": "2023 Porsche 963 LMDh Racecar No.5",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "porsche-taycan",
+      "name": "Taycan",
+      "baseVariantId": "porsche-taycan--2025-porsche-taycan-turbo-gt-weissach-package",
+      "variants": [
+        {
+          "id": "porsche-taycan--2025-porsche-taycan-turbo-gt-weissach-package",
+          "name": "2025 Porsche Taycan Turbo GT Weissach Package",
+          "year": 2025,
+          "sketchfab": {
+            "uid": "4e1abafe7cf5413587a421377624ba08",
+            "thumbnail": "https://media.sketchfab.com/models/4e1abafe7cf5413587a421377624ba08/thumbnails/00e8df8f8a884cf8923fe73571cdd04a/27635f637abe424bbc4a242851216435.jpeg",
+            "name": "2025 Porsche Taycan Turbo GT Weissach Package",
+            "author": "Ddiaz Design",
+            "license": "by-nc-sa"
+          }
+        }
+      ]
+    }
+  ]
+}

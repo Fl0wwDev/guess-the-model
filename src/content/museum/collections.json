@@ -1,0 +1,30 @@
+{
+  "ferrari": {
+    "name": "Ferrari",
+    "collection": "e82e32907e864ec88a9c903bb662afb4"
+  },
+  "lamborghini": {
+    "name": "Lamborghini",
+    "collection": "8b38b8a6578f4fabb302e605a1ba6e53"
+  },
+  "bugatti": {
+    "name": "Bugatti",
+    "collection": "08ae330925324dfc9edb8077537b7081"
+  },
+  "porsche": {
+    "name": "Porsche",
+    "collection": "14cb80db95d6422a9187ba52ac1299ed"
+  },
+  "bmw": {
+    "name": "BMW",
+    "collection": "c707bb093b9c433180439b9c96b618d5",
+    "modelKeys": [
+      "3.0 CSL", "3.0 CSi", "2002", "507", "503", "M235i", "M240i", "M340i",
+      "M440i", "M1", "M2", "M3", "M4", "M5", "M6", "M8", "1M", "i8", "i4", "iX",
+      "X1", "X2", "X3", "X4", "X5", "X6", "X7", "XM", "Z1", "Z3", "Z4", "Z8",
+      "328i", "330i", "335i", "340i", "750Li", "850i", "M235i",
+      "1 Series", "2 Series", "3 Series", "4 Series", "5 Series", "6 Series",
+      "7 Series", "8 Series"
+    ]
+  }
+}
