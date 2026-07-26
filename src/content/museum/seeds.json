@@ -1,0 +1,327 @@
+{
+  "note": "FROZEN grouping seeds — snapshot of the old public/models folder registry (src/lib/cars.ts, deleted with the full-Sketchfab migration). scripts/build-museum.mjs matches Sketchfab model names against these model names so museum model ids stay byte-identical across rebuilds, which is what keeps the hand-authored specs in src/content/specs/ resolving. Do not rename or reorder entries; add a new one only if you also want a new museum model id.",
+  "brands": {
+    "bugatti": [
+      {
+        "modelId": "bugatti-chiron",
+        "modelName": "Chiron"
+      },
+      {
+        "modelId": "bugatti-eb110",
+        "modelName": "EB110"
+      },
+      {
+        "modelId": "bugatti-eb110-ss-roadcar",
+        "modelName": "EB110 SS Roadcar"
+      },
+      {
+        "modelId": "bugatti-la-voiture-noire",
+        "modelName": "LA Voiture Noire"
+      },
+      {
+        "modelId": "bugatti-mistral",
+        "modelName": "Mistral"
+      },
+      {
+        "modelId": "bugatti-tourbillon",
+        "modelName": "Tourbillon"
+      },
+      {
+        "modelId": "bugatti-veyron",
+        "modelName": "Veyron"
+      }
+    ],
+    "dodge": [
+      {
+        "modelId": "dodge-challenger-rt",
+        "modelName": "Challenger RT"
+      }
+    ],
+    "ferrari": [
+      {
+        "modelId": "ferrari-12cilindri",
+        "modelName": "12Cilindri"
+      },
+      {
+        "modelId": "ferrari-250-gto",
+        "modelName": "250 GTO"
+      },
+      {
+        "modelId": "ferrari-296",
+        "modelName": "296"
+      },
+      {
+        "modelId": "ferrari-348",
+        "modelName": "348"
+      },
+      {
+        "modelId": "ferrari-360-modena",
+        "modelName": "360 Modena"
+      },
+      {
+        "modelId": "ferrari-458",
+        "modelName": "458"
+      },
+      {
+        "modelId": "ferrari-488",
+        "modelName": "488"
+      },
+      {
+        "modelId": "ferrari-512-tr",
+        "modelName": "512 TR"
+      },
+      {
+        "modelId": "ferrari-599",
+        "modelName": "599"
+      },
+      {
+        "modelId": "ferrari-599xx",
+        "modelName": "599XX"
+      },
+      {
+        "modelId": "ferrari-612-scaglietti",
+        "modelName": "612 Scaglietti"
+      },
+      {
+        "modelId": "ferrari-812",
+        "modelName": "812"
+      },
+      {
+        "modelId": "ferrari-california",
+        "modelName": "California"
+      },
+      {
+        "modelId": "ferrari-daytona-sp3",
+        "modelName": "Daytona SP3"
+      },
+      {
+        "modelId": "ferrari-enzo",
+        "modelName": "Enzo"
+      },
+      {
+        "modelId": "ferrari-f8",
+        "modelName": "F8"
+      },
+      {
+        "modelId": "ferrari-f12",
+        "modelName": "F12"
+      },
+      {
+        "modelId": "ferrari-f40",
+        "modelName": "F40"
+      },
+      {
+        "modelId": "ferrari-f50",
+        "modelName": "F50"
+      },
+      {
+        "modelId": "ferrari-f430",
+        "modelName": "F430"
+      },
+      {
+        "modelId": "ferrari-ff",
+        "modelName": "FF"
+      },
+      {
+        "modelId": "ferrari-fxx",
+        "modelName": "FXX"
+      },
+      {
+        "modelId": "ferrari-fxx-k",
+        "modelName": "FXX-K"
+      },
+      {
+        "modelId": "ferrari-gtc4-lusso",
+        "modelName": "GTC4 Lusso"
+      },
+      {
+        "modelId": "ferrari-j50",
+        "modelName": "J50"
+      },
+      {
+        "modelId": "ferrari-laferrari",
+        "modelName": "LaFerrari"
+      },
+      {
+        "modelId": "ferrari-monza",
+        "modelName": "Monza"
+      },
+      {
+        "modelId": "ferrari-p80c",
+        "modelName": "P80C"
+      },
+      {
+        "modelId": "ferrari-portofino",
+        "modelName": "Portofino"
+      },
+      {
+        "modelId": "ferrari-purosangue",
+        "modelName": "Purosangue"
+      },
+      {
+        "modelId": "ferrari-roma",
+        "modelName": "Roma"
+      },
+      {
+        "modelId": "ferrari-sf90",
+        "modelName": "SF90"
+      },
+      {
+        "modelId": "ferrari-sp38",
+        "modelName": "SP38"
+      },
+      {
+        "modelId": "ferrari-testarossa",
+        "modelName": "Testarossa"
+      }
+    ],
+    "ford": [
+      {
+        "modelId": "ford-gt40",
+        "modelName": "GT40"
+      }
+    ],
+    "lamborghini": [
+      {
+        "modelId": "lamborghini-asterion",
+        "modelName": "Asterion"
+      },
+      {
+        "modelId": "lamborghini-aventador",
+        "modelName": "Aventador"
+      },
+      {
+        "modelId": "lamborghini-centenario",
+        "modelName": "Centenario"
+      },
+      {
+        "modelId": "lamborghini-countach",
+        "modelName": "Countach"
+      },
+      {
+        "modelId": "lamborghini-diablo",
+        "modelName": "Diablo"
+      },
+      {
+        "modelId": "lamborghini-egoista",
+        "modelName": "Egoista"
+      },
+      {
+        "modelId": "lamborghini-estoque",
+        "modelName": "Estoque"
+      },
+      {
+        "modelId": "lamborghini-gallardo",
+        "modelName": "Gallardo"
+      },
+      {
+        "modelId": "lamborghini-huracan",
+        "modelName": "Huracan"
+      },
+      {
+        "modelId": "lamborghini-invencible",
+        "modelName": "Invencible"
+      },
+      {
+        "modelId": "lamborghini-lanzador",
+        "modelName": "Lanzador"
+      },
+      {
+        "modelId": "lamborghini-miura",
+        "modelName": "Miura"
+      },
+      {
+        "modelId": "lamborghini-murcielago",
+        "modelName": "Murcielago"
+      },
+      {
+        "modelId": "lamborghini-reventon",
+        "modelName": "Reventon"
+      },
+      {
+        "modelId": "lamborghini-sc20",
+        "modelName": "SC20"
+      },
+      {
+        "modelId": "lamborghini-sc63",
+        "modelName": "SC63"
+      },
+      {
+        "modelId": "lamborghini-sesto-elemento",
+        "modelName": "Sesto Elemento"
+      },
+      {
+        "modelId": "lamborghini-sian",
+        "modelName": "Sian"
+      },
+      {
+        "modelId": "lamborghini-urus",
+        "modelName": "Urus"
+      },
+      {
+        "modelId": "lamborghini-veneno",
+        "modelName": "Veneno"
+      }
+    ],
+    "porsche": [
+      {
+        "modelId": "porsche-718-boxster-spyder",
+        "modelName": "718 Boxster Spyder"
+      },
+      {
+        "modelId": "porsche-718-cayman",
+        "modelName": "718 Cayman"
+      },
+      {
+        "modelId": "porsche-911",
+        "modelName": "911"
+      },
+      {
+        "modelId": "porsche-918-spyder",
+        "modelName": "918 Spyder"
+      },
+      {
+        "modelId": "porsche-935",
+        "modelName": "935"
+      },
+      {
+        "modelId": "porsche-959",
+        "modelName": "959"
+      },
+      {
+        "modelId": "porsche-963",
+        "modelName": "963"
+      },
+      {
+        "modelId": "porsche-carrera-gt",
+        "modelName": "Carrera GT"
+      },
+      {
+        "modelId": "porsche-cayenne",
+        "modelName": "Cayenne"
+      },
+      {
+        "modelId": "porsche-macan",
+        "modelName": "Macan"
+      },
+      {
+        "modelId": "porsche-mission-r",
+        "modelName": "Mission R"
+      },
+      {
+        "modelId": "porsche-panamera",
+        "modelName": "Panamera"
+      },
+      {
+        "modelId": "porsche-taycan",
+        "modelName": "Taycan"
+      }
+    ],
+    "toyota": [
+      {
+        "modelId": "toyota-supra-mk4",
+        "modelName": "Supra MK4"
+      }
+    ]
+  }
+}

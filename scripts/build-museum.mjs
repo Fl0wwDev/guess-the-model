@@ -10,15 +10,22 @@
  * Each variant carries its Sketchfab uid + thumbnail, so coverage is 100% by
  * construction (no fragile name matching).
  *
- * Grouping is SEEDED from the existing folder registry (src/lib/cars.ts) so the
- * ids for brands we already had stay identical → hand-authored specs keep
- * working. Brands without a seed (e.g. BMW) use the `modelKeys` list in the
- * config, then a first-token fallback.
+ * Grouping is SEEDED from src/content/museum/seeds.json — a frozen snapshot of
+ * the model names of the old public/models folder registry — so model ids stay
+ * byte-identical across rebuilds and the hand-authored specs in
+ * src/content/specs/ keep resolving. Brands without a seed (e.g. BMW) use the
+ * `modelKeys` list in the config, then a first-token fallback.
  *
  * Run:  npm run build:museum
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import {
+  readFileSync,
+  writeFileSync,
+  existsSync,
+  mkdirSync,
+  readdirSync,
+} from "node:fs";
 import { join, dirname } from "node:path";
 
 const ROOT = process.cwd();
@@ -63,26 +70,34 @@ function basePenalty(name) {
   return score;
 }
 
-// ── load registry seeds (existing model ids/names per brand) ──────────
+// ── load frozen grouping seeds (model ids/names per brand) ────────────
 
 function loadRegistrySeeds() {
-  const path = join(ROOT, "src", "lib", "cars.ts");
+  const path = join(ROOT, "src", "content", "museum", "seeds.json");
   if (!existsSync(path)) return {};
-  const src = readFileSync(path, "utf-8");
-  const marker = "export const BRANDS: Brand[] = ";
-  const i = src.indexOf(marker);
-  if (i === -1) return {};
-  const json = src.slice(i + marker.length);
-  const brands = JSON.parse(json.slice(0, json.indexOf("];\n") + 1));
+  const { brands = {} } = JSON.parse(readFileSync(path, "utf-8"));
   const seeds = {};
-  for (const b of brands) {
-    seeds[b.id] = b.models.map((m) => ({
-      modelId: m.id,
-      modelName: m.name,
-      keyNorm: norm(m.name),
+  for (const [brandId, models] of Object.entries(brands)) {
+    seeds[brandId] = models.map((m) => ({
+      modelId: m.modelId,
+      modelName: m.modelName,
+      keyNorm: norm(m.modelName),
     }));
   }
   return seeds;
+}
+
+/**
+ * Hand-picked base variants, `{ "<modelId>": "<variantId>" }` — beats the
+ * basePenalty heuristic. Use it when the "plain factory version" the museum
+ * should lead with isn't the one the heuristic guesses (it prefers the oldest
+ * least-decorated name, which e.g. picks a 1984 Testarossa F110 over the
+ * classic 1988). Replaces the old src/lib/base-variants.json.
+ */
+function loadBaseOverrides() {
+  const path = join(ROOT, "src", "content", "museum", "base-variants.json");
+  if (!existsSync(path)) return {};
+  return JSON.parse(readFileSync(path, "utf-8"));
 }
 
 // ── fetch a collection ────────────────────────────────────────────────
@@ -213,7 +228,7 @@ async function buildBrand(brandId, cfg, seeds) {
 
   const modelsOut = [...groups.values()].map((g) => {
     g.variants.sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999) || a.id.localeCompare(b.id));
-    const base = g.variants
+    const heuristic = g.variants
       .slice()
       .sort(
         (a, b) =>
@@ -221,7 +236,20 @@ async function buildBrand(brandId, cfg, seeds) {
           (a.year ?? 9999) - (b.year ?? 9999) ||
           a.id.localeCompare(b.id)
       )[0];
-    return { id: g.id, name: g.name, baseVariantId: base.id, variants: g.variants };
+    // A hand-picked base always beats the heuristic (see base-variants.json).
+    const forced = baseOverrides[g.id];
+    const base = forced ? g.variants.find((v) => v.id === forced) : null;
+    if (forced && !base) {
+      console.warn(
+        `  ⚠️  override ignoré: ${g.id} → "${forced}" n'est pas une variante de ce modèle`
+      );
+    }
+    return {
+      id: g.id,
+      name: g.name,
+      baseVariantId: (base ?? heuristic).id,
+      variants: g.variants,
+    };
   });
 
   // chronological by base year
@@ -247,9 +275,44 @@ async function buildBrand(brandId, cfg, seeds) {
 
 const config = JSON.parse(readFileSync(CONFIG, "utf-8"));
 const seeds = loadRegistrySeeds();
+const baseOverrides = loadBaseOverrides();
 
 console.log("\nBuilding museum from Sketchfab collections…\n");
+const builtVariantIds = new Set();
 for (const [brandId, cfg] of Object.entries(config)) {
-  await buildBrand(brandId, cfg, seeds);
+  const models = await buildBrand(brandId, cfg, seeds);
+  for (const m of models) for (const v of m.variants) builtVariantIds.add(v.id);
 }
-console.log();
+
+// ── guard: the hand-authored specs must still resolve ─────────────────
+// Model/variant ids are derived from Sketchfab names + seeds.json, and specs are
+// keyed by variant id. A drifting id would silently blank a spec sheet and change
+// a museum URL, so make that a loud build failure instead.
+const specsDir = join(ROOT, "src", "content", "specs");
+const orphans = [];
+let specCount = 0;
+if (existsSync(specsDir)) {
+  for (const file of readdirSync(specsDir).filter((f) => f.endsWith(".json"))) {
+    const keys = Object.keys(
+      JSON.parse(readFileSync(join(specsDir, file), "utf-8"))
+    );
+    specCount += keys.length;
+    for (const k of keys) {
+      if (!builtVariantIds.has(k)) orphans.push(`${file} → ${k}`);
+    }
+  }
+}
+
+if (orphans.length) {
+  console.error(
+    `\n❌ ${orphans.length}/${specCount} specs ne correspondent plus à aucune variante :`
+  );
+  for (const o of orphans) console.error(`   ${o}`);
+  console.error(
+    "\nLes ids ont bougé. Vérifie src/content/museum/seeds.json (regroupement)" +
+      "\navant de committer — sinon les fiches perdent leurs specs et les URLs changent.\n"
+  );
+  process.exit(1);
+}
+
+console.log(`\n  ✓ ${specCount} specs résolvent toutes\n`);

@@ -1,6 +1,8 @@
-/* Scope Tailwind v4's automatic content detection to ./src only. Without this,
-   the scanner walks the whole project root — including the multi-GB
-   public/models tree — and hangs first-compile. All our templates live in src/. */
+/* Scope Tailwind v4's automatic content detection to ./src only. All our
+   templates live in src/, so this is both correct and cheap. It is also a
+   load-bearing guard: the scanner otherwise walks the whole project root, and
+   any large asset tree dropped there hangs first-compile indefinitely (that is
+   what the deleted multi-GB public/models/ did). Keep the source(...) scope. */
 @import "tailwindcss" source("../");
 
 :root {

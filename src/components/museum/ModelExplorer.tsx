@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { SketchfabEmbed } from "./SketchfabEmbed";
+import { SketchfabEmbed } from "@/components/sketchfab/SketchfabEmbed";
 import type { CarSpecs } from "@/content/specs";
 import type { MuseumSketchfab } from "@/content/museum";
 

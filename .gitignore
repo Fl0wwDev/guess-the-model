@@ -40,6 +40,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# large 3D assets — served at runtime from public/ but NEVER scanned or watched
-# by the dev server / Tailwind (huge binaries choke first-compile). Stay on disk.
+# local 3D assets — the app is FULL SKETCHFAB (models stream from Sketchfab, see
+# CLAUDE.md), so there are none. Kept as a guard: a stray multi-GB download must
+# never land in git, nor be scanned by Tailwind / watched by the dev server.
 /public/models/
+*.glb
