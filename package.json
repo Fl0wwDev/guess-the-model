@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "build:museum": "node scripts/build-museum.mjs"
+    "build:museum": "node scripts/build-museum.mjs",
+    "fetch:brands": "node scripts/fetch-brand-assets.mjs",
+    "fetch:thumbs": "node scripts/fetch-hd-thumbnails.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

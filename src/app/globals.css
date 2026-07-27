@@ -5,11 +5,19 @@
    what the deleted multi-GB public/models/ did). Keep the source(...) scope. */
 @import "tailwindcss" source("../");
 
+/* ONE world, light. The museum has to be light — Sketchfab renders its models on
+   a pale studio background, and a light viewer panel punched into a black page
+   reads as a bug — so the landing and /a-propos align on the museum instead of
+   the reverse. Dark is now an accent surface (the /musee photo panel, the quiz
+   stage), never the page. */
 :root {
-  --background: #08080a;
-  --foreground: #f4f4f5;
-  --muted: #a1a1aa;
+  --background: #f4f2ef;
+  --foreground: #17171a;
+  /* Secondary text. Must clear 4.5:1 on --background: this is ~5.4:1. */
+  --muted: #6b6862;
   --accent: #e10600;
+  /* Hairline used for every rule and card edge across the app. */
+  --rule: rgba(0, 0, 0, 0.09);
 }
 
 @theme inline {
@@ -17,6 +25,7 @@
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-rule: var(--rule);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-serif: var(--font-serif);

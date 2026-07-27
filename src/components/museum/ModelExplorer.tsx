@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { SketchfabEmbed } from "@/components/sketchfab/SketchfabEmbed";
 import type { CarSpecs } from "@/content/specs";
@@ -16,6 +17,8 @@ export type ExplorerVariant = {
 
 type Props = {
   brandName: string;
+  /** Back to the marque's model grid — the brand name doubles as the crumb. */
+  brandHref: string;
   modelName: string;
   baseVariantId: string;
   /** Base variant first, then the rest chronologically. */
@@ -24,6 +27,7 @@ type Props = {
 
 export default function ModelExplorer({
   brandName,
+  brandHref,
   modelName,
   baseVariantId,
   variants,
@@ -54,15 +58,26 @@ export default function ModelExplorer({
       {/* ── Text on the right ─────────────────────────────────────── */}
       <div className="flex flex-col px-6 py-10 lg:overflow-y-auto lg:border-l lg:border-black/10 lg:px-14 lg:py-12 xl:px-20">
         <div className="lg:my-auto lg:w-full lg:max-w-xl">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-accent">
-            {brandName}
-          </p>
+          <Link
+            href={brandHref}
+            className="mb-3 inline-block text-sm uppercase tracking-[0.3em] text-accent transition hover:text-neutral-900"
+          >
+            ← {brandName}
+          </Link>
           <h1 className="font-serif text-5xl leading-[0.95] tracking-tight text-neutral-900 md:text-6xl xl:text-7xl">
             {modelName}
           </h1>
 
           {variants.length > 1 && (
-            <div className="mt-6 flex flex-wrap gap-2">
+            // The 911 carries 37 variants — left unbounded the pills push the
+            // spec sheet below the fold, so long lists get their own scroller.
+            <div
+              className={`mt-6 flex flex-wrap gap-2 ${
+                variants.length > 12
+                  ? "max-h-52 overflow-y-auto pr-1 [scrollbar-width:thin]"
+                  : ""
+              }`}
+            >
               {variants.map((v) => {
                 const active = v.id === selectedId;
                 return (
@@ -146,31 +161,50 @@ function SpecsTable({
 }) {
   const rows: [string, string | undefined][] = [
     ["Année", year ? String(year) : undefined],
-    ["Puissance", specs?.ch ? `${specs.ch} ch` : undefined],
-    ["Vitesse max", specs?.vitesseMax ? `${specs.vitesseMax} km/h` : undefined],
-    ["0–100 km/h", specs?.zeroCent ? `${specs.zeroCent} s` : undefined],
-    ["Poids", specs?.poids ? `${formatKg(specs.poids)} kg` : undefined],
     ["Moteur", specs?.moteur],
+    ["Transmission", specs?.transmission],
+    ["Puissance", specs?.ch ? `${specs.ch} ch` : undefined],
+    ["Couple", specs?.couple ? `${formatKg(specs.couple)} Nm` : undefined],
+    [
+      "0–100 km/h",
+      specs?.zeroCent ? `${String(specs.zeroCent).replace(".", ",")} s` : undefined,
+    ],
+    ["Vitesse max", specs?.vitesseMax ? `${specs.vitesseMax} km/h` : undefined],
+    ["Poids", specs?.poids ? `${formatKg(specs.poids)} kg` : undefined],
+    ["Chevaux fiscaux", specs?.cvFiscaux ? `${specs.cvFiscaux} CV` : undefined],
     ["Prix", specs?.prix],
     ["Production", specs?.production],
   ];
 
+  // Only render what we actually know — a sheet of eleven "—" says nothing.
+  // "Année" always stays, so the block never collapses to nothing.
+  const filled = rows.filter(
+    ([label, v]) => v !== undefined || label === "Année"
+  );
+
   return (
-    <dl className="divide-y divide-black/[0.07]">
-      {rows.map(([label, value]) => (
-        <div
-          key={label}
-          className="flex items-baseline justify-between gap-6 py-2.5"
-        >
-          <dt className="shrink-0 text-[0.7rem] uppercase tracking-[0.18em] text-neutral-400">
-            {label}
-          </dt>
-          <dd className="text-right text-sm font-medium text-neutral-900">
-            {value ?? "—"}
-          </dd>
-        </div>
-      ))}
-    </dl>
+    <>
+      <dl className="divide-y divide-black/[0.07]">
+        {filled.map(([label, value]) => (
+          <div
+            key={label}
+            className="flex items-baseline justify-between gap-6 py-2.5"
+          >
+            <dt className="shrink-0 text-[0.7rem] uppercase tracking-[0.18em] text-neutral-400">
+              {label}
+            </dt>
+            <dd className="text-right text-sm font-medium text-neutral-900">
+              {value ?? "—"}
+            </dd>
+          </div>
+        ))}
+      </dl>
+      {filled.length <= 2 && (
+        <p className="pt-3 text-xs italic text-neutral-400">
+          Fiche technique à compléter.
+        </p>
+      )}
+    </>
   );
 }
 

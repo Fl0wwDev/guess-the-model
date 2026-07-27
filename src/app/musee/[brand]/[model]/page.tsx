@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
@@ -10,12 +9,11 @@ import {
   museumModelHref,
 } from "@/content/museum";
 import { getSpecs } from "@/content/specs";
-import { brandLogoSrc } from "@/lib/logos";
 import ModelExplorer, {
   type ExplorerVariant,
 } from "@/components/museum/ModelExplorer";
 import { ModelCard } from "@/components/museum/ModelCard";
-import { BrandLogo } from "@/components/museum/BrandLogo";
+import { SiteHeader } from "@/components/ui/SiteHeader";
 
 type ModelParams = { params: Promise<{ brand: string; model: string }> };
 
@@ -66,29 +64,10 @@ export default async function ModelPage(props: ModelParams) {
 
   return (
     <main className="min-h-dvh">
-      {/* Breadcrumb */}
-      <nav className="flex h-16 items-center gap-4 px-6 text-xs uppercase tracking-[0.3em] text-neutral-500 md:px-10">
-        <Link href="/musee" className="transition hover:text-neutral-900">
-          Musée
-        </Link>
-        <span aria-hidden className="text-black/20">
-          /
-        </span>
-        <Link
-          href={`/musee/${b.id}`}
-          className="flex items-center gap-2 text-neutral-700 transition hover:text-neutral-900"
-        >
-          <BrandLogo
-            brandId={b.id}
-            brandName={b.name}
-            src={brandLogoSrc(b.id)}
-            className="h-5"
-            wordmarkClassName="text-sm"
-          />
-        </Link>
-      </nav>
+      <SiteHeader />
 
       <ModelExplorer
+        brandHref={`/musee/${b.id}`}
         brandName={b.name}
         modelName={m.name}
         baseVariantId={m.baseVariantId}

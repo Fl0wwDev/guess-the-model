@@ -1,0 +1,47 @@
+[
+  {
+    "brand": "ferrari",
+    "caption": "Ferrari F50, 1995",
+    "file": "A Ferrari F50.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Ferrari_F50.jpg",
+    "author": "MrWalkr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "brand": "lamborghini",
+    "caption": "Lamborghini Miura P400 SV, 1971",
+    "file": "1971 Lamborghini Miura P400 SV.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1971_Lamborghini_Miura_P400_SV.jpg",
+    "author": "Chelsea Jay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "brand": "porsche",
+    "caption": "Porsche 911 Carrera RS 2.7, 1972",
+    "file": "Porsche 911 Carrera RS 2.7 (1972) Solitude Revival 2022 1X7A0355.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Porsche_911_Carrera_RS_2.7_(1972)_Solitude_Revival_2022_1X7A0355.jpg",
+    "author": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "brand": "bmw",
+    "caption": "BMW M1 Procar, 1979",
+    "file": "BMW M1 Procar of BMW Motorsport (BMW M-color) Classic-Gala 2022 1X7A0148.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BMW_M1_Procar_of_BMW_Motorsport_(BMW_M-color)_Classic-Gala_2022_1X7A0148.jpg",
+    "author": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "brand": "bugatti",
+    "caption": "Bugatti Type 35, 1924",
+    "file": "Bugatti Type 35.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bugatti_Type_35.jpg",
+    "author": "Dontpanic (Dogcow on de.wikipedia)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  }
+]

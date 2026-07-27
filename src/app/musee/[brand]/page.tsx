@@ -7,9 +7,11 @@ import {
   museumBaseVariant,
   museumModelHref,
 } from "@/content/museum";
+import { brandEditorial } from "@/content/brands";
 import { brandLogoSrc } from "@/lib/logos";
 import { ModelCard } from "@/components/museum/ModelCard";
 import { BrandLogo } from "@/components/museum/BrandLogo";
+import { SiteHeader } from "@/components/ui/SiteHeader";
 
 type BrandParams = { params: Promise<{ brand: string }> };
 
@@ -33,6 +35,7 @@ export default async function BrandPage(props: BrandParams) {
   const b = getMuseumBrand(brand);
   if (!b) notFound();
 
+  const ed = brandEditorial(b.id);
   const models = [...b.models].sort((m1, m2) => {
     const y1 = museumBaseVariant(m1).year ?? Infinity;
     const y2 = museumBaseVariant(m2).year ?? Infinity;
@@ -40,25 +43,34 @@ export default async function BrandPage(props: BrandParams) {
   });
 
   return (
-    <main className="mx-auto min-h-dvh max-w-7xl px-6 py-16 md:px-10 md:py-24">
+    <main className="min-h-dvh">
+      <SiteHeader />
+      <div className="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-24">
       <header className="mb-16 md:mb-20">
         <Link
           href="/musee"
           className="mb-10 inline-block text-xs uppercase tracking-[0.3em] text-neutral-500 transition hover:text-neutral-900"
         >
-          ← Musée
+          ← Toutes les marques
         </Link>
         <div>
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-accent">
             {models.length} modèle{models.length > 1 ? "s" : ""}
+            {ed?.origin ? ` · ${ed.origin}` : ""}
           </p>
           <BrandLogo
             brandId={b.id}
             brandName={b.name}
             src={brandLogoSrc(b.id)}
-            className="h-14 md:h-20"
+            // wide wordmarks (Porsche) would otherwise run the full page width
+            className="h-14 max-w-[20rem] md:h-20 md:max-w-[30rem]"
             wordmarkClassName="text-4xl md:text-6xl"
           />
+          {ed?.tagline && (
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-neutral-500">
+              {ed.tagline}
+            </p>
+          )}
         </div>
       </header>
 
@@ -78,6 +90,7 @@ export default async function BrandPage(props: BrandParams) {
           );
         })}
       </ul>
+      </div>
     </main>
   );
 }

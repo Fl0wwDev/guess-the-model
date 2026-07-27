@@ -7,6 +7,7 @@ import lamborghini from "./museum/lamborghini.json";
 import porsche from "./museum/porsche.json";
 import bmw from "./museum/bmw.json";
 import bugatti from "./museum/bugatti.json";
+import thumbnailsHd from "./museum/thumbnails-hd.json";
 
 export type MuseumSketchfab = {
   uid: string;
@@ -68,6 +69,21 @@ export function getMuseumModel(
   slug: string
 ): MuseumModel | undefined {
   return MODEL_MAP.get(`${brandId}-${slug}`);
+}
+
+/** Direct lookup by full model id, e.g. "ferrari-f40". */
+export function getMuseumModelById(id: string): MuseumModel | undefined {
+  return MODEL_MAP.get(id);
+}
+
+/**
+ * 1920px thumbnail for a Sketchfab uid, or null. Fetched separately by
+ * `npm run fetch:thumbs` because the CDN URL is NOT derivable from the 1024px
+ * one the catalogue stores (the trailing hash differs per size). The quiz zooms
+ * up to ~3x into it; the 1024px version turns to mush at that magnification.
+ */
+export function hdThumbnail(uid: string): string | null {
+  return (thumbnailsHd as Record<string, string>)[uid] ?? null;
 }
 
 /** Base variant of a model (falls back to the first). */
